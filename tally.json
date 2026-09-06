@@ -9,9 +9,9 @@
       "createdAt 与 records 无法从公开通道获得：createdAt 为按活动创建顺序给出的占位值，records 初始为空数组（撤销功能因此初始为「无可撤销操作」）。",
       "nextCandidateId 取源站已出现的最大候选人 id + 1（源站最大为 19），保证本地新建候选人不会与线上 id 撞车。"
     ],
-    "nextActivityId": 7,
-    "nextCandidateId": 24,
-    "nextRecordId": 9
+    "nextActivityId": 8,
+    "nextCandidateId": 26,
+    "nextRecordId": 19
   },
   "activities": [
     {
