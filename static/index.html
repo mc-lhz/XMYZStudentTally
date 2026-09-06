@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+  ============================================================================
+  唱票（Tally）本地服务 · SPA 入口
+  ----------------------------------------------------------------------------
+  本文件是源站 xmyzstudent.com 镜像 index.html 的移植版，改动仅两处：
+    1. <base href>：/XMYZStudent/ -> /（去掉子路径前缀，路由与源站保持一致）
+    2. 资源路径：/XMYZStudent/assets/** -> /assets/**（由本地 Flask 的 static 目录提供）
+  页面结构、meta、手势拦截、强制 https 逻辑均沿用源站原文。
+  ============================================================================
+-->
+<html lang="en">
+  <head>
+  <base href="/">
+<script>
+  // 强制 https，但本地开发环境除外：localhost / 127.x / 局域网 IP（手机真机联调）
+  (function () {
+    var h = location.hostname;
+    var isLocal =
+      h === 'localhost' ||
+      /^127\./.test(h) ||
+      /^192\.168\./.test(h) ||
+      /^10\./.test(h) ||
+      /^172\.(1[6-9]|2\d|3[01])\./.test(h);
+    if (location.protocol === 'http:' && !isLocal) {
+      location.protocol = 'https:';
+    }
+  })();
+</script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script>
+      // iOS Safari 无视 user-scalable=no，拦截捏合手势，配合 CSS touch-action 彻底禁用放大
+      document.addEventListener('gesturestart', function (e) { e.preventDefault() })
+      document.addEventListener('gesturechange', function (e) { e.preventDefault() })
+    </script>
+    <title>实时唱票 · 本地服务</title>
+    <!--
+      __dev-auth.js：源站镜像自带的「本地走查登录态注入」脚本。
+      唱票的三张管理页在路由 meta 上标了 requiresAuth，未登录会被拦截弹登录框；
+      本脚本会在主 bundle 执行前往 localStorage 写入一份本地会话（token / permissions 等），
+      使 isLoggedIn 与 canManageTally 为真，从而放行 /admin/tally 系列路由。
+      它只对 api.xmyzstudent.com 域名的请求做 mock，本地同源的 /api/v2/** 不受影响。
+      关闭方式：控制台执行 __devAuth.off()，或访问 ?devauth=0。
+    -->
+    <script src="/__dev-auth.js"></script>
+    <script type="module" crossorigin src="/assets/index-DJrtCu9i.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CTy88mxm.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

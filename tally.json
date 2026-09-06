@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "source": "wss://api.xmyzstudent.com/ws/tally/activity/{id}",
+    "capturedAt": "2026-09-06 09:55:03",
+    "note": [
+      "本文件是本地唱票服务的唯一数据源。",
+      "活动 1-4 的 title / status / candidates 为 2026-09-06 直连源站 WebSocket 抓到的真实快照（源站 REST 需登录，401 不可达；大屏用的 WS 是公开的，快照字段与源站逐字一致）。",
+      "capturedFromWs 记录抓取那一刻源站快照里的 updatedAt，仅作留档，服务运行后会被本地时间覆盖。",
+      "createdAt 与 records 无法从公开通道获得：createdAt 为按活动创建顺序给出的占位值，records 初始为空数组（撤销功能因此初始为「无可撤销操作」）。",
+      "nextCandidateId 取源站已出现的最大候选人 id + 1（源站最大为 19），保证本地新建候选人不会与线上 id 撞车。"
+    ],
+    "nextActivityId": 7,
+    "nextCandidateId": 24,
+    "nextRecordId": 9
+  },
+  "activities": [
+    {
+      "id": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-08-30 09:00:00.000000000",
+      "updatedAt": "2026-09-06 10:24:16.535614000",
+      "capturedFromWs": "2026-09-06 09:55:01.071459048",
+      "candidates": [
+        {
+          "id": 1,
+          "number": "1",
+          "name": "测试1",
+          "displayOrder": 1,
+          "voteCount": 25
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "name": "测试2",
+          "displayOrder": 2,
+          "voteCount": 30
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "name": "测试3",
+          "displayOrder": 3,
+          "voteCount": 11
+        }
+      ],
+      "records": [
+        {
+          "id": 1,
+          "candidateId": 1,
+          "candidateNumber": "1",
+          "candidateName": "测试1",
+          "delta": 7,
+          "type": 0,
+          "undone": true,
+          "createdAt": "2026-09-06 10:08:11.801759000"
+        },
+        {
+          "id": 2,
+          "candidateId": 1,
+          "candidateNumber": "1",
+          "candidateName": "测试1",
+          "delta": -7,
+          "type": 1,
+          "undone": true,
+          "createdAt": "2026-09-06 10:08:12.454925000"
+        },
+        {
+          "id": 6,
+          "candidateId": 1,
+          "candidateNumber": "1",
+          "candidateName": "测试1",
+          "delta": 7,
+          "type": 0,
+          "undone": true,
+          "createdAt": "2026-09-06 10:24:15.122094000"
+        },
+        {
+          "id": 7,
+          "candidateId": 1,
+          "candidateNumber": "1",
+          "candidateName": "测试1",
+          "delta": -7,
+          "type": 1,
+          "undone": true,
+          "createdAt": "2026-09-06 10:24:15.839952000"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-01 09:00:00.000000000",
+      "updatedAt": "2026-09-06 09:55:01.709670609",
+      "capturedFromWs": "2026-09-06 09:55:01.709670609",
+      "candidates": [
+        {
+          "id": 6,
+          "number": "01",
+          "name": "方奕尘",
+          "displayOrder": 1,
+          "voteCount": 70
+        },
+        {
+          "id": 7,
+          "number": "02",
+          "name": "林佳茵",
+          "displayOrder": 2,
+          "voteCount": 78
+        },
+        {
+          "id": 8,
+          "number": "03",
+          "name": "蔡善媛",
+          "displayOrder": 3,
+          "voteCount": 357
+        }
+      ],
+      "records": []
+    },
+    {
+      "id": 3,
+      "title": "2026厦门一中海沧校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-02 09:00:00.000000000",
+      "updatedAt": "2026-09-06 09:55:02.334941544",
+      "capturedFromWs": "2026-09-06 09:55:02.334941544",
+      "candidates": [
+        {
+          "id": 9,
+          "number": "01",
+          "name": "李子萍",
+          "displayOrder": 1,
+          "voteCount": 112
+        },
+        {
+          "id": 10,
+          "number": "02",
+          "name": "吴昊天",
+          "displayOrder": 2,
+          "voteCount": 467
+        }
+      ],
+      "records": []
+    },
+    {
+      "id": 4,
+      "title": "2026年厦门一中思明校区主席竞选",
+      "status": 1,
+      "createdAt": "2026-09-04 09:00:00.000000000",
+      "updatedAt": "2026-09-06 10:09:11.091234000",
+      "capturedFromWs": "2026-09-06 09:55:02.955193165",
+      "candidates": [
+        {
+          "id": 11,
+          "number": "1",
+          "name": "刘希瑞",
+          "displayOrder": 1,
+          "voteCount": 220
+        },
+        {
+          "id": 12,
+          "number": "2",
+          "name": "林菲娅",
+          "displayOrder": 2,
+          "voteCount": 345
+        },
+        {
+          "id": 13,
+          "number": "3",
+          "name": "邱义林",
+          "displayOrder": 3,
+          "voteCount": 234
+        },
+        {
+          "id": 14,
+          "number": "4",
+          "name": "王可",
+          "displayOrder": 4,
+          "voteCount": 592
+        },
+        {
+          "id": 15,
+          "number": "5",
+          "name": "叶可涵",
+          "displayOrder": 5,
+          "voteCount": 205
+        },
+        {
+          "id": 16,
+          "number": "6",
+          "name": "魏奕涵",
+          "displayOrder": 6,
+          "voteCount": 544
+        },
+        {
+          "id": 17,
+          "number": "7",
+          "name": "李瑞霖",
+          "displayOrder": 7,
+          "voteCount": 551
+        },
+        {
+          "id": 18,
+          "number": "8",
+          "name": "方奕尘",
+          "displayOrder": 8,
+          "voteCount": 324
+        },
+        {
+          "id": 19,
+          "number": "9",
+          "name": "肖以晨",
+          "displayOrder": 9,
+          "voteCount": 799
+        }
+      ],
+      "records": [
+        {
+          "id": 4,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": 10,
+          "type": 0,
+          "undone": true,
+          "createdAt": "2026-09-06 10:09:09.305378000"
+        },
+        {
+          "id": 5,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": -10,
+          "type": 1,
+          "undone": true,
+          "createdAt": "2026-09-06 10:09:11.091202000"
+        }
+      ]
+    }
+  ]
+}

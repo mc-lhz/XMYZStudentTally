@@ -1,0 +1,31 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/PageBreadcrumb-BZ4ELK69.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.breadcrumb[data-v-1507b835] {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--text-sm);
+  flex-wrap: wrap;
+}
+.breadcrumb-link[data-v-1507b835] {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.breadcrumb-link[data-v-1507b835]:hover {
+  color: var(--color-primary);
+}
+.breadcrumb-sep[data-v-1507b835] {
+  color: var(--color-text-placeholder);
+  -webkit-user-select: none;
+  user-select: none;
+}
+.breadcrumb-current[data-v-1507b835] {
+  color: var(--color-text);
+  font-weight: var(--font-medium);
+}

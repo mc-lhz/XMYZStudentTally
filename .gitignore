@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# 本地运行产物
+*.bak
+tally.local.json
+
+# 编辑器 / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
