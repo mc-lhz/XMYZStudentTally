@@ -61,12 +61,38 @@ python app.py --token my-secret        # 开启严格 Bearer token 鉴权
 
 详见 `tally.json` 顶部的 `meta.note`。
 
+## 版本说明（三源合并）
+
+本目录是三个版本合并后的最终形态：
+
+- **基座**：本地 `tally/`（L 版）——最小裁剪镜像、`meta` 计数器、原子落盘、
+  每连接队列的 WS 广播模型、`undone` 不可变审计日志。**`tally.json` 结构保持不变**。
+- **合并入** `XMYZStudent` 仓库 `trae/agent-5TJPoO` 分支（`xmyzstudent-flask/`）的登录体系：
+  - `POST /api/v2/auth/login`：用户名密码登录，返回 `{token, user, expiresAt, campusInfo}`；
+    默认 `admin / admin123`（可用 `TALLY_ADMIN_USER` / `TALLY_ADMIN_PASS` 环境变量覆盖），
+    会话 token 7 天有效、仅存内存。
+  - `GET /api/v2/permissions/my`：返回管理员权限集（10 项）。
+  - 兼容 `__dev-auth.js` 注入的固定 token `dev-local-token`。
+  - trae 分支的 SQLite（`db.py` + `tally_repo.py`）方案**未采用**——任务要求保留 json 存储；
+    其单文件 `tally.py` 的 `seq/users` JSON 结构与本地 `meta` 版不兼容，也已放弃。
+- **合并入** `flask-tally/`（D 版）的结论：其整站镜像（170 文件）与扁平 `records` 结构均不采纳，
+  保留 L 版既有取舍，详见 `docs/项目对比-Desktop-flask-tally-vs-本地tally.md`。
+
 ## 验证
 
 启动服务后，可用 curl 快速确认接口与静态资源正常：
 
 ```bash
 python app.py --port 5055 &
+
+# 登录（默认 admin / admin123）
+curl -X POST http://127.0.0.1:5055/api/v2/auth/login \
+  -H 'Content-Type: application/json' \
+  -d '{"username":"admin","password":"admin123"}'
+
+# 权限集
+TOKEN=<上一步返回的 token>
+curl http://127.0.0.1:5055/api/v2/permissions/my -H "Authorization: Bearer $TOKEN"
 
 # 健康检查（返回 4 个活动的汇总）
 curl http://127.0.0.1:5055/api/v2/tally/_debug
