@@ -53,8 +53,10 @@
 from __future__ import annotations
 
 import argparse
+import functools
 import json
 import os
+import secrets
 import threading
 import time
 from datetime import datetime, timedelta
@@ -90,6 +92,63 @@ dataFile = os.path.join(baseDir, "tally.json")
 # 鉴权开关：默认 None 表示本地放行一切 Bearer token（含前端注入的 dev-local-token）。
 # 若需要严格校验，设环境变量 TALLY_AUTH_TOKEN=xxx，或在启动时传入 --token。
 authToken = os.environ.get("TALLY_AUTH_TOKEN") or None
+
+# ---------------------------------------------------------------------------
+# 登录态（合并自 trae/agent-5TJPoO 分支的 auth 模块）
+#
+# 说明：
+#   · 不改 tally.json 结构 —— 用户与会话全部放内存，不落盘（本地工具性质，
+#     重启后重新登录即可）；管理员账号用环境变量配置。
+#   · 响应契约与源站/trae 版逐字段一致：
+#       POST /api/v2/auth/login      -> {token, user, expiresAt, campusInfo}
+#       GET  /api/v2/permissions/my  -> {permissions: [...]}
+#   · 与 __dev-auth.js 注入的固定 token 兼容（无需登录即可走通前端）。
+# ---------------------------------------------------------------------------
+
+# __dev-auth.js 注入的本地管理员 token（前端镜像不变，故这个字符串不能改）
+devToken = os.environ.get("TALLY_DEV_TOKEN") or "dev-local-token"
+
+# 本地管理员账号（可用环境变量覆盖；仅内存中存在，不写 tally.json）
+adminUser = os.environ.get("TALLY_ADMIN_USER") or "admin"
+adminPass = os.environ.get("TALLY_ADMIN_PASS") or "admin123"
+
+# token -> {"exp": float}，仅内存
+sessionTokens = {}
+sessionTtl = 7 * 24 * 60 * 60   # 7 天
+
+
+class adminIdentity:
+    """本地唯一的登录主体：管理员。"""
+
+    id = 0
+    username = adminUser
+    nickname = "管理员"
+    role = "admin"
+    permissions = [
+        "ticket.manage", "campaign.manage", "rating.manage", "message.manage",
+        "user.manage", "banner.manage", "museum.manage", "debate.manage",
+        "tally.manage", "voices.manage",
+    ]
+
+
+def resolveToken(token):
+    """解析 Bearer token 是否有效（dev token / 会话 token / 严格固定 token）。"""
+    if not token:
+        return False
+    if token == devToken:
+        return True
+    if authToken is not None and token == authToken:
+        return True
+    session = sessionTokens.get(token)
+    if session and time.time() <= session["exp"]:
+        return True
+    return False
+
+
+def issueSessionToken():
+    token = secrets.token_hex(24)
+    sessionTokens[token] = {"exp": time.time() + sessionTtl}
+    return token
 
 app = Flask(__name__)
 sock = Sock(app)
@@ -470,13 +529,55 @@ def checkAuth():
     一旦设置了 authToken，就严格比对，比对不过返回 401。
     """
     if authToken is None:
+        # 本地放行：无 token 或任意 token 均可（镜像由 __dev-auth.js 注入固定 token）
         return None
     header = request.headers.get("Authorization", "")
     if not header.startswith("Bearer "):
         return unauthorized()
-    if header[len("Bearer "):].strip() != authToken:
+    if not resolveToken(header[len("Bearer "):].strip()):
         return unauthorized()
     return None
+
+
+# ---------------------------------------------------------------------------
+# REST：登录 / 权限（合并自 trae/agent-5TJPoO）
+# ---------------------------------------------------------------------------
+
+@app.post("/api/v2/auth/login")
+def login():
+    """账号登录。本地只保留管理员账号；校园网登录不支持（与 trae 版口径一致）。"""
+    body = request.get_json(silent=True) or {}
+    if body.get("loginType") == "campus":
+        return fail("校园网登录暂不支持，请使用普通账号登录")
+    username = (body.get("username") or "").strip()
+    password = body.get("password") or ""
+    if username != adminUser or password != adminPass:
+        return fail("用户名或密码错误")
+    token = issueSessionToken()
+    return ok({
+        "token": token,
+        "user": {
+            "id": adminIdentity.id,
+            "username": adminIdentity.username,
+            "nickname": adminIdentity.nickname,
+            "role": adminIdentity.role,
+        },
+        "expiresAt": int(time.time() + sessionTtl),
+        "campusInfo": None,
+    })
+
+
+@app.get("/api/v2/permissions/my")
+def permissionsMy():
+    """当前用户权限集。本地放行模式下也返回全量管理员权限。"""
+    denied = checkAuth()
+    if denied:
+        return denied
+    header = request.headers.get("Authorization", "")
+    token = header[len("Bearer "):].strip() if header.startswith("Bearer ") else ""
+    if authToken is None or resolveToken(token):
+        return ok({"permissions": list(adminIdentity.permissions)})
+    return ok({"permissions": []})
 
 
 # ---------------------------------------------------------------------------
