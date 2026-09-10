@@ -915,8 +915,13 @@ def main():
     print(" 公开大屏：http://%s:%d/tally/screen/1" % (args.host, args.port))
     print("=" * 66)
 
+    # Werkzeug reloader 的环境变量泄漏会导致其误以为自己在 reloader 子进程里，
+    # 并尝试复用旧的 socket fd（WinError 10038）。这里主动清理，强制全新绑定。
+    os.environ.pop("WERKZEUG_RUN_MAIN", None)
+    os.environ.pop("WERKZEUG_SERVER_FD", None)
+
     # threaded=True：WS 连接会长期占用线程，单线程服务器会直接堵死
-    app.run(host=args.host, port=args.port, debug=args.debug, threaded=True)
+    app.run(host=args.host, port=args.port, debug=args.debug, threaded=True, use_reloader=False)
 
 
 if __name__ == "__main__":
