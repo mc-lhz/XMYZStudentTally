@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "description": "tally 选票业务单文件存储；初始数据抓取自 xmyzstudent.com 公开 WS 通道（id=1/2/3/4 四次活动）",
+    "source": "wss://api.xmyzstudent.com/ws/tally/activity/{id}",
+    "fetchedAt": "2026-09-20 23:00:30",
+    "schema": "activities[].candidates[] + records[] + sequences"
+  },
+  "activities": [
+    {
+      "id": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-20 23:00:30",
+      "updatedAt": "2026-09-20 23:00:30",
+      "candidates": [
+        {
+          "id": 1,
+          "number": "1",
+          "name": "测试1",
+          "displayOrder": 1,
+          "voteCount": 25
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "name": "测试2",
+          "displayOrder": 2,
+          "voteCount": 30
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "name": "测试3",
+          "displayOrder": 3,
+          "voteCount": 11
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-20 23:00:30",
+      "updatedAt": "2026-09-20 23:00:30",
+      "candidates": [
+        {
+          "id": 6,
+          "number": "01",
+          "name": "方奕尘",
+          "displayOrder": 1,
+          "voteCount": 70
+        },
+        {
+          "id": 7,
+          "number": "02",
+          "name": "林佳茵",
+          "displayOrder": 2,
+          "voteCount": 78
+        },
+        {
+          "id": 8,
+          "number": "03",
+          "name": "蔡善媛",
+          "displayOrder": 3,
+          "voteCount": 357
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "2026厦门一中海沧校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-20 23:00:30",
+      "updatedAt": "2026-09-20 23:00:30",
+      "candidates": [
+        {
+          "id": 9,
+          "number": "01",
+          "name": "李子萍",
+          "displayOrder": 1,
+          "voteCount": 112
+        },
+        {
+          "id": 10,
+          "number": "02",
+          "name": "吴昊天",
+          "displayOrder": 2,
+          "voteCount": 467
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "2026年厦门一中思明校区主席竞选",
+      "status": 1,
+      "createdAt": "2026-09-20 23:00:30",
+      "updatedAt": "2026-09-20 23:00:30",
+      "candidates": [
+        {
+          "id": 11,
+          "number": "1",
+          "name": "刘希瑞",
+          "displayOrder": 1,
+          "voteCount": 220
+        },
+        {
+          "id": 12,
+          "number": "2",
+          "name": "林菲娅",
+          "displayOrder": 2,
+          "voteCount": 345
+        },
+        {
+          "id": 13,
+          "number": "3",
+          "name": "邱义林",
+          "displayOrder": 3,
+          "voteCount": 234
+        },
+        {
+          "id": 14,
+          "number": "4",
+          "name": "王可",
+          "displayOrder": 4,
+          "voteCount": 592
+        },
+        {
+          "id": 15,
+          "number": "5",
+          "name": "叶可涵",
+          "displayOrder": 5,
+          "voteCount": 205
+        },
+        {
+          "id": 16,
+          "number": "6",
+          "name": "魏奕涵",
+          "displayOrder": 6,
+          "voteCount": 544
+        },
+        {
+          "id": 17,
+          "number": "7",
+          "name": "李瑞霖",
+          "displayOrder": 7,
+          "voteCount": 551
+        },
+        {
+          "id": 18,
+          "number": "8",
+          "name": "方奕尘",
+          "displayOrder": 8,
+          "voteCount": 324
+        },
+        {
+          "id": 19,
+          "number": "9",
+          "name": "肖以晨",
+          "displayOrder": 9,
+          "voteCount": 799
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "sequences": {
+    "activity": 5,
+    "candidate": 20,
+    "record": 1
+  }
+}

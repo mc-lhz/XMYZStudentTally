@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "snapshot": {
+      "activityId": 1,
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 1,
+          "name": "测试1",
+          "number": "1",
+          "voteCount": 25
+        },
+        {
+          "displayOrder": 2,
+          "id": 2,
+          "name": "测试2",
+          "number": "2",
+          "voteCount": 30
+        },
+        {
+          "displayOrder": 3,
+          "id": 3,
+          "name": "测试3",
+          "number": "3",
+          "voteCount": 11
+        }
+      ],
+      "status": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "updatedAt": "2026-09-20 23:00:07.803769841"
+    }
+  },
+  {
+    "id": 2,
+    "snapshot": {
+      "activityId": 2,
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 6,
+          "name": "方奕尘",
+          "number": "01",
+          "voteCount": 70
+        },
+        {
+          "displayOrder": 2,
+          "id": 7,
+          "name": "林佳茵",
+          "number": "02",
+          "voteCount": 78
+        },
+        {
+          "displayOrder": 3,
+          "id": 8,
+          "name": "蔡善媛",
+          "number": "03",
+          "voteCount": 357
+        }
+      ],
+      "status": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "updatedAt": "2026-09-20 23:00:07.787204969"
+    }
+  },
+  {
+    "id": 3,
+    "snapshot": {
+      "activityId": 3,
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 9,
+          "name": "李子萍",
+          "number": "01",
+          "voteCount": 112
+        },
+        {
+          "displayOrder": 2,
+          "id": 10,
+          "name": "吴昊天",
+          "number": "02",
+          "voteCount": 467
+        }
+      ],
+      "status": 1,
+      "title": "2026厦门一中海沧校区双代会",
+      "updatedAt": "2026-09-20 23:00:07.711775244"
+    }
+  },
+  {
+    "id": 4,
+    "snapshot": {
+      "activityId": 4,
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 11,
+          "name": "刘希瑞",
+          "number": "1",
+          "voteCount": 220
+        },
+        {
+          "displayOrder": 2,
+          "id": 12,
+          "name": "林菲娅",
+          "number": "2",
+          "voteCount": 345
+        },
+        {
+          "displayOrder": 3,
+          "id": 13,
+          "name": "邱义林",
+          "number": "3",
+          "voteCount": 234
+        },
+        {
+          "displayOrder": 4,
+          "id": 14,
+          "name": "王可",
+          "number": "4",
+          "voteCount": 592
+        },
+        {
+          "displayOrder": 5,
+          "id": 15,
+          "name": "叶可涵",
+          "number": "5",
+          "voteCount": 205
+        },
+        {
+          "displayOrder": 6,
+          "id": 16,
+          "name": "魏奕涵",
+          "number": "6",
+          "voteCount": 544
+        },
+        {
+          "displayOrder": 7,
+          "id": 17,
+          "name": "李瑞霖",
+          "number": "7",
+          "voteCount": 551
+        },
+        {
+          "displayOrder": 8,
+          "id": 18,
+          "name": "方奕尘",
+          "number": "8",
+          "voteCount": 324
+        },
+        {
+          "displayOrder": 9,
+          "id": 19,
+          "name": "肖以晨",
+          "number": "9",
+          "voteCount": 799
+        }
+      ],
+      "status": 1,
+      "title": "2026年厦门一中思明校区主席竞选",
+      "updatedAt": "2026-09-20 23:00:07.791412560"
+    }
+  }
+]
