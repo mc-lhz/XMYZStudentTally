@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script>
+      document.addEventListener('gesturestart', function (e) { e.preventDefault() })
+      document.addEventListener('gesturechange', function (e) { e.preventDefault() })
+    </script>
+    <title>第一是我的骄傲</title>
+    <script>
+      (function () {
+        var KEYS = { token: "token", user: "user", expiresAt: "expiresAt", campusInfo: "campusInfo", permissions: "permissions" };
+        var PERMISSIONS = ["ticket.manage","campaign.manage","rating.manage","message.manage","user.manage","banner.manage","museum.manage","debate.manage","tally.manage","voices.manage"];
+        var FAKE_USER = { id: 100000, username: "devadmin", nickname: "mc_lhz", studentId: "20260000", grade: "高零", className: "22班", role: "admin", signature: "Local dev" };
+        var expiresAt = Date.now() + 7 * 24 * 60 * 60 * 1000;
+        localStorage.setItem(KEYS.token, "dev-local-token");
+        localStorage.setItem(KEYS.user, JSON.stringify(FAKE_USER));
+        localStorage.setItem(KEYS.expiresAt, String(expiresAt));
+        localStorage.setItem(KEYS.permissions, JSON.stringify(PERMISSIONS));
+        window.addEventListener("auth:token-expired", function (e) { e.stopImmediatePropagation(); }, true);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DJrtCu9i.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CTy88mxm.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
