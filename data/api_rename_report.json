@@ -1,0 +1,1481 @@
+{
+  "campaign-BV1jJ5bx.js": [
+    {
+      "public": "zb6",
+      "local": "zbk",
+      "method": "get",
+      "path": "/campaigns/${x}",
+      "semantic": "getCampaignsById"
+    },
+    {
+      "public": "zb7",
+      "local": "zb7",
+      "method": "get",
+      "path": "/submissions/campaigns/${x}",
+      "semantic": "getSubmissionsCampaignsById"
+    },
+    {
+      "public": "zb8",
+      "local": "zbh",
+      "method": "get",
+      "path": "/music/detail",
+      "semantic": "getMusicDetail"
+    },
+    {
+      "public": "zb9",
+      "local": "zbc9",
+      "method": "post",
+      "path": "/submissions",
+      "semantic": "createResourceSubmissions"
+    },
+    {
+      "public": "zba",
+      "local": "zbcc",
+      "method": "post",
+      "path": "/voting/vote",
+      "semantic": "voteVoting"
+    },
+    {
+      "public": "zbb",
+      "local": "zbca",
+      "method": "get",
+      "path": "/voting/campaigns/${x}/config",
+      "semantic": "getVotingCampaignsConfig"
+    },
+    {
+      "public": "zbc",
+      "local": "zba",
+      "method": "get",
+      "path": "/campaigns",
+      "semantic": "getCampaigns"
+    },
+    {
+      "public": "zbd",
+      "local": "zbd",
+      "method": "get",
+      "path": "/voting/campaigns/${x}/my-votes",
+      "semantic": "getVotingCampaignsMyVotes"
+    },
+    {
+      "public": "zbe",
+      "local": "zbcb",
+      "method": "get",
+      "path": "/voting/campaigns/${x}/options",
+      "semantic": "getVotingCampaignsOptions"
+    },
+    {
+      "public": "zbf",
+      "local": "zbc8",
+      "method": "get",
+      "path": "/music/url",
+      "semantic": "getMusicUrl"
+    },
+    {
+      "public": "zbg",
+      "local": "zbo",
+      "method": "post",
+      "path": "/admin/campaigns",
+      "semantic": "createAdminCampaigns"
+    },
+    {
+      "public": "zbh",
+      "local": "zbc",
+      "method": "post",
+      "path": "/admin/campaigns/${x}/activate",
+      "semantic": "activateAdminCampaigns"
+    },
+    {
+      "public": "zbi",
+      "local": "zb8",
+      "method": "post",
+      "path": "/admin/campaigns/${x}/close",
+      "semantic": "closeAdminCampaigns"
+    },
+    {
+      "public": "zbj",
+      "local": "zbi",
+      "method": "post",
+      "path": "/admin/campaigns/${x}/stage-operation",
+      "semantic": "stageOperationAdminCampaigns"
+    },
+    {
+      "public": "zbk",
+      "local": "zbl",
+      "method": "get",
+      "path": "/admin/review/campaigns/${x}/submissions",
+      "semantic": "getAdminReviewCampaignsSubmissions"
+    },
+    {
+      "public": "zbl",
+      "local": "zbb",
+      "method": "delete",
+      "path": "/admin/review/submissions",
+      "semantic": "deleteAdminReviewSubmissions"
+    },
+    {
+      "public": "zbm",
+      "local": "zbc7",
+      "method": "get",
+      "path": "/admin/voting/campaigns/${x}/results",
+      "semantic": "getAdminVotingCampaignsResults"
+    },
+    {
+      "public": "zbn",
+      "local": "zb9",
+      "method": "get",
+      "path": "/music/search",
+      "semantic": "searchMusic"
+    },
+    {
+      "public": "zbo",
+      "local": "zbc6",
+      "method": "put",
+      "path": "/admin/campaigns/${x}",
+      "semantic": "updateAdminCampaigns"
+    }
+  ],
+  "debate-B8dkqKam.js": [
+    {
+      "public": "zbz",
+      "local": "zb10",
+      "method": "get",
+      "path": "/admin/debate/rounds",
+      "semantic": "getAdminDebateRounds"
+    },
+    {
+      "public": "zb10",
+      "local": "zbce",
+      "method": "put",
+      "path": "/admin/debate/rounds/${x}",
+      "semantic": "updateAdminDebateRounds"
+    },
+    {
+      "public": "zb11",
+      "local": "zbcd",
+      "method": "post",
+      "path": "/admin/debate/rounds",
+      "semantic": "createAdminDebateRounds"
+    },
+    {
+      "public": "zb12",
+      "local": "zbw",
+      "method": "put",
+      "path": "/admin/debate/rounds/${x}/active",
+      "semantic": "updateAdminDebateRoundsActive"
+    },
+    {
+      "public": "zb14",
+      "local": "zbcf",
+      "method": "put",
+      "path": "/admin/debate/rounds/${x}/lock",
+      "semantic": "lockAdminDebateRounds"
+    },
+    {
+      "public": "zb15",
+      "local": "zbz",
+      "method": "put",
+      "path": "/admin/debate/rounds/${x}/regenerate-password",
+      "semantic": "regeneratePasswordAdminDebateRounds"
+    },
+    {
+      "public": "zb16",
+      "local": "zbcg",
+      "method": "put",
+      "path": "/admin/debate/rounds/${x}/reset",
+      "semantic": "resetAdminDebateRounds"
+    },
+    {
+      "public": "zb18",
+      "local": "zbch",
+      "method": "put",
+      "path": "/admin/debate/rounds/${x}/unlock${x}",
+      "semantic": "unlockAdminDebateRounds"
+    },
+    {
+      "public": "zb19",
+      "local": "zbv",
+      "method": "delete",
+      "path": "/admin/debate/rounds/${x}",
+      "semantic": "deleteAdminDebateRounds"
+    }
+  ],
+  "dorm-BlpLVPfV.js": [
+    {
+      "public": "zb1a",
+      "local": "zb1d",
+      "method": "get",
+      "path": "/buildings",
+      "semantic": "getBuildings"
+    },
+    {
+      "public": "zb1b",
+      "local": "zb1a",
+      "method": "get",
+      "path": "/time-periods",
+      "semantic": "getResourceTimePeriods"
+    },
+    {
+      "public": "zb1c",
+      "local": "zb1m",
+      "method": "post",
+      "path": "/admin/campuses",
+      "semantic": "createAdminCampuses"
+    },
+    {
+      "public": "zb1d",
+      "local": "zbcq",
+      "method": "delete",
+      "path": "/admin/campuses/${x}",
+      "semantic": "deleteAdminCampuses"
+    },
+    {
+      "public": "zb1e",
+      "local": "zb1g",
+      "method": "post",
+      "path": "/admin/buildings",
+      "semantic": "createAdminBuildings"
+    },
+    {
+      "public": "zb1f",
+      "local": "zb1c",
+      "method": "put",
+      "path": "/admin/buildings/${x}",
+      "semantic": "updateAdminBuildings"
+    },
+    {
+      "public": "zb1g",
+      "local": "zb1p",
+      "method": "get",
+      "path": "/campuses",
+      "semantic": "getCampuses"
+    },
+    {
+      "public": "zb1h",
+      "local": "zb1l",
+      "method": "delete",
+      "path": "/admin/buildings/${x}",
+      "semantic": "deleteAdminBuildings"
+    },
+    {
+      "public": "zb1i",
+      "local": "zb1o",
+      "method": "get",
+      "path": "/buildings/${x}/time-periods",
+      "semantic": "getBuildingsTimePeriods"
+    },
+    {
+      "public": "zb1j",
+      "local": "zb1f",
+      "method": "post",
+      "path": "/admin/buildings/time-periods",
+      "semantic": "createAdminBuildingsTimePeriods"
+    },
+    {
+      "public": "zb1k",
+      "local": "zbcr",
+      "method": "post",
+      "path": "/admin/time-periods",
+      "semantic": "createAdminResourceTimePeriods"
+    },
+    {
+      "public": "zb1l",
+      "local": "zbcs",
+      "method": "put",
+      "path": "/admin/time-periods/${x}",
+      "semantic": "updateAdminResourceTimePeriods"
+    },
+    {
+      "public": "zb1m",
+      "local": "zbct",
+      "method": "delete",
+      "path": "/admin/time-periods/${x}",
+      "semantic": "deleteAdminResourceTimePeriods"
+    },
+    {
+      "public": "zb1n",
+      "local": "zbco",
+      "method": "get",
+      "path": "/campuses/${x}/buildings",
+      "semantic": "getCampusesBuildingsById"
+    },
+    {
+      "public": "zb1o",
+      "local": "zb1b",
+      "method": "delete",
+      "path": "/admin/buildings/time-periods",
+      "semantic": "deleteAdminBuildingsTimePeriods"
+    },
+    {
+      "public": "zb1p",
+      "local": "zbcp",
+      "method": "put",
+      "path": "/admin/campuses/${x}",
+      "semantic": "updateAdminCampuses"
+    }
+  ],
+  "file-CSaAaIBf.js": [
+    {
+      "public": "zb1q",
+      "local": "zbcu",
+      "method": "post",
+      "path": "/files/upload",
+      "semantic": "uploadFiles"
+    }
+  ],
+  "grade-BOUREyqU.js": [
+    {
+      "public": "zb1r",
+      "local": "zb1u",
+      "method": "get",
+      "path": "/grade/exams",
+      "semantic": "getGradeExams"
+    },
+    {
+      "public": "zb1t",
+      "local": "zbcv",
+      "method": "post",
+      "path": "/grade/bind",
+      "semantic": "bindGrade"
+    },
+    {
+      "public": "zb1u",
+      "local": "zb1v",
+      "method": "get",
+      "path": "/grade/exams/${x}",
+      "semantic": "getGradeExamsById"
+    },
+    {
+      "public": "zb1v",
+      "local": "zb1w",
+      "method": "get",
+      "path": "/grade/status",
+      "semantic": "getGradeStatus"
+    },
+    {
+      "public": "zb1w",
+      "local": "zbcw",
+      "method": "delete",
+      "path": "/grade/unbind",
+      "semantic": "unbindGrade"
+    }
+  ],
+  "museum-BDeGDA-n.js": [
+    {
+      "public": "zb1x",
+      "local": "zbd6",
+      "method": "get",
+      "path": "/admin/museum/moments",
+      "semantic": "getAdminMuseumMoments"
+    },
+    {
+      "public": "zb1y",
+      "local": "zbd7",
+      "method": "post",
+      "path": "/admin/museum/moments/${x}/approve",
+      "semantic": "approveAdminMuseumMoments"
+    },
+    {
+      "public": "zb1z",
+      "local": "zbd8",
+      "method": "post",
+      "path": "/admin/museum/moments/${x}/reject",
+      "semantic": "rejectAdminMuseumMoments"
+    },
+    {
+      "public": "zb20",
+      "local": "zbd9",
+      "method": "post",
+      "path": "/admin/museum/moments/${x}/takedown",
+      "semantic": "takedownAdminMuseumMoments"
+    },
+    {
+      "public": "zb21",
+      "local": "zb26",
+      "method": "delete",
+      "path": "/admin/museum/moments/${x}",
+      "semantic": "deleteAdminMuseumMoments"
+    },
+    {
+      "public": "zb22",
+      "local": "zbda",
+      "method": "post",
+      "path": "/admin/museum/moments/batch",
+      "semantic": "batchAdminMuseumMoments"
+    },
+    {
+      "public": "zb23",
+      "local": "zb25",
+      "method": "get",
+      "path": "/admin/museum/tags",
+      "semantic": "getAdminMuseumTags"
+    },
+    {
+      "public": "zb24",
+      "local": "zb2h",
+      "method": "put",
+      "path": "/admin/museum/tags/${x}",
+      "semantic": "updateAdminMuseumTags"
+    },
+    {
+      "public": "zb25",
+      "local": "zb2b",
+      "method": "post",
+      "path": "/admin/museum/tags",
+      "semantic": "createAdminMuseumTags"
+    },
+    {
+      "public": "zb26",
+      "local": "zb20",
+      "method": "delete",
+      "path": "/admin/museum/tags/${x}",
+      "semantic": "deleteAdminMuseumTags"
+    },
+    {
+      "public": "zb27",
+      "local": "zb1z",
+      "method": "post",
+      "path": "/admin/museum/tags/${x}/toggle-status",
+      "semantic": "toggleStatusAdminMuseumTags"
+    },
+    {
+      "public": "zb28",
+      "local": "zb2e",
+      "method": "get",
+      "path": "/admin/museum/events",
+      "semantic": "getAdminMuseumEvents"
+    },
+    {
+      "public": "zb29",
+      "local": "zb2i",
+      "method": "delete",
+      "path": "/admin/museum/events/${x}",
+      "semantic": "deleteAdminMuseumEvents"
+    },
+    {
+      "public": "zb2a",
+      "local": "zb27",
+      "method": "post",
+      "path": "/admin/museum/events/batch",
+      "semantic": "batchAdminMuseumEvents"
+    },
+    {
+      "public": "zb2b",
+      "local": "zb2l",
+      "method": "post",
+      "path": "/admin/museum/events/${x}/publish",
+      "semantic": "publishAdminMuseumEvents"
+    },
+    {
+      "public": "zb2c",
+      "local": "zb28",
+      "method": "post",
+      "path": "/admin/museum/events/${x}/unpublish",
+      "semantic": "unpublishAdminMuseumEvents"
+    },
+    {
+      "public": "zb2d",
+      "local": "zb23",
+      "method": "post",
+      "path": "/admin/museum/events/${x}/unfeature",
+      "semantic": "unfeatureAdminMuseumEvents"
+    },
+    {
+      "public": "zb2e",
+      "local": "zbd2",
+      "method": "post",
+      "path": "/admin/museum/events/${x}/feature",
+      "semantic": "featureAdminMuseumEvents"
+    },
+    {
+      "public": "zb2f",
+      "local": "zb2c",
+      "method": "get",
+      "path": "/admin/museum/events/${x}",
+      "semantic": "getAdminMuseumEventsById"
+    },
+    {
+      "public": "zb2g",
+      "local": "zb2j",
+      "method": "put",
+      "path": "/admin/museum/events/${x}",
+      "semantic": "updateAdminMuseumEvents"
+    },
+    {
+      "public": "zb2h",
+      "local": "zb22",
+      "method": "post",
+      "path": "/admin/museum/events",
+      "semantic": "createAdminMuseumEvents"
+    },
+    {
+      "public": "zb2i",
+      "local": "zb1y",
+      "method": "get",
+      "path": "/admin/museum/events/${x}/blocks",
+      "semantic": "getAdminMuseumEventsBlocks"
+    },
+    {
+      "public": "zb2j",
+      "local": "zb24",
+      "method": "put",
+      "path": "/admin/museum/events/${x}/blocks/${x}",
+      "semantic": "updateAdminMuseumEventsBlocks"
+    },
+    {
+      "public": "zb2k",
+      "local": "zbd3",
+      "method": "post",
+      "path": "/admin/museum/events/${x}/blocks",
+      "semantic": "createAdminMuseumEventsBlocks"
+    },
+    {
+      "public": "zb2l",
+      "local": "zbd4",
+      "method": "delete",
+      "path": "/admin/museum/events/${x}/blocks/${x}",
+      "semantic": "deleteAdminMuseumEventsBlocks"
+    },
+    {
+      "public": "zb2m",
+      "local": "zbd5",
+      "method": "post",
+      "path": "/admin/museum/events/${x}/blocks/sort",
+      "semantic": "sortAdminMuseumEventsBlocks"
+    }
+  ],
+  "museum-BRoy68F1.js": [],
+  "rating-CCUJ0_Xu.js": [
+    {
+      "public": "zb2q",
+      "local": "zb3a",
+      "method": "post",
+      "path": "${x}/categories/${x}/image",
+      "semantic": "createCategoriesImage"
+    },
+    {
+      "public": "zb2r",
+      "local": "zb3q",
+      "method": "delete",
+      "path": "${x}/schools/${x}",
+      "semantic": "deleteSchools"
+    },
+    {
+      "public": "zb2s",
+      "local": "zb2u",
+      "method": "get",
+      "path": "${x}/schools/${x}",
+      "semantic": "getSchoolsById"
+    },
+    {
+      "public": "zb2t",
+      "local": "zb37",
+      "method": "get",
+      "path": "${x}/major-sections",
+      "semantic": "getMajorSectionsById"
+    },
+    {
+      "public": "zb2u",
+      "local": "zb39",
+      "method": "post",
+      "path": "${x}/major-sections",
+      "semantic": "createMajorSections"
+    },
+    {
+      "public": "zb2v",
+      "local": "zb2y",
+      "method": "post",
+      "path": "${x}/major-sections/${x}/image",
+      "semantic": "createMajorSectionsImage"
+    },
+    {
+      "public": "zb2w",
+      "local": "zb2w",
+      "method": "put",
+      "path": "${x}/major-sections/${x}",
+      "semantic": "updateMajorSections"
+    },
+    {
+      "public": "zb2x",
+      "local": "zb3g",
+      "method": "delete",
+      "path": "${x}/major-sections/${x}/image",
+      "semantic": "deleteMajorSectionsImage"
+    },
+    {
+      "public": "zb2y",
+      "local": "zb3r",
+      "method": "put",
+      "path": "${x}/major-sections/${x}/status",
+      "semantic": "updateMajorSectionsStatus"
+    },
+    {
+      "public": "zb2z",
+      "local": "zb42",
+      "method": "delete",
+      "path": "${x}/major-sections/${x}",
+      "semantic": "deleteMajorSections"
+    },
+    {
+      "public": "zb30",
+      "local": "zb43",
+      "method": "get",
+      "path": "${x}/major-sections/${x}",
+      "semantic": "getMajorSectionsById2"
+    },
+    {
+      "public": "zb31",
+      "local": "zb44",
+      "method": "get",
+      "path": "${x}/minor-sections",
+      "semantic": "getMinorSectionsById"
+    },
+    {
+      "public": "zb32",
+      "local": "zb2s",
+      "method": "post",
+      "path": "${x}/minor-sections",
+      "semantic": "createMinorSections"
+    },
+    {
+      "public": "zb33",
+      "local": "zbdd",
+      "method": "post",
+      "path": "${x}/minor-sections/${x}/image",
+      "semantic": "createMinorSectionsImage"
+    },
+    {
+      "public": "zb34",
+      "local": "zb2v",
+      "method": "put",
+      "path": "${x}/minor-sections/${x}",
+      "semantic": "updateMinorSections"
+    },
+    {
+      "public": "zb35",
+      "local": "zb3x",
+      "method": "delete",
+      "path": "${x}/minor-sections/${x}/image",
+      "semantic": "deleteMinorSectionsImage"
+    },
+    {
+      "public": "rating",
+      "local": "rating",
+      "method": "put",
+      "path": "${x}/minor-sections/${x}/status",
+      "semantic": "updateMinorSectionsStatus"
+    },
+    {
+      "public": "zb36",
+      "local": "zb32",
+      "method": "delete",
+      "path": "${x}/minor-sections/${x}",
+      "semantic": "deleteMinorSections"
+    },
+    {
+      "public": "zb37",
+      "local": "zb3c",
+      "method": "get",
+      "path": "${x}/rating-items",
+      "semantic": "getRatingItemsById"
+    },
+    {
+      "public": "zb38",
+      "local": "zb2x",
+      "method": "get",
+      "path": "${x}/categories/${x}",
+      "semantic": "getCategoriesById"
+    },
+    {
+      "public": "zb39",
+      "local": "zb3e",
+      "method": "post",
+      "path": "${x}/rating-items",
+      "semantic": "createRatingItems"
+    },
+    {
+      "public": "zb3a",
+      "local": "nt",
+      "method": "post",
+      "path": "${x}/rating-items/${x}/image",
+      "semantic": "createRatingItemsImage"
+    },
+    {
+      "public": "zb3b",
+      "local": "zb3f",
+      "method": "put",
+      "path": "${x}/rating-items/${x}",
+      "semantic": "updateRatingItems"
+    },
+    {
+      "public": "zb3c",
+      "local": "ot",
+      "method": "delete",
+      "path": "${x}/rating-items/${x}/image",
+      "semantic": "deleteRatingItemsImage"
+    },
+    {
+      "public": "zb3d",
+      "local": "et",
+      "method": "put",
+      "path": "${x}/rating-items/${x}/status",
+      "semantic": "updateRatingItemsStatus"
+    },
+    {
+      "public": "zb3e",
+      "local": "tt",
+      "method": "delete",
+      "path": "${x}/rating-items/${x}",
+      "semantic": "deleteRatingItems"
+    },
+    {
+      "public": "zb3f",
+      "local": "zb46",
+      "method": "get",
+      "path": "${x}/categories",
+      "semantic": "getCategoriesById2"
+    },
+    {
+      "public": "zb3g",
+      "local": "zb30",
+      "method": "post",
+      "path": "${x}/categories",
+      "semantic": "createCategories"
+    },
+    {
+      "public": "zb3h",
+      "local": "zb2t",
+      "method": "get",
+      "path": "/rating-community/hot-items",
+      "semantic": "getRatingCommunityHotItems"
+    },
+    {
+      "public": "a0",
+      "local": "zb31",
+      "method": "put",
+      "path": "${x}/categories/${x}",
+      "semantic": "updateCategories"
+    },
+    {
+      "public": "a1",
+      "local": "zb3b",
+      "method": "delete",
+      "path": "${x}/categories/${x}/image",
+      "semantic": "deleteCategoriesImage"
+    },
+    {
+      "public": "a2",
+      "local": "zb36",
+      "method": "put",
+      "path": "${x}/categories/${x}/status",
+      "semantic": "updateCategoriesStatus"
+    },
+    {
+      "public": "a3",
+      "local": "zb35",
+      "method": "delete",
+      "path": "${x}/categories/${x}",
+      "semantic": "deleteCategories"
+    },
+    {
+      "public": "a4",
+      "local": "zb3d",
+      "method": "get",
+      "path": "${x}/rating-items/${x}",
+      "semantic": "getRatingItemsById2"
+    },
+    {
+      "public": "a5",
+      "local": "it",
+      "method": "get",
+      "path": "${x}/comments",
+      "semantic": "getCommentsById"
+    },
+    {
+      "public": "a6",
+      "local": "st",
+      "method": "get",
+      "path": "${x}/ratings",
+      "semantic": "getRatingsById"
+    },
+    {
+      "public": "a7",
+      "local": "at",
+      "method": "delete",
+      "path": "${x}/comments/${x}",
+      "semantic": "deleteComments"
+    },
+    {
+      "public": "a8",
+      "local": "rt",
+      "method": "delete",
+      "path": "${x}/comments/batch",
+      "semantic": "batchComments"
+    },
+    {
+      "public": "a9",
+      "local": "ut",
+      "method": "delete",
+      "path": "${x}/ratings/${x}",
+      "semantic": "deleteRatings"
+    },
+    {
+      "public": "aa",
+      "local": "ct",
+      "method": "delete",
+      "path": "${x}/ratings/batch",
+      "semantic": "batchRatings"
+    },
+    {
+      "public": "ab",
+      "local": "lt",
+      "method": "get",
+      "path": "${x}/collections",
+      "semantic": "getCollectionsById"
+    },
+    {
+      "public": "ac",
+      "local": "ft",
+      "method": "post",
+      "path": "${x}/collections",
+      "semantic": "createCollections"
+    },
+    {
+      "public": "ad",
+      "local": "yt",
+      "method": "post",
+      "path": "${x}/collections/${x}/image",
+      "semantic": "createCollectionsImage"
+    },
+    {
+      "public": "ae",
+      "local": "dt",
+      "method": "put",
+      "path": "${x}/collections/${x}",
+      "semantic": "updateCollections"
+    },
+    {
+      "public": "af",
+      "local": "St",
+      "method": "delete",
+      "path": "${x}/collections/${x}/image",
+      "semantic": "deleteCollectionsImage"
+    },
+    {
+      "public": "ag",
+      "local": "Ct",
+      "method": "put",
+      "path": "${x}/collections/${x}/status",
+      "semantic": "updateCollectionsStatus"
+    },
+    {
+      "public": "ah",
+      "local": "pt",
+      "method": "delete",
+      "path": "${x}/collections/${x}",
+      "semantic": "deleteCollections"
+    },
+    {
+      "public": "ai",
+      "local": "$t",
+      "method": "get",
+      "path": "${x}/collections/${x}",
+      "semantic": "getCollectionsById2"
+    },
+    {
+      "public": "aj",
+      "local": "ht",
+      "method": "get",
+      "path": "${x}/collections/${x}/items",
+      "semantic": "getCollectionsItemsById"
+    },
+    {
+      "public": "ak",
+      "local": "It",
+      "method": "post",
+      "path": "${x}/collections/${x}/items",
+      "semantic": "createCollectionsItems"
+    },
+    {
+      "public": "al",
+      "local": "bt",
+      "method": "put",
+      "path": "${x}/collections/${x}/items/${x}/sort",
+      "semantic": "sortCollectionsItems"
+    },
+    {
+      "public": "am",
+      "local": "Dt",
+      "method": "delete",
+      "path": "${x}/collections/${x}/items/${x}",
+      "semantic": "deleteCollectionsItems"
+    },
+    {
+      "public": "an",
+      "local": "Tt",
+      "method": "get",
+      "path": "${x}/contributions",
+      "semantic": "getContributionsById"
+    },
+    {
+      "public": "ao",
+      "local": "vt",
+      "method": "post",
+      "path": "${x}/contributions/${x}/review",
+      "semantic": "reviewContributions"
+    },
+    {
+      "public": "ap",
+      "local": "zb3o",
+      "method": "get",
+      "path": "${x}/statistics/daily-ratings",
+      "semantic": "getStatisticsDailyRatings"
+    },
+    {
+      "public": "zb3i",
+      "local": "zb3w",
+      "method": "get",
+      "path": "/rating-community/random-items",
+      "semantic": "getRatingCommunityRandomItems"
+    },
+    {
+      "public": "zb3j",
+      "local": "mt",
+      "method": "get",
+      "path": "/rating-community/collections",
+      "semantic": "getRatingCommunityCollections"
+    },
+    {
+      "public": "zb3k",
+      "local": "zb3n",
+      "method": "post",
+      "path": "/rating-community/ratings",
+      "semantic": "createRatingCommunityRatings"
+    },
+    {
+      "public": "zb3l",
+      "local": "zb3j",
+      "method": "get",
+      "path": "/rating-community/categories/${x}",
+      "semantic": "getRatingCommunityCategoriesById"
+    },
+    {
+      "public": "zb3m",
+      "local": "zb3y",
+      "method": "get",
+      "path": "/rating-community/major-sections/${x}/minor-sections",
+      "semantic": "getRatingCommunityMajorSectionsMinorSectionsById"
+    },
+    {
+      "public": "zb3n",
+      "local": "zb41",
+      "method": "get",
+      "path": "/rating-community/schools/${x}/categories",
+      "semantic": "getRatingCommunitySchoolsCategoriesById"
+    },
+    {
+      "public": "zb3o",
+      "local": "zb3z",
+      "method": "get",
+      "path": "/rating-community/minor-sections/${x}/rating-items",
+      "semantic": "getRatingCommunityMinorSectionsRatingItemsById"
+    },
+    {
+      "public": "zb3p",
+      "local": "wt",
+      "method": "get",
+      "path": "/rating-community/contributions/history",
+      "semantic": "getRatingCommunityContributionsHistory"
+    },
+    {
+      "public": "zb3q",
+      "local": "zb2q",
+      "method": "post",
+      "path": "/rating-community/comments",
+      "semantic": "createRatingCommunityComments"
+    },
+    {
+      "public": "zb3r",
+      "local": "zb3t",
+      "method": "get",
+      "path": "/rating-community/rating-items/${x}",
+      "semantic": "getRatingCommunityRatingItemsById"
+    },
+    {
+      "public": "zb3s",
+      "local": "zb3m",
+      "method": "delete",
+      "path": "/rating-community/comments/${x}",
+      "semantic": "deleteRatingCommunityComments"
+    },
+    {
+      "public": "zb3t",
+      "local": "jt",
+      "method": "post",
+      "path": "/rating-community/contributions/batch-rating-items",
+      "semantic": "batchRatingItemsRatingCommunityContributions"
+    },
+    {
+      "public": "zb3u",
+      "local": "At",
+      "method": "post",
+      "path": "/rating-community/contributions",
+      "semantic": "createRatingCommunityContributions"
+    },
+    {
+      "public": "zb3v",
+      "local": "Mt",
+      "method": "post",
+      "path": "/rating-community/contributions/upload-image",
+      "semantic": "uploadImageRatingCommunityContributions"
+    },
+    {
+      "public": "zb3w",
+      "local": "gt",
+      "method": "get",
+      "path": "/rating-community/collections/${x}",
+      "semantic": "getRatingCommunityCollectionsById"
+    },
+    {
+      "public": "zb3x",
+      "local": "Rt",
+      "method": "get",
+      "path": "/rating-community/contributions/my",
+      "semantic": "getRatingCommunityContributionsMy"
+    },
+    {
+      "public": "zb3y",
+      "local": "zb38",
+      "method": "get",
+      "path": "${x}/statistics/overview",
+      "semantic": "getStatisticsOverview"
+    },
+    {
+      "public": "zb3z",
+      "local": "zb45",
+      "method": "get",
+      "path": "/rating-community/search",
+      "semantic": "searchRatingCommunity"
+    },
+    {
+      "public": "zb40",
+      "local": "zb3k",
+      "method": "post",
+      "path": "/rating-community/likes",
+      "semantic": "createRatingCommunityLikes"
+    },
+    {
+      "public": "zb41",
+      "local": "zb3s",
+      "method": "post",
+      "path": "/files/upload",
+      "semantic": "uploadFiles"
+    },
+    {
+      "public": "zb42",
+      "local": "Ft",
+      "method": "get",
+      "path": "${x}/contributions/pending-count",
+      "semantic": "getContributionsPendingCount"
+    },
+    {
+      "public": "zb43",
+      "local": "zb2z",
+      "method": "get",
+      "path": "${x}/schools",
+      "semantic": "getSchoolsById2"
+    },
+    {
+      "public": "zb44",
+      "local": "zb3i",
+      "method": "post",
+      "path": "${x}/schools",
+      "semantic": "createSchools"
+    },
+    {
+      "public": "zb45",
+      "local": "zb2r",
+      "method": "put",
+      "path": "${x}/schools/${x}",
+      "semantic": "updateSchools"
+    },
+    {
+      "public": "zb46",
+      "local": "zb33",
+      "method": "put",
+      "path": "${x}/schools/${x}/status",
+      "semantic": "updateSchoolsStatus"
+    }
+  ],
+  "rating-DOU6YvDA.js": [],
+  "tally-DC36h0vE.js": [
+    {
+      "public": "zb4f",
+      "local": "zb4j",
+      "method": "get",
+      "path": "/admin/tally/activities",
+      "semantic": "getAdminTallyActivities"
+    },
+    {
+      "public": "zb4h",
+      "local": "zbdk",
+      "method": "post",
+      "path": "/admin/tally/activities",
+      "semantic": "createAdminTallyActivities"
+    },
+    {
+      "public": "zb4i",
+      "local": "zb4h",
+      "method": "put",
+      "path": "/admin/tally/activities/${x}",
+      "semantic": "updateAdminTallyActivities"
+    },
+    {
+      "public": "zb4j",
+      "local": "zb4q",
+      "method": "delete",
+      "path": "/admin/tally/activities/${x}",
+      "semantic": "deleteAdminTallyActivities"
+    },
+    {
+      "public": "zb4k",
+      "local": "zb4i",
+      "method": "get",
+      "path": "/admin/tally/activities/${x}",
+      "semantic": "getAdminTallyActivitiesById"
+    },
+    {
+      "public": "zb4l",
+      "local": "zbdl",
+      "method": "post",
+      "path": "/admin/tally/activities/${x}/candidates",
+      "semantic": "createAdminTallyActivitiesCandidates"
+    },
+    {
+      "public": "zb4m",
+      "local": "zbdm",
+      "method": "put",
+      "path": "/admin/tally/candidates/${x}",
+      "semantic": "updateAdminTallyCandidates"
+    },
+    {
+      "public": "zb4n",
+      "local": "zbdn",
+      "method": "delete",
+      "path": "/admin/tally/candidates/${x}",
+      "semantic": "deleteAdminTallyCandidates"
+    },
+    {
+      "public": "zb4o",
+      "local": "zbdq",
+      "method": "get",
+      "path": "/admin/tally/activities/${x}/records",
+      "semantic": "getAdminTallyActivitiesRecords"
+    },
+    {
+      "public": "zb4p",
+      "local": "zbdp",
+      "method": "post",
+      "path": "/admin/tally/activities/${x}/undo",
+      "semantic": "undoAdminTallyActivities"
+    },
+    {
+      "public": "zb4q",
+      "local": "zbdo",
+      "method": "post",
+      "path": "/admin/tally/candidates/${x}/vote",
+      "semantic": "voteAdminTallyCandidates"
+    }
+  ],
+  "ticket-SMxxVFG1.js": [
+    {
+      "public": "getMyTickets",
+      "local": "getMyTickets",
+      "method": "get",
+      "path": "/tickets/my",
+      "semantic": "getTicketsMy"
+    },
+    {
+      "public": "getTicketActivity",
+      "local": "getTicketActivity",
+      "method": "get",
+      "path": "/ticket-activities/${x}",
+      "semantic": "getTicketActivitiesById"
+    },
+    {
+      "public": "getMyActivityTickets",
+      "local": "getMyActivityTickets",
+      "method": "get",
+      "path": "/tickets/my/activity/${x}",
+      "semantic": "getTicketsMyActivityById"
+    },
+    {
+      "public": "grabTicket",
+      "local": "grabTicket",
+      "method": "post",
+      "path": "/tickets/grab",
+      "semantic": "grabTickets"
+    },
+    {
+      "public": "getAdminTicketActivities",
+      "local": "getAdminTicketActivities",
+      "method": "get",
+      "path": "/admin/ticket/activities",
+      "semantic": "getAdminTicketActivities"
+    },
+    {
+      "public": "deleteAdminTicketActivity",
+      "local": "deleteAdminTicketActivity",
+      "method": "delete",
+      "path": "/admin/ticket/activities/${x}",
+      "semantic": "deleteAdminTicketActivities"
+    },
+    {
+      "public": "getTicketActivities",
+      "local": "getTicketActivities",
+      "method": "get",
+      "path": "/ticket-activities",
+      "semantic": "getTicketActivities"
+    },
+    {
+      "public": "getAdminTicketActivity",
+      "local": "getAdminTicketActivity",
+      "method": "get",
+      "path": "/admin/ticket/activities/${x}",
+      "semantic": "getAdminTicketActivitiesById"
+    },
+    {
+      "public": "getAdminTicketActivityStats",
+      "local": "getAdminTicketActivityStats",
+      "method": "get",
+      "path": "/admin/ticket/activities/${x}/stats",
+      "semantic": "getAdminTicketActivitiesStats"
+    },
+    {
+      "public": "createAdminTicketActivity",
+      "local": "createAdminTicketActivity",
+      "method": "post",
+      "path": "/admin/ticket/activities",
+      "semantic": "createAdminTicketActivities"
+    },
+    {
+      "public": "setAdminTicketActivityStatus",
+      "local": "setAdminTicketActivityStatus",
+      "method": "post",
+      "path": "/admin/ticket/activities/${x}/status",
+      "semantic": "createAdminTicketActivitiesStatus"
+    },
+    {
+      "public": "updateAdminTicketSession",
+      "local": "updateAdminTicketSession",
+      "method": "put",
+      "path": "/admin/ticket/sessions/${x}",
+      "semantic": "updateAdminTicketSessions"
+    },
+    {
+      "public": "createAdminTicketSession",
+      "local": "createAdminTicketSession",
+      "method": "post",
+      "path": "/admin/ticket/activities/${x}/sessions",
+      "semantic": "createAdminTicketActivitiesSessions"
+    },
+    {
+      "public": "deleteAdminTicketSession",
+      "local": "deleteAdminTicketSession",
+      "method": "delete",
+      "path": "/admin/ticket/sessions/${x}",
+      "semantic": "deleteAdminTicketSessions"
+    },
+    {
+      "public": "useTicket",
+      "local": "useTicket",
+      "method": "post",
+      "path": "/admin/ticket/verify/use",
+      "semantic": "useAdminTicketVerify"
+    },
+    {
+      "public": "getAdminTicketActivityReviews",
+      "local": "getAdminTicketActivityReviews",
+      "method": "get",
+      "path": "/admin/ticket/activities/${x}/review",
+      "semantic": "reviewAdminTicketActivities"
+    },
+    {
+      "public": "reviewTicket",
+      "local": "reviewTicket",
+      "method": "post",
+      "path": "/admin/ticket/tickets/${x}/review",
+      "semantic": "reviewAdminTicketTickets"
+    },
+    {
+      "public": "batchReviewTicket",
+      "local": "batchReviewTicket",
+      "method": "post",
+      "path": "/admin/ticket/tickets/batch-review",
+      "semantic": "batchReviewAdminTicketTickets"
+    },
+    {
+      "public": "updateAdminTicketActivity",
+      "local": "updateAdminTicketActivity",
+      "method": "put",
+      "path": "/admin/ticket/activities/${x}",
+      "semantic": "updateAdminTicketActivities"
+    },
+    {
+      "public": "verifyTicket",
+      "local": "verifyTicket",
+      "method": "get",
+      "path": "/admin/ticket/verify",
+      "semantic": "verifyAdminTicket"
+    }
+  ],
+  "voices-DF_9WYD3.js": [
+    {
+      "public": "zb51",
+      "local": "zb54",
+      "method": "get",
+      "path": "/voices/questions",
+      "semantic": "getVoicesQuestions"
+    },
+    {
+      "public": "zb52",
+      "local": "zb53",
+      "method": "post",
+      "path": "/voices/identity",
+      "semantic": "createVoicesIdentity"
+    },
+    {
+      "public": "zb53",
+      "local": "zb5l",
+      "method": "post",
+      "path": "/voices/questions",
+      "semantic": "createVoicesQuestions"
+    },
+    {
+      "public": "zb54",
+      "local": "zb5n",
+      "method": "get",
+      "path": "/voices/mine/questions",
+      "semantic": "getVoicesMineQuestions"
+    },
+    {
+      "public": "zb56",
+      "local": "zb5c",
+      "method": "get",
+      "path": "/voices/mine/answers",
+      "semantic": "getVoicesMineAnswers"
+    },
+    {
+      "public": "zb57",
+      "local": "zb51",
+      "method": "get",
+      "path": "/voices/status",
+      "semantic": "getVoicesStatus"
+    },
+    {
+      "public": "zb58",
+      "local": "zb50",
+      "method": "get",
+      "path": "/voices/mine/favorites",
+      "semantic": "getVoicesMineFavorites"
+    },
+    {
+      "public": "zb5a",
+      "local": "zb56",
+      "method": "get",
+      "path": "/voices/questions/${x}",
+      "semantic": "getVoicesQuestions2"
+    },
+    {
+      "public": "zb5b",
+      "local": "zb5m",
+      "method": "post",
+      "path": "/voices/questions/${x}/answers",
+      "semantic": "createVoicesQuestionsAnswers"
+    },
+    {
+      "public": "zb5c",
+      "local": "zb57",
+      "method": "post",
+      "path": "/voices/answers/${x}/like",
+      "semantic": "likeVoicesAnswers"
+    },
+    {
+      "public": "zb5d",
+      "local": "zbee",
+      "method": "get",
+      "path": "/admin/voices/stats",
+      "semantic": "getAdminVoicesStats"
+    },
+    {
+      "public": "zb5e",
+      "local": "zb4z",
+      "method": "get",
+      "path": "/admin/voices/questions",
+      "semantic": "getAdminVoicesQuestions"
+    },
+    {
+      "public": "zb5f",
+      "local": "zbeb",
+      "method": "get",
+      "path": "/admin/voices/answers",
+      "semantic": "getAdminVoicesAnswers"
+    },
+    {
+      "public": "zb5g",
+      "local": "zbef",
+      "method": "get",
+      "path": "/admin/voices/reports",
+      "semantic": "getAdminVoicesReports"
+    },
+    {
+      "public": "zb5h",
+      "local": "zb5h",
+      "method": "put",
+      "path": "/admin/voices/questions/${x}/takedown",
+      "semantic": "takedownAdminVoicesQuestions"
+    },
+    {
+      "public": "zb5i",
+      "local": "zb5d",
+      "method": "post",
+      "path": "/voices/report",
+      "semantic": "reportVoices"
+    },
+    {
+      "public": "zb5j",
+      "local": "zbec",
+      "method": "put",
+      "path": "/admin/voices/questions/${x}/restore",
+      "semantic": "restoreAdminVoicesQuestions"
+    },
+    {
+      "public": "zb5k",
+      "local": "zb5g",
+      "method": "post",
+      "path": "/voices/questions/${x}/favorite",
+      "semantic": "favoriteVoicesQuestions"
+    },
+    {
+      "public": "zb5l",
+      "local": "zbed",
+      "method": "put",
+      "path": "/admin/voices/answers/${x}/takedown",
+      "semantic": "takedownAdminVoicesAnswers"
+    },
+    {
+      "public": "zb5m",
+      "local": "zb5b",
+      "method": "put",
+      "path": "/admin/voices/answers/${x}/restore",
+      "semantic": "restoreAdminVoicesAnswers"
+    },
+    {
+      "public": "zb5n",
+      "local": "zbeg",
+      "method": "put",
+      "path": "/admin/voices/reports/${x}/handle",
+      "semantic": "handleAdminVoicesReports"
+    }
+  ],
+  "voices-theme-B9KdZorS.js": []
+}

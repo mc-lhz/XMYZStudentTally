@@ -1,0 +1,209 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/VoicesAnswerPage-DK28CLSn.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.wall-toolbar[data-v-692b188f] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+.wall-toolbar[data-v-692b188f] .vx-tab {
+  padding: 5px 10px;
+  font-size: 12px;
+  letter-spacing: .5px;
+}
+.wall-tip[data-v-692b188f] {
+  font-size: 13px;
+  color: var(--vx-ink-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--vx-kaiti);
+  transition: color .15s ease;
+}
+.wall-tip[data-v-692b188f]:hover {
+  color: var(--vx-red);
+}
+.target-filter-row[data-v-692b188f] {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -8px 0 18px;
+}
+.target-filter-label[data-v-692b188f] {
+  font-size: 12px;
+  color: var(--vx-ink-faint);
+  letter-spacing: 1px;
+}
+.target-filter-option[data-v-692b188f] {
+  font-size: 12px;
+  padding: 4px 12px;
+}
+.target-row-enter-active[data-v-692b188f],
+.target-row-leave-active[data-v-692b188f] {
+  transition: opacity .2s ease, transform .2s ease;
+}
+.target-row-enter-from[data-v-692b188f],
+.target-row-leave-to[data-v-692b188f] {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+.wall-card-in[data-v-692b188f] {
+  animation: wall-card-in-692b188f .24s ease-out both;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes wall-card-in-692b188f 
+  0% {
+    opacity: 0;
+    transform: translate(-28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.wall-q[data-v-692b188f] {
+  min-height: 66px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wall-targets[data-v-692b188f] {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.vx-grid[data-v-692b188f] {
+  gap: 12px;
+}
+.wall-count[data-v-692b188f] {
+  font-size: 11px;
+  white-space: nowrap;
+}
+.wall-count b[data-v-692b188f] {
+  font-size: 13px;
+}
+.wall-sentinel[data-v-692b188f] {
+  height: 1px;
+}
+.wall-bottom[data-v-692b188f] {
+  text-align: center;
+  font-size: 14px;
+  color: var(--vx-ink-faint);
+  letter-spacing: 2px;
+  padding: 28px 0 8px;
+}
+.wall-refresh[data-v-692b188f] {
+  position: fixed;
+  right: 22px;
+  bottom: 26px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1.5px solid var(--vx-ink);
+  background: var(--vx-paper);
+  color: var(--vx-ink-soft);
+  cursor: pointer;
+  box-shadow: 2px 3px #786e5a59;
+  transition:
+    color .15s ease,
+    border-color .15s ease,
+    transform .15s ease;
+}
+.wall-refresh[data-v-692b188f]:hover {
+  color: var(--vx-red);
+  border-color: var(--vx-red);
+  transform: translateY(-2px);
+}
+.wall-refresh--spinning svg[data-v-692b188f] {
+  animation: wall-refresh-spin-692b188f .6s linear infinite;
+}
+.wall-refresh--guiding[data-v-692b188f] {
+  z-index: 72;
+  color: var(--vx-red);
+  border-color: var(--vx-red);
+  box-shadow: 0 0 0 6px #fdfbf42e, 2px 3px #0006;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes wall-refresh-spin-692b188f 
+  0% {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.guide-mask[data-v-692b188f] {
+  position: fixed;
+  inset: 0;
+  background: #0a0806c7;
+  z-index: 70;
+}
+.guide-bubble[data-v-692b188f] {
+  position: fixed;
+  right: 22px;
+  bottom: 92px;
+  z-index: 72;
+  max-width: 240px;
+  background: var(--vx-paper);
+  border: 1px solid var(--vx-line);
+  box-shadow: 3px 4px #00000059;
+  padding: 12px 16px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--vx-ink);
+  text-align: center;
+}
+.guide-arrow[data-v-692b188f] {
+  position: absolute;
+  right: 16px;
+  bottom: -8px;
+  width: 14px;
+  height: 14px;
+  background: var(--vx-paper);
+  border-right: 1px solid var(--vx-line);
+  border-bottom: 1px solid var(--vx-line);
+  transform: rotate(45deg);
+}
+.guide-fade-enter-active[data-v-692b188f],
+.guide-fade-leave-active[data-v-692b188f] {
+  transition: opacity .25s ease;
+}
+.guide-fade-enter-from[data-v-692b188f],
+.guide-fade-leave-to[data-v-692b188f] {
+  opacity: 0;
+}
+/* ── 媒体查询 @media ── */
+@media (min-width: 920px) 
+  .wall-container[data-v-692b188f] {
+    max-width: 1200px;
+  }
+  .wall-toolbar[data-v-692b188f] {
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .wall-sort[data-v-692b188f] {
+    margin-left: auto;
+  }
+  .wall-toolbar[data-v-692b188f] .vx-tab {
+    font-size: 13px;
+    padding: 6px 14px;
+    letter-spacing: 1px;
+  }
+}

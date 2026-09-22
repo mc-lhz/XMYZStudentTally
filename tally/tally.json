@@ -1,0 +1,318 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-07 22:47:27.649878785",
+      "updatedAt": "2026-09-07 23:20:20.853078",
+      "candidates": [
+        {
+          "id": 1,
+          "activityId": 1,
+          "number": "1",
+          "name": "测试1",
+          "displayOrder": 1,
+          "voteCount": 50,
+          "createdAt": "2026-09-07 22:47:27.649878785"
+        },
+        {
+          "id": 2,
+          "activityId": 1,
+          "number": "2",
+          "name": "测试2",
+          "displayOrder": 2,
+          "voteCount": 50,
+          "createdAt": "2026-09-07 22:47:27.649878785"
+        },
+        {
+          "id": 3,
+          "activityId": 1,
+          "number": "3",
+          "name": "测试3",
+          "displayOrder": 3,
+          "voteCount": 11,
+          "createdAt": "2026-09-07 22:47:27.649878785"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-07 22:47:27.832630509",
+      "updatedAt": "2026-09-07 22:47:27.832630509",
+      "candidates": [
+        {
+          "id": 6,
+          "activityId": 2,
+          "number": "01",
+          "name": "方奕尘",
+          "displayOrder": 1,
+          "voteCount": 70,
+          "createdAt": "2026-09-07 22:47:27.832630509"
+        },
+        {
+          "id": 7,
+          "activityId": 2,
+          "number": "02",
+          "name": "林佳茵",
+          "displayOrder": 2,
+          "voteCount": 78,
+          "createdAt": "2026-09-07 22:47:27.832630509"
+        },
+        {
+          "id": 8,
+          "activityId": 2,
+          "number": "03",
+          "name": "蔡善媛",
+          "displayOrder": 3,
+          "voteCount": 357,
+          "createdAt": "2026-09-07 22:47:27.832630509"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "2026厦门一中海沧校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-07 22:47:28.004829101",
+      "updatedAt": "2026-09-07 22:47:28.004829101",
+      "candidates": [
+        {
+          "id": 9,
+          "activityId": 3,
+          "number": "01",
+          "name": "李子萍",
+          "displayOrder": 1,
+          "voteCount": 112,
+          "createdAt": "2026-09-07 22:47:28.004829101"
+        },
+        {
+          "id": 10,
+          "activityId": 3,
+          "number": "02",
+          "name": "吴昊天",
+          "displayOrder": 2,
+          "voteCount": 467,
+          "createdAt": "2026-09-07 22:47:28.004829101"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "2026年厦门一中思明校区主席竞选",
+      "status": 1,
+      "createdAt": "2026-09-07 22:47:28.173197091",
+      "updatedAt": "2026-09-08 00:47:26.144950",
+      "candidates": [
+        {
+          "id": 11,
+          "activityId": 4,
+          "number": "1",
+          "name": "刘希瑞",
+          "displayOrder": 1,
+          "voteCount": 277,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 12,
+          "activityId": 4,
+          "number": "2",
+          "name": "林菲娅",
+          "displayOrder": 2,
+          "voteCount": 345,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 13,
+          "activityId": 4,
+          "number": "3",
+          "name": "邱义林",
+          "displayOrder": 3,
+          "voteCount": 234,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 14,
+          "activityId": 4,
+          "number": "4",
+          "name": "王可",
+          "displayOrder": 4,
+          "voteCount": 592,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 15,
+          "activityId": 4,
+          "number": "5",
+          "name": "叶可涵",
+          "displayOrder": 5,
+          "voteCount": 205,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 16,
+          "activityId": 4,
+          "number": "6",
+          "name": "魏奕涵",
+          "displayOrder": 6,
+          "voteCount": 544,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 17,
+          "activityId": 4,
+          "number": "7",
+          "name": "李瑞霖",
+          "displayOrder": 7,
+          "voteCount": 551,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 18,
+          "activityId": 4,
+          "number": "8",
+          "name": "方奕尘",
+          "displayOrder": 8,
+          "voteCount": 324,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        },
+        {
+          "id": 19,
+          "activityId": 4,
+          "number": "9",
+          "name": "肖以晨",
+          "displayOrder": 9,
+          "voteCount": 799,
+          "createdAt": "2026-09-07 22:47:28.173197091"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": 12,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-08 00:47:26"
+    },
+    {
+      "id": 11,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-08 00:27:13"
+    },
+    {
+      "id": 10,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:50"
+    },
+    {
+      "id": 9,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:50"
+    },
+    {
+      "id": 8,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:50"
+    },
+    {
+      "id": 7,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:47"
+    },
+    {
+      "id": 6,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:47"
+    },
+    {
+      "id": 5,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:47"
+    },
+    {
+      "id": 4,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:46"
+    },
+    {
+      "id": 3,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:46"
+    },
+    {
+      "id": 2,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:46"
+    },
+    {
+      "id": 1,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-08 00:26:46"
+    }
+  ],
+  "nextActivityId": 7,
+  "nextCandidateId": 22,
+  "nextRecordId": 13
+}

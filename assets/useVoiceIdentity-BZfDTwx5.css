@@ -1,0 +1,158 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/useVoiceIdentity-BZfDTwx5.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.vx-pen-writing[data-v-b7bc9f6b] {
+  animation: vx-pen-writing-b7bc9f6b .45s ease-in-out infinite alternate;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes vx-pen-writing-b7bc9f6b 
+  0% {
+    transform: translate(-2px) rotate(-8deg);
+  }
+  to {
+    transform: translate(2px) rotate(6deg);
+  }
+}
+.bind-tip[data-v-204de06a] {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--vx-ink-faint);
+  margin: 0 0 16px;
+}
+.bind-tip b[data-v-204de06a] {
+  color: var(--vx-red);
+}
+.bind-options[data-v-204de06a] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.bind-option[data-v-204de06a] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--vx-kaiti);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--vx-ink);
+  padding: 14px 8px 12px;
+  background: var(--vx-paper-dim);
+  border: 1.5px dashed var(--vx-line-dash);
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.bind-option[data-v-204de06a]:disabled {
+  cursor: default;
+}
+.bind-option-icon[data-v-204de06a] {
+  margin-right: 0;
+}
+.bind-option--active[data-v-204de06a] {
+  border: 1.5px solid var(--vx-red);
+  color: var(--vx-red);
+  background: var(--vx-paper);
+  transform: rotate(-2deg) scale(1.04);
+  box-shadow: 2px 2px #786e5a4d;
+}
+.bind-actions[data-v-204de06a] {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+.bind-mask--stamping[data-v-204de06a] {
+  background: #0c0906eb;
+  transition: background .4s ease;
+}
+.bind-modal--stamping[data-v-204de06a] {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  transition: all .4s ease;
+}
+.bind-modal--stamping .bind-dimmable[data-v-204de06a],
+.bind-option--dim[data-v-204de06a] {
+  opacity: .06;
+  transition: opacity .4s ease;
+}
+.bind-option--spot[data-v-204de06a] {
+  background: var(--vx-paper);
+  transform: rotate(0) scale(1.12);
+  box-shadow: 0 0 0 3px #fdfbf440, 0 10px 34px #00000080;
+  z-index: 2;
+}
+.bind-stamp[data-v-204de06a] {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 76px;
+  height: 76px;
+  border: 3px solid var(--vx-red);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--vx-serif);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--vx-red);
+  background: #fdfbf499;
+  transform: rotate(-14deg);
+  animation: bind-stamp-in-204de06a .55s cubic-bezier(.2, 1.4, .4, 1) .35s both;
+  pointer-events: none;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes bind-stamp-in-204de06a 
+  0% {
+    transform: rotate(-30deg) scale(2.6);
+    opacity: 0;
+  }
+  55% {
+    transform: rotate(-12deg) scale(.92);
+    opacity: 1;
+  }
+  75% {
+    transform: rotate(-15deg) scale(1.05);
+  }
+  to {
+    transform: rotate(-14deg) scale(1);
+  }
+}
+.bind-confirm-mask[data-v-204de06a] {
+  position: fixed;
+  inset: 0;
+  background: #1a161180;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1010;
+  padding: 20px;
+}
+.bind-confirm[data-v-204de06a] {
+  max-width: 320px;
+}
+.bind-confirm-text[data-v-204de06a] {
+  font-size: 15px;
+  line-height: 1.9;
+  color: var(--vx-ink);
+  margin: 0;
+  text-align: center;
+}
+.bind-confirm-text b[data-v-204de06a] {
+  font-size: 20px;
+  color: var(--vx-red);
+}
+.bind-confirm-sub[data-v-204de06a] {
+  font-size: 12px;
+  color: var(--vx-ink-faint);
+}
+.bind-confirm .bind-actions[data-v-204de06a] {
+  justify-content: center;
+}
