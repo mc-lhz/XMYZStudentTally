@@ -1,0 +1,139 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/VoicesAskPage-CK2Ifr8n.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.ask-container[data-v-bac938af] {
+  max-width: 680px;
+  perspective: 1100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.ask-paper[data-v-bac938af] {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+.ask-textarea[data-v-bac938af] {
+  flex: 1;
+  min-height: 3em;
+  resize: none;
+  overflow-y: auto;
+}
+.ask-container[data-v-bac938af] .vx-footer {
+  margin-top: 12px;
+}
+.ask-by[data-v-bac938af] {
+  font-size: 13px;
+  color: var(--vx-ink-faint);
+  margin-bottom: 4px;
+}
+.ask-by b[data-v-bac938af] {
+  font-size: 15px;
+}
+.ask-hint[data-v-bac938af] {
+  font-size: 12px;
+  color: var(--vx-ink-faint);
+  margin: 10px 0 0;
+}
+.ask-actions[data-v-bac938af] {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+.ask-done[data-v-bac938af] {
+  text-align: center;
+  position: relative;
+}
+.done-stamp[data-v-bac938af] {
+  position: absolute;
+  right: 26px;
+  top: 20px;
+  font-size: 14px;
+  color: var(--vx-red);
+  border: 2px solid var(--vx-red);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(14deg);
+  letter-spacing: 2px;
+  opacity: .9;
+}
+.done-title[data-v-bac938af] {
+  font-size: 30px;
+  margin: 28px 0 10px;
+}
+.done-sub[data-v-bac938af] {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--vx-ink-faint);
+  max-width: 400px;
+  margin: 0 auto;
+}
+.done-actions[data-v-bac938af] {
+  gap: 14px;
+}
+.paper-fold-leave-active[data-v-bac938af] {
+  animation: paper-submit-bac938af .55s cubic-bezier(.5, 0, .85, .4) forwards;
+}
+.paper-pass-leave-active[data-v-bac938af] {
+  transition: transform .4s ease-in, opacity .36s ease-in;
+}
+.paper-fold-enter-active[data-v-bac938af],
+.paper-pass-enter-active[data-v-bac938af] {
+  transition: transform .48s cubic-bezier(.2, .85, .3, 1.08), opacity .36s ease-out;
+}
+.paper-fold-enter-from[data-v-bac938af] {
+  transform: translateY(30px) rotate(1.2deg);
+  opacity: 0;
+}
+.paper-pass-leave-to[data-v-bac938af] {
+  transform: translateY(-115%) rotate(-5deg);
+  opacity: 0;
+}
+.paper-pass-enter-active[data-v-bac938af] {
+  transform-origin: 50% 0;
+}
+.paper-pass-enter-from[data-v-bac938af] {
+  transform: rotateX(80deg);
+  opacity: 0;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes paper-submit-bac938af 
+  0% {
+    transform: none;
+    opacity: 1;
+  }
+  32% {
+    transform: translateY(-14px) rotate(-1.6deg) scale(1.01);
+    box-shadow: 6px 14px 22px #786e5a59;
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-130%) rotate(-8deg) scale(.92);
+    box-shadow: 2px 3px #786e5a2e;
+    opacity: 0;
+  }
+}
+/* ── 媒体查询 @media ── */
+@media (max-width: 560px) 
+  .ask-container[data-v-bac938af] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .ask-paper[data-v-bac938af] {
+    padding-top: 14px;
+    padding-bottom: 12px;
+  }
+}

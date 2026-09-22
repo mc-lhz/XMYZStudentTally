@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script>
+      // iOS Safari 无视 user-scalable=no，拦截捏合手势，配合 CSS touch-action 彻底禁用放大
+      document.addEventListener('gesturestart', function (e) { e.preventDefault() })
+      document.addEventListener('gesturechange', function (e) { e.preventDefault() })
+    </script>
+    <title>实时唱票</title>
+    <script type="module" crossorigin src="/assets/index-DJrtCu9i.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CTy88mxm.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

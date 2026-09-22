@@ -1,0 +1,17 @@
+{
+  "refVal": "loading",
+  "refVal2": "loadingDaily",
+  "refVal3": "overview",
+  "refVal4": "dailyData",
+  "refVal5": "rangeMode",
+  "refVal6": "presetDays",
+  "refVal7": "startDate",
+  "refVal8": "endDate",
+  "fn": "loadOverview",
+  "fn2": "loadDailyStats",
+  "fn3": "applyCustomRange",
+  "fn4": "setRangeMode",
+  "fn5": "formatMonthDay",
+  "fn6": "formatDate",
+  "fn7": "initStatistics"
+}

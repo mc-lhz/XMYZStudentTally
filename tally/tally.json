@@ -1,0 +1,404 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "2024年校园歌手大赛决赛",
+      "status": 2,
+      "createdAt": "2024-05-10T08:00:00+08:00"
+    },
+    {
+      "id": 2,
+      "title": "最受欢迎社团投票",
+      "status": 2,
+      "createdAt": "2024-09-15T10:30:00+08:00"
+    },
+    {
+      "id": 3,
+      "title": "2025年优秀学生干部评选",
+      "status": 1,
+      "createdAt": "2025-03-20T14:00:00+08:00"
+    },
+    {
+      "id": 4,
+      "title": "2025年校园社团嘉年华最佳摊位评选",
+      "status": 0,
+      "createdAt": "2025-06-01T09:00:00+08:00"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "activityId": 1,
+      "number": "01",
+      "name": "陈嘉杰",
+      "displayOrder": 1,
+      "voteCount": 156
+    },
+    {
+      "id": 2,
+      "activityId": 1,
+      "number": "02",
+      "name": "李思琪",
+      "displayOrder": 2,
+      "voteCount": 203
+    },
+    {
+      "id": 3,
+      "activityId": 1,
+      "number": "03",
+      "name": "王浩然",
+      "displayOrder": 3,
+      "voteCount": 178
+    },
+    {
+      "id": 4,
+      "activityId": 1,
+      "number": "04",
+      "name": "赵雨欣",
+      "displayOrder": 4,
+      "voteCount": 142
+    },
+    {
+      "id": 5,
+      "activityId": 2,
+      "number": "01",
+      "name": "摄影社",
+      "displayOrder": 1,
+      "voteCount": 89
+    },
+    {
+      "id": 6,
+      "activityId": 2,
+      "number": "02",
+      "name": "街舞社",
+      "displayOrder": 2,
+      "voteCount": 124
+    },
+    {
+      "id": 7,
+      "activityId": 2,
+      "number": "03",
+      "name": "动漫社",
+      "displayOrder": 3,
+      "voteCount": 107
+    },
+    {
+      "id": 8,
+      "activityId": 3,
+      "number": "01",
+      "name": "陈明",
+      "displayOrder": 1,
+      "voteCount": 96
+    },
+    {
+      "id": 9,
+      "activityId": 3,
+      "number": "02",
+      "name": "刘洋",
+      "displayOrder": 2,
+      "voteCount": 52
+    },
+    {
+      "id": 10,
+      "activityId": 3,
+      "number": "03",
+      "name": "周婷",
+      "displayOrder": 3,
+      "voteCount": 38
+    },
+    {
+      "id": 11,
+      "activityId": 3,
+      "number": "04",
+      "name": "吴磊",
+      "displayOrder": 4,
+      "voteCount": 61
+    },
+    {
+      "id": 12,
+      "activityId": 4,
+      "number": "01",
+      "name": "机器人社",
+      "displayOrder": 1,
+      "voteCount": 0
+    },
+    {
+      "id": 13,
+      "activityId": 4,
+      "number": "02",
+      "name": "书法社",
+      "displayOrder": 2,
+      "voteCount": 0
+    },
+    {
+      "id": 14,
+      "activityId": 4,
+      "number": "03",
+      "name": "天文社",
+      "displayOrder": 3,
+      "voteCount": 0
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "activityId": 1,
+      "candidateId": 1,
+      "candidateNumber": "01",
+      "candidateName": "陈嘉杰",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2024-05-10T14:05:12+08:00"
+    },
+    {
+      "id": 2,
+      "activityId": 1,
+      "candidateId": 2,
+      "candidateNumber": "02",
+      "candidateName": "李思琪",
+      "delta": 15,
+      "type": 0,
+      "createdAt": "2024-05-10T14:06:03+08:00"
+    },
+    {
+      "id": 3,
+      "activityId": 1,
+      "candidateId": 3,
+      "candidateNumber": "03",
+      "candidateName": "王浩然",
+      "delta": 12,
+      "type": 0,
+      "createdAt": "2024-05-10T14:07:45+08:00"
+    },
+    {
+      "id": 4,
+      "activityId": 1,
+      "candidateId": 4,
+      "candidateNumber": "04",
+      "candidateName": "赵雨欣",
+      "delta": 8,
+      "type": 0,
+      "createdAt": "2024-05-10T14:08:22+08:00"
+    },
+    {
+      "id": 5,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 5,
+      "type": 0,
+      "createdAt": "2025-03-20T15:30:11+08:00"
+    },
+    {
+      "id": 6,
+      "activityId": 3,
+      "candidateId": 9,
+      "candidateNumber": "02",
+      "candidateName": "刘洋",
+      "delta": 8,
+      "type": 0,
+      "createdAt": "2025-03-20T15:31:45+08:00"
+    },
+    {
+      "id": 7,
+      "activityId": 1,
+      "candidateId": 1,
+      "candidateNumber": "01",
+      "candidateName": "陈嘉杰",
+      "delta": 3,
+      "type": 1,
+      "createdAt": "2026-09-07T15:49:42.034268+00:00"
+    },
+    {
+      "id": 8,
+      "activityId": 1,
+      "candidateId": 1,
+      "candidateNumber": "01",
+      "candidateName": "陈嘉杰",
+      "delta": -3,
+      "type": 1,
+      "createdAt": "2026-09-07T15:49:44.054363+00:00"
+    },
+    {
+      "id": 9,
+      "activityId": 1,
+      "candidateId": 1,
+      "candidateNumber": "01",
+      "candidateName": "陈嘉杰",
+      "delta": 3,
+      "type": 1,
+      "createdAt": "2026-09-07T15:56:12.754013+00:00"
+    },
+    {
+      "id": 10,
+      "activityId": 1,
+      "candidateId": 1,
+      "candidateNumber": "01",
+      "candidateName": "陈嘉杰",
+      "delta": -3,
+      "type": 1,
+      "createdAt": "2026-09-07T15:56:14.772905+00:00"
+    },
+    {
+      "id": 11,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:09.872603+00:00"
+    },
+    {
+      "id": 12,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:09.997579+00:00"
+    },
+    {
+      "id": 13,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:10.138170+00:00"
+    },
+    {
+      "id": 14,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:13.253882+00:00"
+    },
+    {
+      "id": 15,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:13.394535+00:00"
+    },
+    {
+      "id": 16,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:13.581984+00:00"
+    },
+    {
+      "id": 17,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:15.038062+00:00"
+    },
+    {
+      "id": 18,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:15.225771+00:00"
+    },
+    {
+      "id": 19,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:15.397604+00:00"
+    },
+    {
+      "id": 20,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:15.585061+00:00"
+    },
+    {
+      "id": 21,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 1,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:15.725878+00:00"
+    },
+    {
+      "id": 22,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 5,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:16.055620+00:00"
+    },
+    {
+      "id": 23,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 5,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:16.211961+00:00"
+    },
+    {
+      "id": 24,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:16.430749+00:00"
+    },
+    {
+      "id": 25,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:16.571342+00:00"
+    },
+    {
+      "id": 26,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "01",
+      "candidateName": "陈明",
+      "delta": 10,
+      "type": 0,
+      "createdAt": "2026-09-07T16:26:16.743488+00:00"
+    }
+  ]
+}

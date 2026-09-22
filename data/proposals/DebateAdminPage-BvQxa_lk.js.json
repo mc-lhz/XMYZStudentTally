@@ -1,0 +1,62 @@
+[
+  {
+    "old": "val1",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val5",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val1",
+    "neu": "adminDebateRounds",
+    "kind": "var",
+    "scope": "BlockStatement"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  },
+  {
+    "old": "val4",
+    "neu": "item",
+    "kind": "param",
+    "scope": "ArrowFunctionExpression"
+  }
+]

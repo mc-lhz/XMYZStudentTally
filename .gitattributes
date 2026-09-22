@@ -1,0 +1,42 @@
+# =============================================================
+#  行尾策略
+#  assets/ 是反编译产物，必须字节级保持原样——任何自动换行转换
+#  都会让 diff 失真，也会破坏与线上文件的可比性。
+#  其余为我们自己维护的源码/文档，统一 LF。
+# =============================================================
+
+# 默认不做任何行尾转换（最保守，适合产物仓库）
+*                   -text
+
+# 反编译产物：显式声明为二进制式处理，禁止规范化
+assets/**           -text
+
+# 自维护内容：统一 LF
+tools/**            text eol=lf
+overrides/**        text eol=lf
+data/**             text eol=lf
+docs/**             text eol=lf
+*.md                text eol=lf
+*.json              text eol=lf
+.gitignore          text eol=lf
+.gitattributes      text eol=lf
+.editorconfig       text eol=lf
+
+# Windows 批处理必须 CRLF，否则部分环境执行异常
+*.bat               text eol=crlf
+*.cmd               text eol=crlf
+
+# =============================================================
+#  GitHub Linguist —— 让语言统计反映项目实质
+#  76 个 CSS 文件体积占比高，但本项目的实质工作在 JS 反混淆上。
+# =============================================================
+assets/*.css        linguist-detectable=false
+docs/**             linguist-documentation
+data/**             linguist-generated
+tools/legacy/**     linguist-vendored
+
+# =============================================================
+#  Diff 呈现
+# =============================================================
+*.json              diff=json
+*.md                diff=markdown

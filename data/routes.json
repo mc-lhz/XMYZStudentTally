@@ -1,0 +1,722 @@
+[
+  {
+    "path": "/",
+    "name": "home",
+    "title": "首页",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": ""
+  },
+  {
+    "path": "/ticket",
+    "name": "ticket",
+    "title": "活动抢票",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "TicketPage-Cyk7I6Py.js"
+  },
+  {
+    "path": "/ticket/my",
+    "name": "my-tickets",
+    "title": "我的票据",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "ticket",
+    "redirect": "",
+    "chunk": "MyTicketsPage-DRUwk3BB.js"
+  },
+  {
+    "path": "/ticket/:id",
+    "name": "ticket-detail",
+    "title": "活动详情",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "ticket",
+    "redirect": "",
+    "chunk": "TicketDetailPage-CT_rzMiP.js"
+  },
+  {
+    "path": "/ringtone",
+    "name": "ringtone",
+    "title": "宿舍铃声",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "RingtonePage-DMJmC_vj.js"
+  },
+  {
+    "path": "/ringtone/:id/submit",
+    "name": "ringtone-submit",
+    "title": "铃声投稿",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "ringtone",
+    "redirect": "",
+    "chunk": "CampaignSubmissionPage-H7M00izd.js"
+  },
+  {
+    "path": "/ringtone/:id/vote",
+    "name": "ringtone-vote",
+    "title": "铃声投票",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "ringtone",
+    "redirect": "",
+    "chunk": "CampaignVotingPage-BZC-K1eF.js"
+  },
+  {
+    "path": "/grade",
+    "name": "grade",
+    "title": "分数查询",
+    "level": 1,
+    "requiresAuth": true,
+    "parent": "",
+    "redirect": "",
+    "chunk": "GradePage-BbPP7xQB.js"
+  },
+  {
+    "path": "/grade/:examId",
+    "name": "grade-exam-detail",
+    "title": "考试详情",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "grade",
+    "redirect": "",
+    "chunk": "GradeExamDetailPage-DHgL2_mY.js"
+  },
+  {
+    "path": "/community",
+    "name": "community",
+    "title": "评分社区",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "CommunityPage-AcOc2hqy.js"
+  },
+  {
+    "path": "/community/search",
+    "name": "community-search",
+    "title": "搜索",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "community",
+    "redirect": "",
+    "chunk": "CommunitySearchPage-Bt5X32By.js"
+  },
+  {
+    "path": "/wall",
+    "name": "wall",
+    "title": "厦一万能墙",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "WallPage-CKvPPzSX.js"
+  },
+  {
+    "path": "/community/category/:categoryId",
+    "name": "community-category",
+    "title": "分类详情",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "community",
+    "redirect": "",
+    "chunk": "CategoryPage-BU35xpIp.js"
+  },
+  {
+    "path": "/community/major/:majorId",
+    "name": "community-major",
+    "title": "选择小分区",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "community",
+    "redirect": "",
+    "chunk": "MinorSectionPage-CaGZwHME.js"
+  },
+  {
+    "path": "/community/minor/:minorId",
+    "name": "community-minor",
+    "title": "评分列表",
+    "level": 3,
+    "requiresAuth": false,
+    "parent": "community-major",
+    "redirect": "",
+    "chunk": "RatingItemsPage-wQzbgvsI.js"
+  },
+  {
+    "path": "/community/item/:itemId",
+    "name": "community-item",
+    "title": "评分详情",
+    "level": 4,
+    "requiresAuth": false,
+    "parent": "community-minor",
+    "redirect": "",
+    "chunk": "RatingDetailPage-zkU8rz6t.js"
+  },
+  {
+    "path": "/community/collection/:collectionId",
+    "name": "community-collection",
+    "title": "合集详情",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "community",
+    "redirect": "",
+    "chunk": "CollectionDetailPage-B1MhHCDA.js"
+  },
+  {
+    "path": "/community/contributions",
+    "name": "community-contributions",
+    "title": "我的反馈",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "community",
+    "redirect": "",
+    "chunk": "MyContributionsPage-DzgGggsY.js"
+  },
+  {
+    "path": "/design-system",
+    "name": "design-system",
+    "title": "设计系统",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "DesignSystemPage-CaPC67ZG.js"
+  },
+  {
+    "path": "/profile",
+    "name": "profile",
+    "title": "个人中心",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "ProfilePage-zNPfiNzc.js"
+  },
+  {
+    "path": "/messages",
+    "name": "messages",
+    "title": "我的消息",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "profile",
+    "redirect": "",
+    "chunk": "MessagesPage-BIpOxa43.js"
+  },
+  {
+    "path": "/auth/qq/callback",
+    "name": "qq-callback",
+    "title": "QQ 登录",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "QQCallbackPage-DWqt-H_w.js"
+  },
+  {
+    "path": "/auth/qq/bindOrRegister",
+    "name": "qq-bindOrRegister",
+    "title": "QQ 绑定",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "QQBindPage-CsLJxUxf.js"
+  },
+  {
+    "path": "/user/bindqq/callback",
+    "name": "user-bindqq-callback",
+    "title": "QQ 绑定",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "profile",
+    "redirect": "",
+    "chunk": "QQBindCallbackPage-B5Vqxyxu.js"
+  },
+  {
+    "path": "/admin/tickets",
+    "name": "admin-tickets",
+    "title": "票务管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "TicketManagePage-BzkRIMii.js"
+  },
+  {
+    "path": "/admin/tickets/new",
+    "name": "admin-tickets-new",
+    "title": "创建活动",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-tickets",
+    "redirect": "",
+    "chunk": "AdminActivityDetailPage-BCWS0ItI.js"
+  },
+  {
+    "path": "/admin/tickets/verify",
+    "name": "admin-tickets-verify",
+    "title": "验票核销",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-tickets",
+    "redirect": "",
+    "chunk": "AdminVerifyPage-BoopLU4m.js"
+  },
+  {
+    "path": "/admin/tickets/:id",
+    "name": "admin-tickets-detail",
+    "title": "编辑活动",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-tickets",
+    "redirect": "",
+    "chunk": "AdminActivityDetailPage-BCWS0ItI.js"
+  },
+  {
+    "path": "/admin/tickets/:id/review",
+    "name": "admin-tickets-review",
+    "title": "审票管理",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-tickets-detail",
+    "redirect": "",
+    "chunk": "AdminTicketReviewPage-BtJ0fmnA.js"
+  },
+  {
+    "path": "/admin/dorm",
+    "name": "admin-dorm",
+    "title": "宿舍管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "DormManagePage-C3ncVEQm.js"
+  },
+  {
+    "path": "/admin/music-download",
+    "name": "admin-music-download",
+    "title": "歌曲下载",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "MusicDownloadPage-BtuHNt6X.js"
+  },
+  {
+    "path": "/admin/campaigns",
+    "name": "admin-campaigns",
+    "title": "活动管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "CampaignManagePage-CIstESeP.js"
+  },
+  {
+    "path": "/admin/campaigns/:id/review",
+    "name": "admin-campaigns-review",
+    "title": "审核投稿",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-campaigns",
+    "redirect": "",
+    "chunk": "CampaignReviewPage-DIC-1GaW.js"
+  },
+  {
+    "path": "/admin/campaigns/:id/results",
+    "name": "admin-campaigns-results",
+    "title": "投票结果",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-campaigns",
+    "redirect": "",
+    "chunk": "CampaignResultsPage-BC-uSo4Y.js"
+  },
+  {
+    "path": "/admin/rating",
+    "name": "admin-rating",
+    "title": "评分社区管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "RatingSchoolsPage-F_7no0Qr.js"
+  },
+  {
+    "path": "/admin/rating/schools/:schoolId",
+    "name": "admin-rating-major-sections",
+    "title": "大分区管理",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-rating",
+    "redirect": "",
+    "chunk": "RatingMajorSectionsPage-DDqz7HId.js"
+  },
+  {
+    "path": "/admin/rating/major-sections/:majorSectionId",
+    "name": "admin-rating-minor-sections",
+    "title": "小分区管理",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-rating-major-sections",
+    "redirect": "",
+    "chunk": "RatingMinorSectionsPage-DoADp270.js"
+  },
+  {
+    "path": "/admin/rating/minor-sections/:minorSectionId",
+    "name": "admin-rating-items-legacy",
+    "title": "评分项目管理",
+    "level": 5,
+    "requiresAuth": true,
+    "parent": "admin-rating-minor-sections",
+    "redirect": "",
+    "chunk": "RatingItemsListPage-C7Nh9hRX.js"
+  },
+  {
+    "path": "/admin/rating/categories",
+    "name": "admin-rating-categories",
+    "title": "分类管理",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-rating",
+    "redirect": "",
+    "chunk": "RatingCategoriesPage-DiurIUh_.js"
+  },
+  {
+    "path": "/admin/rating/categories/:categoryId",
+    "name": "admin-rating-category",
+    "title": "子分类管理",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-rating-categories",
+    "redirect": "",
+    "chunk": "RatingCategoriesPage-DiurIUh_.js"
+  },
+  {
+    "path": "/admin/rating/categories/:categoryId/items",
+    "name": "admin-rating-category-items",
+    "title": "评分项目管理",
+    "level": 5,
+    "requiresAuth": true,
+    "parent": "admin-rating-category",
+    "redirect": "",
+    "chunk": "RatingItemsListPage-C7Nh9hRX.js"
+  },
+  {
+    "path": "/admin/rating/items/:itemId",
+    "name": "admin-rating-item-detail",
+    "title": "评分项目详情",
+    "level": 6,
+    "requiresAuth": true,
+    "parent": "admin-rating-items",
+    "redirect": "",
+    "chunk": "RatingItemDetailPage-DgA5eFAm.js"
+  },
+  {
+    "path": "/admin/rating/collections",
+    "name": "admin-rating-collections",
+    "title": "合集管理",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-rating",
+    "redirect": "",
+    "chunk": "RatingCollectionsPage-DyQup4BG.js"
+  },
+  {
+    "path": "/admin/rating/collections/:collectionId",
+    "name": "admin-rating-collection-detail",
+    "title": "合集详情",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-rating-collections",
+    "redirect": "",
+    "chunk": "RatingCollectionDetailPage-Cp3atiBr.js"
+  },
+  {
+    "path": "/admin/rating/contributions",
+    "name": "admin-rating-contributions",
+    "title": "审核反馈",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-rating",
+    "redirect": "",
+    "chunk": "RatingContributionsPage-B2jOecRJ.js"
+  },
+  {
+    "path": "/admin/rating/statistics",
+    "name": "admin-rating-statistics",
+    "title": "数据统计",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-rating",
+    "redirect": "",
+    "chunk": "RatingStatisticsPage-CwAlkmsJ.js"
+  },
+  {
+    "path": "/admin/messages",
+    "name": "admin-messages",
+    "title": "消息管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "MessageManagePage-CzHBToWV.js"
+  },
+  {
+    "path": "/admin/qqmusic",
+    "name": "admin-qqmusic",
+    "title": "QQ音乐管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "QQMusicManagePage-BvEVvNXb.js"
+  },
+  {
+    "path": "/admin/campus",
+    "name": "admin-campus",
+    "title": "校园网管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "CampusManagePage-CCFD6xvZ.js"
+  },
+  {
+    "path": "/admin/banners",
+    "name": "admin-banners",
+    "title": "轮播图管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "BannerManagePage-ClGRy9K2.js"
+  },
+  {
+    "path": "/admin/museum",
+    "name": "admin-museum",
+    "title": "时间线管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "MuseumIndexPage-WGdLk3Gq.js"
+  },
+  {
+    "path": "/admin/museum/moments",
+    "name": "admin-museum-moments",
+    "title": "瞬间管理",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-museum",
+    "redirect": "",
+    "chunk": "MomentManagePage-ijWH0SJq.js"
+  },
+  {
+    "path": "/admin/museum/tags",
+    "name": "admin-museum-tags",
+    "title": "标签管理",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-museum",
+    "redirect": "",
+    "chunk": "MuseumTagsPage-aLAnppzC.js"
+  },
+  {
+    "path": "/admin/museum/events",
+    "name": "admin-museum-events",
+    "title": "活动管理",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-museum",
+    "redirect": "",
+    "chunk": "MuseumEventsPage-Czhbu_BO.js"
+  },
+  {
+    "path": "/admin/museum/events/create",
+    "name": "admin-museum-event-create",
+    "title": "创建活动",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-museum-events",
+    "redirect": "",
+    "chunk": "MuseumEventEditPage-CFVVmsbA.js"
+  },
+  {
+    "path": "/admin/museum/events/:id/edit",
+    "name": "admin-museum-event-edit",
+    "title": "编辑活动",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-museum-events",
+    "redirect": "",
+    "chunk": "MuseumEventEditPage-CFVVmsbA.js"
+  },
+  {
+    "path": "/admin/museum/events/:id/content",
+    "name": "admin-museum-event-content",
+    "title": "内容管理",
+    "level": 4,
+    "requiresAuth": true,
+    "parent": "admin-museum-events",
+    "redirect": "",
+    "chunk": "MuseumEventContentPage-zrdd4BKv.js"
+  },
+  {
+    "path": "/vote",
+    "name": "debate-vote",
+    "title": "辩论赛投票",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "VotePage-CPzz36Ky.js"
+  },
+  {
+    "path": "/vote/display",
+    "name": "debate-vote-display",
+    "title": "辩论赛实时结果",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "VoteDisplayPage-CKs9gANE.js"
+  },
+  {
+    "path": "/vote/screen",
+    "name": "debate-vote-screen",
+    "title": "辩论赛投屏二维码",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "VoteScreenPage-B-LWpR1x.js"
+  },
+  {
+    "path": "/admin/debate",
+    "name": "admin-debate",
+    "title": "辩论赛管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "DebateAdminPage-BvQxa_lk.js"
+  },
+  {
+    "path": "/tally/screen/:id",
+    "name": "tally-screen",
+    "title": "实时唱票",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "ScreenPage-D-8ErF3w.js"
+  },
+  {
+    "path": "/admin/tally",
+    "name": "admin-tally",
+    "title": "实时唱票管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "TallyActivitiesPage-Ck1JhJya.js"
+  },
+  {
+    "path": "/admin/tally/activities/:id/edit",
+    "name": "admin-tally-edit",
+    "title": "配置活动",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-tally",
+    "redirect": "",
+    "chunk": "TallyActivityEditPage-DFD129SB.js"
+  },
+  {
+    "path": "/admin/tally/activities/:id/control",
+    "name": "admin-tally-control",
+    "title": "唱票控制台",
+    "level": 3,
+    "requiresAuth": true,
+    "parent": "admin-tally",
+    "redirect": "",
+    "chunk": "TallyControlPage-CBBTMqC8.js"
+  },
+  {
+    "path": "/voices",
+    "name": "voices",
+    "title": "跨代留声",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "VoicesHomePage-DHCOephc.js"
+  },
+  {
+    "path": "/voices/ask",
+    "name": "voices-ask",
+    "title": "我要出卷",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "voices",
+    "redirect": "",
+    "chunk": "VoicesAskPage-B00XFXVK.js"
+  },
+  {
+    "path": "/voices/mine",
+    "name": "voices-mine",
+    "title": "我的档案袋",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "voices",
+    "redirect": "",
+    "chunk": "VoicesMinePage-_C7Ryi_D.js"
+  },
+  {
+    "path": "/voices/answer",
+    "name": "voices-answer",
+    "title": "答题大厅",
+    "level": 2,
+    "requiresAuth": false,
+    "parent": "voices",
+    "redirect": "",
+    "chunk": "VoicesAnswerPage-Ddl_yrdt.js"
+  },
+  {
+    "path": "/voices/question/:id",
+    "name": "voices-question-detail",
+    "title": "试题详情",
+    "level": 3,
+    "requiresAuth": false,
+    "parent": "voices-answer",
+    "redirect": "",
+    "chunk": "VoicesQuestionDetailPage-Dl5Lc0xe.js"
+  },
+  {
+    "path": "/admin/voices",
+    "name": "admin-voices",
+    "title": "跨代留声管理",
+    "level": 2,
+    "requiresAuth": true,
+    "parent": "home",
+    "redirect": "",
+    "chunk": "VoicesManagePage-BtE1k-VN.js"
+  },
+  {
+    "path": "/:pathMatch(.*)*",
+    "name": "not-found",
+    "title": "页面未找到",
+    "level": 1,
+    "requiresAuth": false,
+    "parent": "",
+    "redirect": "",
+    "chunk": "NotFoundPage-CmMFNuM7.js"
+  }
+]

@@ -1,0 +1,253 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/VoteScreenPage-GhnHXzFR.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.screen-root[data-v-27dced3a] {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #f9fafb;
+  color: #1f2937;
+  font-family:
+    -apple-system,
+    PingFang SC,
+    Microsoft YaHei,
+    sans-serif;
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.placeholder[data-v-27dced3a] {
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  color: #6b7280;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.placeholder.error[data-v-27dced3a] {
+  color: #dc2626;
+}
+.spinner[data-v-27dced3a] {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #e5e7eb;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: spin-27dced3a .8s linear infinite;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes spin-27dced3a 
+  to {
+    transform: rotate(360deg);
+  }
+}
+.head[data-v-27dced3a] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-align: center;
+  position: relative;
+  margin-top: 64px;
+}
+.topic[data-v-27dced3a] {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #111827;
+  letter-spacing: -.02em;
+  max-width: 1200px;
+}
+.sides[data-v-27dced3a] {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 36px;
+}
+.sides .side[data-v-27dced3a] {
+  font-weight: 700;
+  color: #111827;
+}
+.sides .vs[data-v-27dced3a] {
+  color: #111827;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: .4;
+}
+.fs-btn[data-v-27dced3a] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .15s;
+}
+.fs-btn[data-v-27dced3a]:hover {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+.fs-btn svg[data-v-27dced3a] {
+  width: 20px;
+  height: 20px;
+}
+.qr-stage[data-v-27dced3a] {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+.countdown-wrap[data-v-27dced3a] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-width: 360px;
+}
+.countdown-label[data-v-27dced3a] {
+  font-size: 26px;
+  color: #6b7280;
+  font-weight: 500;
+}
+.countdown-label.pending[data-v-27dced3a] {
+  color: #f59e0b;
+}
+.countdown-big[data-v-27dced3a] {
+  font-size: 220px;
+  font-weight: 800;
+  line-height: 1;
+  color: #111827;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.04em;
+  padding: 20px 40px;
+  transition: color .3s;
+}
+.countdown-big.urgent[data-v-27dced3a] {
+  color: #dc2626;
+  animation: pulse-red-27dced3a 1s ease-in-out infinite;
+}
+.countdown-big.pending[data-v-27dced3a] {
+  color: #d1d5db;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes pulse-red-27dced3a 
+  50% {
+    opacity: .75;
+  }
+}
+.vote-tally[data-v-27dced3a] {
+  font-size: 26px;
+  color: #6b7280;
+}
+.vote-tally b[data-v-27dced3a] {
+  color: #f59e0b;
+  font-size: 40px;
+  margin: 0 8px;
+  font-variant-numeric: tabular-nums;
+}
+.qr-area[data-v-27dced3a] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.qr-img[data-v-27dced3a] {
+  width: min(60vh, 640px);
+  height: min(60vh, 640px);
+  display: block;
+}
+.scan-title[data-v-27dced3a] {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+}
+.ended-stage[data-v-27dced3a] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: #6b7280;
+}
+.ended-title[data-v-27dced3a] {
+  font-size: 72px;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: -.02em;
+}
+.ended-sub[data-v-27dced3a] {
+  font-size: 28px;
+  color: #6b7280;
+}
+/* ── 媒体查询 @media ── */
+@media (max-width: 768px) 
+  .screen-root[data-v-27dced3a] {
+    padding: 20px 16px;
+    gap: 20px;
+  }
+  .head[data-v-27dced3a] {
+    margin-top: 24px;
+  }
+  .topic[data-v-27dced3a] {
+    font-size: 28px;
+  }
+  .sides[data-v-27dced3a] {
+    font-size: 18px;
+    gap: 16px;
+  }
+  .sides .vs[data-v-27dced3a] {
+    font-size: 14px;
+  }
+  .fs-btn[data-v-27dced3a] {
+    width: 36px;
+    height: 36px;
+  }
+  .qr-stage[data-v-27dced3a] {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .countdown-big[data-v-27dced3a] {
+    font-size: 120px;
+    padding: 12px;
+  }
+  .countdown-label[data-v-27dced3a],
+  .vote-tally[data-v-27dced3a] {
+    font-size: 18px;
+  }
+  .vote-tally b[data-v-27dced3a] {
+    font-size: 26px;
+  }
+  .qr-area[data-v-27dced3a] {
+    gap: 14px;
+  }
+  .qr-img[data-v-27dced3a] {
+    width: 360px;
+    height: 360px;
+  }
+  .scan-title[data-v-27dced3a] {
+    font-size: 22px;
+  }
+  .ended-title[data-v-27dced3a] {
+    font-size: 44px;
+  }
+  .ended-sub[data-v-27dced3a] {
+    font-size: 20px;
+  }
+}

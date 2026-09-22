@@ -1,0 +1,40 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/WallPage-KKFbOtFU.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.page-container[data-v-b5d0ded8] {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+}
+.page-content[data-v-b5d0ded8] {
+  flex: 1;
+  padding: var(--spacing-md);
+}
+.content-container[data-v-b5d0ded8] {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.wall-image-container[data-v-b5d0ded8] {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.wall-image[data-v-b5d0ded8] {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* ── 媒体查询 @media ── */
+@media (min-width: 1024px) 
+  .page-content[data-v-b5d0ded8] {
+    padding: var(--spacing-xl);
+  }
+}
