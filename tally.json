@@ -11,7 +11,7 @@
     ],
     "nextActivityId": 8,
     "nextCandidateId": 26,
-    "nextRecordId": 19
+    "nextRecordId": 42
   },
   "activities": [
     {
@@ -149,7 +149,7 @@
       "title": "2026年厦门一中思明校区主席竞选",
       "status": 1,
       "createdAt": "2026-09-04 09:00:00.000000000",
-      "updatedAt": "2026-09-06 10:09:11.091234000",
+      "updatedAt": "2026-09-17 17:08:37.531789000",
       "capturedFromWs": "2026-09-06 09:55:02.955193165",
       "candidates": [
         {
@@ -157,7 +157,7 @@
           "number": "1",
           "name": "刘希瑞",
           "displayOrder": 1,
-          "voteCount": 220
+          "voteCount": 225
         },
         {
           "id": 12,
@@ -192,28 +192,28 @@
           "number": "6",
           "name": "魏奕涵",
           "displayOrder": 6,
-          "voteCount": 544
+          "voteCount": 554
         },
         {
           "id": 17,
           "number": "7",
           "name": "李瑞霖",
           "displayOrder": 7,
-          "voteCount": 551
+          "voteCount": 1145975
         },
         {
           "id": 18,
           "number": "8",
           "name": "方奕尘",
           "displayOrder": 8,
-          "voteCount": 324
+          "voteCount": 349
         },
         {
           "id": 19,
           "number": "9",
           "name": "肖以晨",
           "displayOrder": 9,
-          "voteCount": 799
+          "voteCount": 10888
         }
       ],
       "records": [
@@ -236,6 +236,236 @@
           "type": 1,
           "undone": true,
           "createdAt": "2026-09-06 10:09:11.091202000"
+        },
+        {
+          "id": 19,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": 1,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-10 14:32:44.468673000"
+        },
+        {
+          "id": 20,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": 1,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-10 14:33:32.134001000"
+        },
+        {
+          "id": 21,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": 1,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-10 14:33:48.747367000"
+        },
+        {
+          "id": 22,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": 1,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-10 14:34:07.370275000"
+        },
+        {
+          "id": 23,
+          "candidateId": 11,
+          "candidateNumber": "1",
+          "candidateName": "刘希瑞",
+          "delta": 1,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-10 14:34:18.677106000"
+        },
+        {
+          "id": 24,
+          "candidateId": 16,
+          "candidateNumber": "6",
+          "candidateName": "魏奕涵",
+          "delta": 5,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:36.388547000"
+        },
+        {
+          "id": 25,
+          "candidateId": 16,
+          "candidateNumber": "6",
+          "candidateName": "魏奕涵",
+          "delta": 5,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:37.847559000"
+        },
+        {
+          "id": 26,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:50.716646000"
+        },
+        {
+          "id": 27,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:51.960266000"
+        },
+        {
+          "id": 28,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:53.050038000"
+        },
+        {
+          "id": 29,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:54.256646000"
+        },
+        {
+          "id": 30,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:55.215971000"
+        },
+        {
+          "id": 31,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:56.156116000"
+        },
+        {
+          "id": 32,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:57.263943000"
+        },
+        {
+          "id": 33,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:58.248260000"
+        },
+        {
+          "id": 34,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:07:59.156347000"
+        },
+        {
+          "id": 35,
+          "candidateId": 19,
+          "candidateNumber": "9",
+          "candidateName": "肖以晨",
+          "delta": 9999,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:03.864296000"
+        },
+        {
+          "id": 36,
+          "candidateId": 17,
+          "candidateNumber": "7",
+          "candidateName": "李瑞霖",
+          "delta": 1145414,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:20.868404000"
+        },
+        {
+          "id": 37,
+          "candidateId": 17,
+          "candidateNumber": "7",
+          "candidateName": "李瑞霖",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:29.146340000"
+        },
+        {
+          "id": 38,
+          "candidateId": 18,
+          "candidateNumber": "8",
+          "candidateName": "方奕尘",
+          "delta": 10,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:31.044033000"
+        },
+        {
+          "id": 39,
+          "candidateId": 18,
+          "candidateNumber": "8",
+          "candidateName": "方奕尘",
+          "delta": 5,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:35.319337000"
+        },
+        {
+          "id": 40,
+          "candidateId": 18,
+          "candidateNumber": "8",
+          "candidateName": "方奕尘",
+          "delta": 5,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:36.509277000"
+        },
+        {
+          "id": 41,
+          "candidateId": 18,
+          "candidateNumber": "8",
+          "candidateName": "方奕尘",
+          "delta": 5,
+          "type": 0,
+          "undone": false,
+          "createdAt": "2026-09-17 17:08:37.531789000"
         }
       ]
     }
