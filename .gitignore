@@ -1,0 +1,50 @@
+# ---- 反混淆中间态备份 ----
+# 逐阶段的手工快照(共约 13MB)，与 assets/ 内容高度重复。
+# 版本历史已由 git 承担，无需再提交手工备份。
+.backups/
+
+# ---- 工具本地状态 ----
+# 含本地绝对路径的 AI 工作记忆，属机器私有状态
+.workbuddy/
+
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+dist-pages/
+build/
+*.tsbuildinfo
+
+# ---- 无头验证临时产物 ----
+# tools/headless_build.cjs 用 esbuild 把主包打成 2MB IIFE 供 jsdom 执行，
+# 可由源码随时重建，无需入库。
+.headless/
+
+# ---- 运行时垃圾 ----
+*.log
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 环境变量(防凭据泄露) ----
+.env
+.env.*
+!.env.example
+
+# ---- 本地推送辅助脚本 ----
+# 交互式输入 token，属本机私有工具，不入库以防误提交凭据
+push.bat
+push.sh

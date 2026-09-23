@@ -1,0 +1,6 @@
+flask>=3.0
+flask-cors>=4.0
+flask-sock>=0.7
+simple-websocket>=1.0
+# 仅初始数据抓取脚本（tools/fetch_source_snapshot.py）需要：
+websockets>=12.0

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "source": "https://xmyzstudent.com",
+    "sourceWs": "wss://api.xmyzstudent.com/ws/tally/activity/:id",
+    "capturedAt": "2026-09-23T00:39:42",
+    "note": "由源站 WS 快照抓取；REST /admin/tally/* 需 JWT，匿名访问 401"
+  },
+  "nextIds": {
+    "activity": 5,
+    "candidate": 20,
+    "record": 1
+  },
+  "activities": [
+    {
+      "id": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-23T00:39:42.759963",
+      "updatedAt": "2026-09-23 00:39:42.759963271",
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 1,
+          "name": "测试1",
+          "number": "1",
+          "voteCount": 25,
+          "activityId": 1
+        },
+        {
+          "displayOrder": 2,
+          "id": 2,
+          "name": "测试2",
+          "number": "2",
+          "voteCount": 30,
+          "activityId": 1
+        },
+        {
+          "displayOrder": 3,
+          "id": 3,
+          "name": "测试3",
+          "number": "3",
+          "voteCount": 11,
+          "activityId": 1
+        }
+      ],
+      "records": []
+    },
+    {
+      "id": 2,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-23T00:39:42.977566",
+      "updatedAt": "2026-09-23 00:39:42.977566623",
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 6,
+          "name": "方奕尘",
+          "number": "01",
+          "voteCount": 70,
+          "activityId": 2
+        },
+        {
+          "displayOrder": 2,
+          "id": 7,
+          "name": "林佳茵",
+          "number": "02",
+          "voteCount": 78,
+          "activityId": 2
+        },
+        {
+          "displayOrder": 3,
+          "id": 8,
+          "name": "蔡善媛",
+          "number": "03",
+          "voteCount": 357,
+          "activityId": 2
+        }
+      ],
+      "records": []
+    },
+    {
+      "id": 3,
+      "title": "2026厦门一中海沧校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-23T00:39:42.181507",
+      "updatedAt": "2026-09-23 00:39:43.181507233",
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 9,
+          "name": "李子萍",
+          "number": "01",
+          "voteCount": 112,
+          "activityId": 3
+        },
+        {
+          "displayOrder": 2,
+          "id": 10,
+          "name": "吴昊天",
+          "number": "02",
+          "voteCount": 467,
+          "activityId": 3
+        }
+      ],
+      "records": []
+    },
+    {
+      "id": 4,
+      "title": "2026年厦门一中思明校区主席竞选",
+      "status": 1,
+      "createdAt": "2026-09-23T00:39:42.413091",
+      "updatedAt": "2026-09-23 00:39:43.413091598",
+      "candidates": [
+        {
+          "displayOrder": 1,
+          "id": 11,
+          "name": "刘希瑞",
+          "number": "1",
+          "voteCount": 220,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 2,
+          "id": 12,
+          "name": "林菲娅",
+          "number": "2",
+          "voteCount": 345,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 3,
+          "id": 13,
+          "name": "邱义林",
+          "number": "3",
+          "voteCount": 234,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 4,
+          "id": 14,
+          "name": "王可",
+          "number": "4",
+          "voteCount": 592,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 5,
+          "id": 15,
+          "name": "叶可涵",
+          "number": "5",
+          "voteCount": 205,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 6,
+          "id": 16,
+          "name": "魏奕涵",
+          "number": "6",
+          "voteCount": 544,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 7,
+          "id": 17,
+          "name": "李瑞霖",
+          "number": "7",
+          "voteCount": 551,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 8,
+          "id": 18,
+          "name": "方奕尘",
+          "number": "8",
+          "voteCount": 324,
+          "activityId": 4
+        },
+        {
+          "displayOrder": 9,
+          "id": 19,
+          "name": "肖以晨",
+          "number": "9",
+          "voteCount": 799,
+          "activityId": 4
+        }
+      ],
+      "records": []
+    }
+  ]
+}
