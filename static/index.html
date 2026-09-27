@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>实时唱票 · tally</title>
+
+    <!--
+      镜像复用说明：
+        本文件与 /assets 下的 js/css 均来自源站 xmyzstudent.com 的前端镜像子集，
+        仅服务于 tally（实时唱票）业务，未包含其它业务模块。
+      本地改写点（共 3 处，均不涉及页面渲染逻辑）：
+        1) axios baseURL：源站硬编码 https://api.xmyzstudent.com/api/v2 -> 同源 /api/v2
+        2) 大屏 WS 地址：wss://api.xmyzstudent.com/ws/tally/activity/:id -> 同源同路径
+        3) 路由表：72 条裁剪为 5 条（4 条 tally 路由 + 404 兜底）
+      详见 docs/链路分析报告.md
+    -->
+    <link rel="stylesheet" href="/assets/index-CZZQpGPl.css" />
+    <link rel="stylesheet" href="/assets/PageHeader-BhUR9sVR.css" />
+    <link rel="stylesheet" href="/assets/PageFooter-DRmqTZ73.css" />
+    <link rel="stylesheet" href="/assets/ScreenPage-DXdZRHQT.css" />
+    <link rel="stylesheet" href="/assets/TallyActivitiesPage-Cm0F3HF2.css" />
+    <link rel="stylesheet" href="/assets/TallyActivityEditPage-ZYDNOPki.css" />
+    <link rel="stylesheet" href="/assets/TallyControlPage-Dx3I3Pka.css" />
+    <link rel="stylesheet" href="/assets/NotFoundPage-Dd7lPujL.css" />
+
+    <script src="/dev-auth.js" defer></script>
+    <script type="module" crossorigin src="/assets/index-D2vbWxba.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

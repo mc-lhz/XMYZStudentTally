@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# 随包离线依赖（体积大且可按 requirements.txt 重装，不入库）
+.pylibs/
+
+# 本地运行产物
+*.bak
+tally.local.json
+tally.json.corrupt-*
+
+# 编辑器 / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

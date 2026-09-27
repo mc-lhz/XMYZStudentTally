@@ -1,0 +1,998 @@
+import{
+  d as z,
+  r as b,
+  q as H,
+  m as w,
+  o as O,
+  c as l,
+  a as L,
+  b as e,
+  k as j,
+  t as o,
+  e as v,
+  n as g,
+  g as $,
+  v as q,
+  I as A,
+  F as U,
+  f as B,
+  i as E,
+  y as G,
+  z as J,
+  M as Q,
+  l as i,
+  _ as W
+}from"./index-D2vbWxba.js";
+import{
+  P as X
+}from"./PageHeader-ch1RqF1N.js";
+import{
+  j as Y,
+  k as Z,
+  l as ee
+}from"./tally-BvCEJ8Iv.js";
+import{
+  u as te
+}from"./useTallySocket-BrS_O9ye.js";
+const se={
+  class:"page-container"
+},ae={
+  class:"control-main"
+},ne={
+  class:"topbar"
+},oe={
+  class:"topbar-left"
+},le={
+  class:"control-title"
+},ie={
+  class:"topbar-meta"
+},de={
+  class:"topbar-right"
+},re=[
+  "disabled"
+],ce={
+  key:0,
+  class:"banner warn"
+},ue={
+  key:1,
+  class:"loading-block"
+},ve={
+  key:2,
+  class:"empty-block"
+},_e={
+  key:3,
+  class:"candidates-grid"
+},pe={
+  class:"cand-head"
+},be={
+  class:"cand-number"
+},me={
+  class:"cand-name"
+},fe={
+  class:"cand-votes"
+},ge={
+  class:"cand-actions"
+},he=[
+  "disabled",
+  "onClick"
+],ye=[
+  "disabled",
+  "onClick"
+],ke=[
+  "disabled",
+  "onClick"
+],Ce=[
+  "disabled",
+  "onClick"
+],we={
+  class:"custom-wrap"
+},$e=[
+  "onUpdate:modelValue",
+  "disabled",
+  "onKeydown"
+],Se=[
+  "disabled",
+  "onClick"
+],Ne={
+  class:"log-section"
+},xe={
+  class:"log-head"
+},Te=[
+  "disabled"
+],Ve={
+  key:0,
+  class:"log-empty"
+},Me={
+  key:1,
+  class:"log-list"
+},Le={
+  class:"log-time"
+},Ue={
+  class:"log-cand"
+},Be=z(
+  {
+    __name:"TallyControlPage",
+    setup(
+      De
+    ){
+      const D=H(
+      ),
+      d=E(
+      ),
+      p=b(
+        Number(
+          D.params.id
+        )||null
+      ),
+      {
+        snapshot:r,
+        connected:S
+      }=te(
+        p
+      ),
+      C=b(
+        [
+        ]
+      ),
+      h=b(
+        !1
+      ),
+      m=b(
+        !1
+      ),
+      y=b(
+        {
+        }
+      ),
+      c=b(
+        null
+      ),
+      N=w(
+        (
+        )=>[
+          ...r.value?.candidates||[
+          ]
+        ].sort(
+          (
+            a,
+            n
+          )=>a.displayOrder-n.displayOrder
+        )
+      ),
+      x=w(
+        (
+        )=>r.value?.status===1
+      );
+      function T(
+      ){
+        return p.value?`${window.location.origin}/tally/screen/${p.value}`:null
+      }function F(
+      ){
+        const t=T(
+        );
+        t&&navigator.clipboard.writeText(
+          t
+        ).then(
+          (
+          )=>d.success(
+            `已复制大屏链接：${t}`
+          ),
+          (
+          )=>d.error(
+            `复制失败：${t}`
+          )
+        )
+      }function I(
+      ){
+        const t=T(
+        );
+        t&&window.open(
+          t,
+          "_blank",
+          "noopener,noreferrer"
+        )
+      }const _=w(
+        (
+        )=>!x.value||!r.value
+      );
+      function V(
+        t
+      ){
+        return t===void 0?"加载中":t===0?"待开始":t===1?"进行中":"已结束"
+      }function P(
+        t
+      ){
+        return t===void 0||t===0?"pending":t===1?"live":"ended"
+      }function K(
+        t
+      ){
+        if(
+          !t
+        )return"";
+        const a=new Date(
+          t
+        ),
+        n=String(
+          a.getHours(
+          )
+        ).padStart(
+          2,
+          "0"
+        ),
+        s=String(
+          a.getMinutes(
+          )
+        ).padStart(
+          2,
+          "0"
+        ),
+        u=String(
+          a.getSeconds(
+          )
+        ).padStart(
+          2,
+          "0"
+        );
+        return`${n}:${s}:${u}`
+      }async function k(
+      ){
+        if(
+          p.value
+        ){
+          h.value=!0;
+          try{
+            const t=await Y(
+              p.value
+            );
+            t.data.code===200&&(
+              C.value=(
+                t.data.data||[
+                ]
+              ).slice(
+                0,
+                20
+              )
+            )
+          }catch{
+          }finally{
+            h.value=!1
+          }
+        }
+      }async function f(
+        t,
+        a
+      ){
+        if(
+          !_.value
+        ){
+          if(
+            !Number.isFinite(
+              a
+            )||a===0
+          ){
+            d.warning(
+              "票数变化不能为 0"
+            );
+            return
+          }if(
+            c.value!==t.id
+          ){
+            c.value=t.id;
+            try{
+              const n=await ee(
+                t.id,
+                a
+              );
+              n.data.code===200?await k(
+              ):d.error(
+                n.data.message||"录票失败"
+              )
+            }catch(
+              n
+            ){
+              d.error(
+                n?.message||"网络错误"
+              )
+            }finally{
+              c.value=null
+            }
+          }
+        }
+      }async function M(
+        t
+      ){
+        const a=y.value[
+          t.id
+        ],
+        n=Number(
+          a
+        );
+        if(
+          !a||!Number.isFinite(
+            n
+          )||n===0
+        ){
+          d.warning(
+            "请输入非 0 的整数"
+          );
+          return
+        }await f(
+          t,
+          Math.trunc(
+            n
+          )
+        ),
+        y.value[
+          t.id
+        ]=""
+      }async function R(
+      ){
+        if(
+          p.value&&!m.value
+        ){
+          m.value=!0;
+          try{
+            const t=await Z(
+              p.value
+            );
+            t.data.code===200?t.data.data?(
+              d.success(
+                "已撤销最近一次操作"
+              ),
+              await k(
+              )
+            ):d.info(
+              "无可撤销操作"
+            ):d.error(
+              t.data.message||"撤销失败"
+            )
+          }catch(
+            t
+          ){
+            d.error(
+              t?.message||"网络错误"
+            )
+          }finally{
+            m.value=!1
+          }
+        }
+      }return O(
+        (
+        )=>{
+          k(
+          )
+        }
+      ),
+      (
+        t,
+        a
+      )=>{
+        const n=A(
+          "router-link"
+        );
+        return i(
+        ),
+        l(
+          "div",
+          se,
+          [
+            L(
+              X,
+              {
+                "back-to":"/admin/tally"
+              }
+            ),
+            e(
+              "main",
+              ae,
+              [
+                e(
+                  "div",
+                  ne,
+                  [
+                    e(
+                      "div",
+                      oe,
+                      [
+                        e(
+                          "h1",
+                          le,
+                          o(
+                            v(
+                              r
+                            )?.title||"加载中..."
+                          ),
+                          1
+                        ),
+                        e(
+                          "div",
+                          ie,
+                          [
+                            e(
+                              "span",
+                              {
+                                class:g(
+                                  [
+                                    "badge",
+                                    P(
+                                      v(
+                                        r
+                                      )?.status
+                                    )
+                                  ]
+                                )
+                              },
+                              o(
+                                V(
+                                  v(
+                                    r
+                                  )?.status
+                                )
+                              ),
+                              3
+                            ),
+                            e(
+                              "span",
+                              {
+                                class:g(
+                                  [
+                                    "conn",
+                                    {
+                                      ok:v(
+                                        S
+                                      )
+                                    }
+                                  ]
+                                )
+                              },
+                              [
+                                a[
+                                  0
+                                ]||(
+                                  a[
+                                    0
+                                  ]=e(
+                                    "span",
+                                    {
+                                      class:"dot"
+                                    },
+                                    null,
+                                    -1
+                                  )
+                                ),
+                                $(
+                                  " "+o(
+                                    v(
+                                      S
+                                    )?"已连接":"断线重连中"
+                                  ),
+                                  1
+                                )
+                              ],
+                              2
+                            )
+                          ]
+                        )
+                      ]
+                    ),
+                    e(
+                      "div",
+                      de,
+                      [
+                        L(
+                          n,
+                          {
+                            to:"/admin/tally",
+                            class:"back-link"
+                          },
+                          {
+                            default:q(
+                              (
+                              )=>[
+                                ...a[
+                                  1
+                                ]||(
+                                  a[
+                                    1
+                                  ]=[
+                                    $(
+                                      "← 返回",
+                                      -1
+                                    )
+                                  ]
+                                )
+                              ]
+                            ),
+                            _:1
+                          }
+                        ),
+                        e(
+                          "button",
+                          {
+                            class:"screen-btn",
+                            onClick:I,
+                            title:"新窗口打开大屏"
+                          },
+                          "打开大屏"
+                        ),
+                        e(
+                          "button",
+                          {
+                            class:"screen-btn",
+                            onClick:F,
+                            title:"复制大屏链接"
+                          },
+                          "复制链接"
+                        ),
+                        e(
+                          "button",
+                          {
+                            class:"undo-btn",
+                            disabled:m.value||!v(
+                              r
+                            ),
+                            onClick:R
+                          },
+                          [
+                            a[
+                              2
+                            ]||(
+                              a[
+                                2
+                              ]=e(
+                                "svg",
+                                {
+                                  viewBox:"0 0 24 24",
+                                  fill:"none",
+                                  stroke:"currentColor",
+                                  "stroke-width":"2.5"
+                                },
+                                [
+                                  e(
+                                    "path",
+                                    {
+                                      d:"M3 7v6h6"
+                                    }
+                                  ),
+                                  e(
+                                    "path",
+                                    {
+                                      d:"M21 17a9 9 0 0 0-15-6.7L3 13"
+                                    }
+                                  )
+                                ],
+                                -1
+                              )
+                            ),
+                            $(
+                              " "+o(
+                                m.value?"撤销中...":"撤销上一步"
+                              ),
+                              1
+                            )
+                          ],
+                          8,
+                          re
+                        )
+                      ]
+                    )
+                  ]
+                ),
+                v(
+                  r
+                )&&!x.value?(
+                  i(
+                  ),
+                  l(
+                    "div",
+                    ce,
+                    " 活动当前状态为「"+o(
+                      V(
+                        v(
+                          r
+                        ).status
+                      )
+                    )+"」，无法录票。请在活动配置页或活动列表将状态改为「进行中」。 ",
+                    1
+                  )
+                ):j(
+                  "",
+                  !0
+                ),
+                v(
+                  r
+                )?N.value.length===0?(
+                  i(
+                  ),
+                  l(
+                    "div",
+                    ve,
+                    [
+                      ...a[
+                        4
+                      ]||(
+                        a[
+                          4
+                        ]=[
+                          e(
+                            "p",
+                            null,
+                            "此活动暂无候选人，请先到「配置候选人」页添加。",
+                            -1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ):(
+                  i(
+                  ),
+                  l(
+                    "div",
+                    _e,
+                    [
+                      (
+                        i(
+                          !0
+                        ),
+                        l(
+                          U,
+                          null,
+                          B(
+                            N.value,
+                            s=>(
+                              i(
+                              ),
+                              l(
+                                "article",
+                                {
+                                  key:s.id,
+                                  class:g(
+                                    [
+                                      "cand-card",
+                                      {
+                                        disabled:_.value,
+                                        busy:c.value===s.id
+                                      }
+                                    ]
+                                  )
+                                },
+                                [
+                                  e(
+                                    "div",
+                                    pe,
+                                    [
+                                      e(
+                                        "div",
+                                        be,
+                                        o(
+                                          s.number
+                                        ),
+                                        1
+                                      ),
+                                      e(
+                                        "div",
+                                        me,
+                                        o(
+                                          s.name
+                                        ),
+                                        1
+                                      ),
+                                      e(
+                                        "div",
+                                        fe,
+                                        o(
+                                          s.voteCount
+                                        ),
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  e(
+                                    "div",
+                                    ge,
+                                    [
+                                      e(
+                                        "button",
+                                        {
+                                          class:"big-btn plus",
+                                          disabled:_.value||c.value===s.id,
+                                          onClick:u=>f(
+                                            s,
+                                            1
+                                          )
+                                        },
+                                        "+1",
+                                        8,
+                                        he
+                                      ),
+                                      e(
+                                        "button",
+                                        {
+                                          class:"big-btn plus",
+                                          disabled:_.value||c.value===s.id,
+                                          onClick:u=>f(
+                                            s,
+                                            5
+                                          )
+                                        },
+                                        "+5",
+                                        8,
+                                        ye
+                                      ),
+                                      e(
+                                        "button",
+                                        {
+                                          class:"big-btn plus",
+                                          disabled:_.value||c.value===s.id,
+                                          onClick:u=>f(
+                                            s,
+                                            10
+                                          )
+                                        },
+                                        "+10",
+                                        8,
+                                        ke
+                                      ),
+                                      e(
+                                        "button",
+                                        {
+                                          class:"big-btn minus",
+                                          disabled:_.value||c.value===s.id,
+                                          onClick:u=>f(
+                                            s,
+                                            -1
+                                          )
+                                        },
+                                        "-1",
+                                        8,
+                                        Ce
+                                      ),
+                                      e(
+                                        "div",
+                                        we,
+                                        [
+                                          G(
+                                            e(
+                                              "input",
+                                              {
+                                                "onUpdate:modelValue":u=>y.value[
+                                                  s.id
+                                                ]=u,
+                                                type:"number",
+                                                class:"custom-input",
+                                                placeholder:"自定义",
+                                                disabled:_.value,
+                                                onKeydown:Q(
+                                                  u=>M(
+                                                    s
+                                                  ),
+                                                  [
+                                                    "enter"
+                                                  ]
+                                                )
+                                              },
+                                              null,
+                                              40,
+                                              $e
+                                            ),
+                                            [
+                                              [
+                                                J,
+                                                y.value[
+                                                  s.id
+                                                ]
+                                              ]
+                                            ]
+                                          ),
+                                          e(
+                                            "button",
+                                            {
+                                              class:"apply-btn",
+                                              disabled:_.value||c.value===s.id,
+                                              onClick:u=>M(
+                                                s
+                                              )
+                                            },
+                                            " 应用 ",
+                                            8,
+                                            Se
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ],
+                                2
+                              )
+                            )
+                          ),
+                          128
+                        )
+                      )
+                    ]
+                  )
+                ):(
+                  i(
+                  ),
+                  l(
+                    "div",
+                    ue,
+                    [
+                      ...a[
+                        3
+                      ]||(
+                        a[
+                          3
+                        ]=[
+                          e(
+                            "div",
+                            {
+                              class:"loading-spinner"
+                            },
+                            null,
+                            -1
+                          ),
+                          e(
+                            "p",
+                            null,
+                            "正在连接实时唱票通道...",
+                            -1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ),
+                e(
+                  "section",
+                  Ne,
+                  [
+                    e(
+                      "div",
+                      xe,
+                      [
+                        a[
+                          5
+                        ]||(
+                          a[
+                            5
+                          ]=e(
+                            "h2",
+                            {
+                              class:"log-title"
+                            },
+                            "操作日志",
+                            -1
+                          )
+                        ),
+                        e(
+                          "button",
+                          {
+                            class:"log-refresh",
+                            disabled:h.value,
+                            onClick:k
+                          },
+                          o(
+                            h.value?"刷新中...":"刷新"
+                          ),
+                          9,
+                          Te
+                        )
+                      ]
+                    ),
+                    C.value.length===0?(
+                      i(
+                      ),
+                      l(
+                        "div",
+                        Ve,
+                        "暂无操作记录"
+                      )
+                    ):(
+                      i(
+                      ),
+                      l(
+                        "ul",
+                        Me,
+                        [
+                          (
+                            i(
+                              !0
+                            ),
+                            l(
+                              U,
+                              null,
+                              B(
+                                C.value,
+                                s=>(
+                                  i(
+                                  ),
+                                  l(
+                                    "li",
+                                    {
+                                      key:s.id,
+                                      class:"log-item"
+                                    },
+                                    [
+                                      e(
+                                        "span",
+                                        Le,
+                                        o(
+                                          K(
+                                            s.createdAt
+                                          )
+                                        ),
+                                        1
+                                      ),
+                                      e(
+                                        "span",
+                                        Ue,
+                                        o(
+                                          s.candidateNumber
+                                        )+" · "+o(
+                                          s.candidateName
+                                        ),
+                                        1
+                                      ),
+                                      e(
+                                        "span",
+                                        {
+                                          class:g(
+                                            [
+                                              "log-delta",
+                                              s.delta>=0?"up":"down"
+                                            ]
+                                          )
+                                        },
+                                        o(
+                                          s.delta>0?`+${s.delta}`:s.delta
+                                        ),
+                                        3
+                                      ),
+                                      e(
+                                        "span",
+                                        {
+                                          class:g(
+                                            [
+                                              "log-type",
+                                              s.type===1?"undo":"normal"
+                                            ]
+                                          )
+                                        },
+                                        o(
+                                          s.type===1?"撤销":"普通"
+                                        ),
+                                        3
+                                      )
+                                    ]
+                                  )
+                                )
+                              ),
+                              128
+                            )
+                          )
+                        ]
+                      )
+                    )
+                  ]
+                )
+              ]
+            )
+          ]
+        )
+      }
+    }
+  }
+),Re=W(
+  Be,
+  [
+    [
+      "__scopeId",
+      "data-v-cec9ba62"
+    ]
+  ]
+);
+export{
+  Re as default
+};

@@ -1,0 +1,135 @@
+import{
+  b as y
+}from"./tally-BvCEJ8Iv.js";
+import{
+  r as i,
+  w as T,
+  a1 as h
+}from"./index-D2vbWxba.js";
+function w(
+  m
+){
+  const s=i(
+    null
+  ),
+  a=i(
+    !1
+  );
+  let e=null,
+  t=1e3,
+  n=null,
+  o=!1;
+  function u(
+    l
+  ){
+    r(
+    ),
+    o=!1;
+    try{
+      e=new WebSocket(
+        y(
+          l
+        )
+      )
+    }catch(
+      c
+    ){
+      console.error(
+        "Tally WS connect failed",
+        c
+      ),
+      f(
+        l
+      );
+      return
+    }e.onopen=(
+    )=>{
+      a.value=!0,
+      t=1e3
+    },
+    e.onmessage=c=>{
+      try{
+        s.value=JSON.parse(
+          c.data
+        )
+      }catch(
+        p
+      ){
+        console.error(
+          "Tally WS message parse failed",
+          p
+        )
+      }
+    },
+    e.onclose=(
+    )=>{
+      a.value=!1,
+      o||f(
+        l
+      )
+    },
+    e.onerror=(
+    )=>{
+    }
+  }function f(
+    l
+  ){
+    n&&clearTimeout(
+      n
+    ),
+    n=setTimeout(
+      (
+      )=>u(
+        l
+      ),
+      t
+    ),
+    t=Math.min(
+      t*2,
+      3e4
+    )
+  }function r(
+  ){
+    if(
+      n&&(
+        clearTimeout(
+          n
+        ),
+        n=null
+      ),
+      e
+    ){
+      o=!0;
+      try{
+        e.close(
+        )
+      }catch{
+      }e=null
+    }
+  }return T(
+    m,
+    l=>{
+      l?u(
+        l
+      ):r(
+      )
+    },
+    {
+      immediate:!0
+    }
+  ),
+  h(
+    (
+    )=>{
+      o=!0,
+      r(
+      )
+    }
+  ),
+  {
+    snapshot:s,
+    connected:a
+  }
+}export{
+  w as u
+};

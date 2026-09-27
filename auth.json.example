@@ -1,0 +1,12 @@
+{
+  "_comment": "本文件用于覆盖内置开发口令。复制为 auth.json 后生效；不提交真实口令。",
+  "token": "local-dev-token",
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "nickname": "本地开发管理员"
+    }
+  ]
+}

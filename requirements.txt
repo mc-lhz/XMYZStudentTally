@@ -1,0 +1,22 @@
+# tally 业务本地实现 —— 运行依赖
+#
+# 安装（任选其一）：
+#   1) 随包离线依赖：本目录下 .pylibs/ 已内置全部 wheel 解压结果，
+#      main.py 启动时会自动把它加入 sys.path，**无需执行任何 pip 命令**；
+#   2) 自行安装：pip install -r requirements.txt
+#
+# 版本以随包离线依赖为准（见下），二者一致。
+Flask==3.1.3
+flask-sock==0.7.0
+simple-websocket==1.1.0
+wsproto==1.3.2
+h11==0.16.0
+Werkzeug==3.1.8
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+itsdangerous==2.2.0
+blinker==1.9.0
+click==8.5.0
+colorama==0.4.6
+importlib-metadata==9.0.1
+zipp==4.1.0

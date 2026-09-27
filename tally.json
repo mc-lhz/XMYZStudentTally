@@ -1,0 +1,576 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-25T10:41:20",
+  "source": {
+    "site": "https://xmyzstudent.com",
+    "snapshotApi": "https://xmyzstudent.com/api/v2/tally/activities/{id}/snapshot",
+    "note": "四场活动标题/状态/候选人与票数来自源站公开快照接口（无需认证）"
+  },
+  "sequences": {
+    "activity": 22,
+    "candidate": 53,
+    "record": 124,
+    "log": 90
+  },
+  "activities": [
+    {
+      "id": 1,
+      "sourceId": 1,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-21T10:41:20",
+      "updatedAt": "2026-09-25T10:41:21.633616623"
+    },
+    {
+      "id": 2,
+      "sourceId": 2,
+      "title": "2026厦门一中思明校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-22T10:41:20",
+      "updatedAt": "2026-09-25T10:41:21.87905503"
+    },
+    {
+      "id": 3,
+      "sourceId": 3,
+      "title": "2026厦门一中海沧校区双代会",
+      "status": 1,
+      "createdAt": "2026-09-23T10:41:20",
+      "updatedAt": "2026-09-25T10:41:22.078762208"
+    },
+    {
+      "id": 4,
+      "sourceId": 4,
+      "title": "2026年厦门一中思明校区主席竞选",
+      "status": 1,
+      "createdAt": "2026-09-24T10:41:20",
+      "updatedAt": "2026-09-25T10:41:22.278078884"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "activityId": 1,
+      "number": "1",
+      "name": "测试1",
+      "displayOrder": 1,
+      "voteCount": 25
+    },
+    {
+      "id": 2,
+      "activityId": 1,
+      "number": "2",
+      "name": "测试2",
+      "displayOrder": 2,
+      "voteCount": 30
+    },
+    {
+      "id": 3,
+      "activityId": 1,
+      "number": "3",
+      "name": "测试3",
+      "displayOrder": 3,
+      "voteCount": 11
+    },
+    {
+      "id": 4,
+      "activityId": 2,
+      "number": "01",
+      "name": "方奕尘",
+      "displayOrder": 1,
+      "voteCount": 70
+    },
+    {
+      "id": 5,
+      "activityId": 2,
+      "number": "02",
+      "name": "林佳茵",
+      "displayOrder": 2,
+      "voteCount": 78
+    },
+    {
+      "id": 6,
+      "activityId": 2,
+      "number": "03",
+      "name": "蔡善媛",
+      "displayOrder": 3,
+      "voteCount": 357
+    },
+    {
+      "id": 7,
+      "activityId": 3,
+      "number": "01",
+      "name": "李子萍",
+      "displayOrder": 1,
+      "voteCount": 112
+    },
+    {
+      "id": 8,
+      "activityId": 3,
+      "number": "02",
+      "name": "吴昊天",
+      "displayOrder": 2,
+      "voteCount": 467
+    },
+    {
+      "id": 9,
+      "activityId": 4,
+      "number": "1",
+      "name": "刘希瑞",
+      "displayOrder": 1,
+      "voteCount": 220
+    },
+    {
+      "id": 10,
+      "activityId": 4,
+      "number": "2",
+      "name": "林菲娅",
+      "displayOrder": 2,
+      "voteCount": 345
+    },
+    {
+      "id": 11,
+      "activityId": 4,
+      "number": "3",
+      "name": "邱义林",
+      "displayOrder": 3,
+      "voteCount": 234
+    },
+    {
+      "id": 12,
+      "activityId": 4,
+      "number": "4",
+      "name": "王可",
+      "displayOrder": 4,
+      "voteCount": 592
+    },
+    {
+      "id": 13,
+      "activityId": 4,
+      "number": "5",
+      "name": "叶可涵",
+      "displayOrder": 5,
+      "voteCount": 205
+    },
+    {
+      "id": 14,
+      "activityId": 4,
+      "number": "6",
+      "name": "魏奕涵",
+      "displayOrder": 6,
+      "voteCount": 544
+    },
+    {
+      "id": 15,
+      "activityId": 4,
+      "number": "7",
+      "name": "李瑞霖",
+      "displayOrder": 7,
+      "voteCount": 551
+    },
+    {
+      "id": 16,
+      "activityId": 4,
+      "number": "8",
+      "name": "方奕尘",
+      "displayOrder": 8,
+      "voteCount": 324
+    },
+    {
+      "id": 17,
+      "activityId": 4,
+      "number": "9",
+      "name": "肖以晨",
+      "displayOrder": 9,
+      "voteCount": 799
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "activityId": 1,
+      "candidateId": 1,
+      "candidateNumber": "1",
+      "candidateName": "测试1",
+      "delta": 25,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-21T10:41:20"
+    },
+    {
+      "id": 2,
+      "activityId": 1,
+      "candidateId": 2,
+      "candidateNumber": "2",
+      "candidateName": "测试2",
+      "delta": 30,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-21T10:41:20"
+    },
+    {
+      "id": 3,
+      "activityId": 1,
+      "candidateId": 3,
+      "candidateNumber": "3",
+      "candidateName": "测试3",
+      "delta": 11,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-21T10:41:20"
+    },
+    {
+      "id": 4,
+      "activityId": 2,
+      "candidateId": 4,
+      "candidateNumber": "01",
+      "candidateName": "方奕尘",
+      "delta": 70,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-22T10:41:20"
+    },
+    {
+      "id": 5,
+      "activityId": 2,
+      "candidateId": 5,
+      "candidateNumber": "02",
+      "candidateName": "林佳茵",
+      "delta": 78,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-22T10:41:20"
+    },
+    {
+      "id": 6,
+      "activityId": 2,
+      "candidateId": 6,
+      "candidateNumber": "03",
+      "candidateName": "蔡善媛",
+      "delta": 357,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-22T10:41:20"
+    },
+    {
+      "id": 7,
+      "activityId": 3,
+      "candidateId": 7,
+      "candidateNumber": "01",
+      "candidateName": "李子萍",
+      "delta": 112,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-23T10:41:20"
+    },
+    {
+      "id": 8,
+      "activityId": 3,
+      "candidateId": 8,
+      "candidateNumber": "02",
+      "candidateName": "吴昊天",
+      "delta": 467,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-23T10:41:20"
+    },
+    {
+      "id": 9,
+      "activityId": 4,
+      "candidateId": 9,
+      "candidateNumber": "1",
+      "candidateName": "刘希瑞",
+      "delta": 220,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 10,
+      "activityId": 4,
+      "candidateId": 10,
+      "candidateNumber": "2",
+      "candidateName": "林菲娅",
+      "delta": 345,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 11,
+      "activityId": 4,
+      "candidateId": 11,
+      "candidateNumber": "3",
+      "candidateName": "邱义林",
+      "delta": 234,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 12,
+      "activityId": 4,
+      "candidateId": 12,
+      "candidateNumber": "4",
+      "candidateName": "王可",
+      "delta": 592,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 13,
+      "activityId": 4,
+      "candidateId": 13,
+      "candidateNumber": "5",
+      "candidateName": "叶可涵",
+      "delta": 205,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 14,
+      "activityId": 4,
+      "candidateId": 14,
+      "candidateNumber": "6",
+      "candidateName": "魏奕涵",
+      "delta": 544,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 15,
+      "activityId": 4,
+      "candidateId": 15,
+      "candidateNumber": "7",
+      "candidateName": "李瑞霖",
+      "delta": 551,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 16,
+      "activityId": 4,
+      "candidateId": 16,
+      "candidateNumber": "8",
+      "candidateName": "方奕尘",
+      "delta": 324,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    },
+    {
+      "id": 17,
+      "activityId": 4,
+      "candidateId": 17,
+      "candidateNumber": "9",
+      "candidateName": "肖以晨",
+      "delta": 799,
+      "type": 0,
+      "seed": true,
+      "createdAt": "2026-09-24T10:41:20"
+    }
+  ],
+  "logs": [
+    {
+      "id": 5,
+      "activityId": 5,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          18
+        ]
+      },
+      "createdAt": "2026-09-25T10:44:23"
+    },
+    {
+      "id": 10,
+      "activityId": 6,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          20
+        ]
+      },
+      "createdAt": "2026-09-25T10:44:31"
+    },
+    {
+      "id": 15,
+      "activityId": 7,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          22
+        ]
+      },
+      "createdAt": "2026-09-25T10:46:18"
+    },
+    {
+      "id": 20,
+      "activityId": 8,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          24
+        ]
+      },
+      "createdAt": "2026-09-25T10:46:25"
+    },
+    {
+      "id": 25,
+      "activityId": 9,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          26
+        ]
+      },
+      "createdAt": "2026-09-25T10:46:26"
+    },
+    {
+      "id": 30,
+      "activityId": 10,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          28
+        ]
+      },
+      "createdAt": "2026-09-25T10:46:32"
+    },
+    {
+      "id": 35,
+      "activityId": 11,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          30
+        ]
+      },
+      "createdAt": "2026-09-25T10:46:43"
+    },
+    {
+      "id": 40,
+      "activityId": 12,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          32
+        ]
+      },
+      "createdAt": "2026-09-25T10:48:28"
+    },
+    {
+      "id": 45,
+      "activityId": 13,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          34
+        ]
+      },
+      "createdAt": "2026-09-25T10:49:40"
+    },
+    {
+      "id": 50,
+      "activityId": 14,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          36
+        ]
+      },
+      "createdAt": "2026-09-25T10:50:50"
+    },
+    {
+      "id": 55,
+      "activityId": 15,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          38
+        ]
+      },
+      "createdAt": "2026-09-25T10:50:51"
+    },
+    {
+      "id": 60,
+      "activityId": 16,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          40
+        ]
+      },
+      "createdAt": "2026-09-25T10:50:52"
+    },
+    {
+      "id": 65,
+      "activityId": 17,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          42
+        ]
+      },
+      "createdAt": "2026-09-25T10:51:13"
+    },
+    {
+      "id": 70,
+      "activityId": 18,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          44
+        ]
+      },
+      "createdAt": "2026-09-25T10:51:14"
+    },
+    {
+      "id": 75,
+      "activityId": 19,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          46
+        ]
+      },
+      "createdAt": "2026-09-25T10:51:15"
+    },
+    {
+      "id": 80,
+      "activityId": 20,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          48
+        ]
+      },
+      "createdAt": "2026-09-25T10:51:28"
+    },
+    {
+      "id": 85,
+      "activityId": 21,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          50
+        ]
+      },
+      "createdAt": "2026-09-25T10:52:42"
+    },
+    {
+      "id": 90,
+      "activityId": 22,
+      "action": "delete-activity",
+      "detail": {
+        "removedCandidates": [
+          52
+        ]
+      },
+      "createdAt": "2026-09-25T10:52:58"
+    }
+  ]
+}
