@@ -1,0 +1,5 @@
+flask>=3.0
+flask-sock>=0.7
+simple-websocket>=1.0
+# 仅 selftest.py 的 C 组（WebSocket 客户端侧）需要
+websockets>=12.0

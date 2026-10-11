@@ -1,0 +1,28 @@
+# =============================================================
+#  行尾策略
+#  static/assets/ 是源站前端镜像产物，必须字节级保持原样——任何
+#  自动换行转换都会让 diff 失真，也会破坏与线上文件的可比性。
+#  其余为我们自己维护的源码/文档，统一 LF。
+# =============================================================
+
+# 默认不做任何行尾转换（最保守，适合产物仓库）
+*                   -text
+
+# 镜像产物：显式声明为二进制式处理，禁止规范化
+static/**          -text
+
+# 自维护内容：统一 LF
+app.py             text eol=lf
+selftest.py        text eol=lf
+gen_initial_data.py text eol=lf
+tools/**           text eol=lf
+docs/**            text eol=lf
+*.md               text eol=lf
+*.json             text eol=lf
+requirements.txt   text eol=lf
+.gitignore         text eol=lf
+.gitattributes     text eol=lf
+
+# Windows 批处理必须 CRLF，否则部分环境执行异常
+*.bat              text eol=crlf
+*.cmd              text eol=crlf

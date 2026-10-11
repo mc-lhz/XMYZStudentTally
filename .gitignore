@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.tmp
+
+# 本地运行产物
+server.out.log
+server.err.log
+
+# 编辑器
+.vscode/
+.idea/
