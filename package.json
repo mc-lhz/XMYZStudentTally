@@ -1,0 +1,31 @@
+{
+  "name": "xmyzstudent-deobfuscated",
+  "version": "1.0.0",
+  "private": true,
+  "description": "xmyzstudent.com 前端产物的反编译与可读化工程：还原站点原始目录结构，并对 Vite 打包后的混淆命名做语义化还原。",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mc-lhz/XMYZStudent.git"
+  },
+  "scripts": {
+    "serve": "node tools/serve.js",
+    "serve:py": "python tools/serve.py",
+    "build:pages": "node tools/build_pages.cjs",
+    "preview": "python tools/preview_pages.py",
+    "verify": "node tools/pc_all.js && node tools/verify_links.js",
+    "verify:parse": "node tools/pc_all.js",
+    "verify:links": "node tools/verify_links.js",
+    "stat": "node tools/gencount.js",
+    "stat:zb": "node tools/stripcount3.js",
+    "extract": "node tools/extract_pages.cjs",
+    "rename": "node tools/valfn_rename.cjs",
+    "clean:comments": "node tools/clear_invalid_comments.cjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

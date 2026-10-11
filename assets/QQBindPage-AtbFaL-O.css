@@ -1,0 +1,136 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/QQBindPage-AtbFaL-O.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.qq-bind-page[data-v-3170ffc3] {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  padding: var(--spacing-md);
+}
+.card[data-v-3170ffc3] {
+  width: 100%;
+  max-width: 400px;
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-lg);
+}
+.qq-info[data-v-3170ffc3] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+}
+.qq-avatar[data-v-3170ffc3] {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.qq-avatar-placeholder[data-v-3170ffc3] {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-bold);
+}
+.qq-nickname[data-v-3170ffc3] {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  color: var(--color-text);
+}
+.mode-choose h2[data-v-3170ffc3],
+.form-section h2[data-v-3170ffc3] {
+  text-align: center;
+  font-size: var(--text-xl);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+.hint[data-v-3170ffc3] {
+  text-align: center;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+.form-group[data-v-3170ffc3] {
+  margin-bottom: var(--spacing-md);
+}
+.form-group label[data-v-3170ffc3] {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+.form-group input[data-v-3170ffc3] {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+.form-group input[data-v-3170ffc3]:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+.form-group input[data-v-3170ffc3]:disabled {
+  opacity: .6;
+}
+.error-message[data-v-3170ffc3] {
+  color: var(--color-error);
+  font-size: var(--text-sm);
+  margin-bottom: var(--spacing-md);
+}
+.button-group[data-v-3170ffc3] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+.btn[data-v-3170ffc3] {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: none;
+}
+.btn[data-v-3170ffc3]:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+.btn-primary[data-v-3170ffc3] {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn-primary[data-v-3170ffc3]:hover:not(:disabled) {
+  background: var(--color-primary-dark);
+}
+.btn-secondary[data-v-3170ffc3] {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+.btn-secondary[data-v-3170ffc3]:hover:not(:disabled) {
+  background: var(--color-border);
+}
+.btn-text[data-v-3170ffc3] {
+  background: transparent;
+  color: var(--color-text-secondary);
+}
+.btn-text[data-v-3170ffc3]:hover:not(:disabled) {
+  color: var(--color-text);
+}

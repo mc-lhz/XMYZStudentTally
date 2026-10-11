@@ -1,0 +1,174 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/PageHeader-B_6p6X3N.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.page-header[data-v-8ea97a97] {
+  background: var(--color-card);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-container[data-v-8ea97a97] {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-xs) 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-header[data-v-8ea97a97] {
+  display: flex;
+}
+.desktop-header[data-v-8ea97a97] {
+  display: none;
+}
+.back-btn[data-v-8ea97a97] {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.back-btn[data-v-8ea97a97]:hover {
+  background: var(--color-border);
+}
+.back-btn svg[data-v-8ea97a97] {
+  width: 24px;
+  height: 24px;
+}
+.header-title[data-v-8ea97a97] {
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  color: var(--color-text);
+  white-space: nowrap;
+}
+.mobile-title[data-v-8ea97a97] {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.header-spacer[data-v-8ea97a97] {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-center[data-v-8ea97a97] {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+.brand-link[data-v-8ea97a97] {
+  text-decoration: none;
+}
+.nav-links[data-v-8ea97a97] {
+  display: none;
+  align-items: center;
+  gap: var(--spacing-xs);
+  flex: 1;
+}
+.nav-link[data-v-8ea97a97] {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+.nav-link[data-v-8ea97a97]:hover {
+  color: var(--color-text);
+  background: var(--color-border);
+}
+.nav-link.active[data-v-8ea97a97] {
+  color: var(--color-primary);
+  font-weight: var(--font-medium);
+}
+.header-right[data-v-8ea97a97] {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+.theme-toggle-btn[data-v-8ea97a97] {
+  display: none;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.theme-toggle-btn[data-v-8ea97a97]:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+.theme-toggle-btn svg[data-v-8ea97a97] {
+  width: 20px;
+  height: 20px;
+}
+.login-btn[data-v-8ea97a97] {
+  display: none;
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: #fff;
+  background: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.login-btn[data-v-8ea97a97]:hover {
+  background: var(--color-primary-dark);
+}
+.user-name-btn[data-v-8ea97a97] {
+  display: none;
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.user-name-btn[data-v-8ea97a97]:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+/* ── 媒体查询 @media ── */
+@media (min-width: 1024px) 
+  .mobile-header[data-v-8ea97a97] {
+    display: none;
+  }
+  .desktop-header[data-v-8ea97a97] {
+    display: flex;
+  }
+  .header-container[data-v-8ea97a97] {
+    padding: var(--spacing-sm) var(--spacing-xl);
+    gap: var(--spacing-lg);
+  }
+  .nav-links[data-v-8ea97a97] {
+    display: flex;
+    flex: 1;
+  }
+  .theme-toggle-btn[data-v-8ea97a97],
+  .login-btn[data-v-8ea97a97],
+  .user-name-btn[data-v-8ea97a97] {
+    display: inline-flex;
+  }
+}

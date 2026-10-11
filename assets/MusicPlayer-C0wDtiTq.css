@@ -1,0 +1,346 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/MusicPlayer-C0wDtiTq.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.floating-disc[data-v-7172e2b6] {
+  position: fixed;
+  right: var(--spacing-md);
+  bottom: 80px;
+  z-index: 200;
+  cursor: pointer;
+}
+.disc-wrapper[data-v-7172e2b6] {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 20px #0003;
+  animation: none;
+}
+.floating-disc.playing .disc-wrapper[data-v-7172e2b6] {
+  animation: spin-7172e2b6 8s linear infinite;
+}
+.disc-cover[data-v-7172e2b6] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.disc-center[data-v-7172e2b6] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: var(--color-card);
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+}
+.disc-control[data-v-7172e2b6] {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  width: 24px;
+  height: 24px;
+  background: var(--color-primary);
+  color: #fff;
+  border: 2px solid var(--color-card);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.disc-control[data-v-7172e2b6]:hover {
+  transform: scale(1.1);
+}
+.disc-control svg[data-v-7172e2b6] {
+  width: 10px;
+  height: 10px;
+}
+.disc-control .loading-icon[data-v-7172e2b6] {
+  animation: spin-7172e2b6 1s linear infinite;
+}
+.player-modal-overlay[data-v-7172e2b6] {
+  position: fixed;
+  inset: 0;
+  background: #0009;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1000;
+}
+.player-modal[data-v-7172e2b6] {
+  background: var(--color-card);
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  padding: var(--spacing-md);
+  padding-bottom: calc(var(--spacing-xl) + env(safe-area-inset-bottom));
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal-handle[data-v-7172e2b6] {
+  width: 40px;
+  height: 4px;
+  background: var(--color-border);
+  border-radius: 2px;
+  margin: 0 auto var(--spacing-md);
+}
+.modal-header[data-v-7172e2b6] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-lg);
+}
+.modal-title[data-v-7172e2b6] {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-medium);
+}
+.close-btn[data-v-7172e2b6] {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.close-btn[data-v-7172e2b6]:hover {
+  background: var(--color-border);
+  color: var(--color-error);
+}
+.close-btn svg[data-v-7172e2b6] {
+  width: 18px;
+  height: 18px;
+}
+.album-disc-container[data-v-7172e2b6] {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+}
+.album-disc[data-v-7172e2b6] {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  box-shadow:
+    0 0 0 8px var(--color-bg),
+    0 0 0 10px var(--color-border),
+    0 10px 40px #0003;
+  animation: none;
+}
+.album-disc.playing[data-v-7172e2b6] {
+  animation: spin-7172e2b6 8s linear infinite;
+}
+.album-cover[data-v-7172e2b6] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.album-center[data-v-7172e2b6] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: var(--color-card);
+  border-radius: 50%;
+  border: 4px solid var(--color-border);
+  box-shadow: inset 0 2px 4px #0000001a;
+}
+.song-info[data-v-7172e2b6] {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+.song-title[data-v-7172e2b6] {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--spacing-xs);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.song-artist[data-v-7172e2b6] {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  margin-bottom: 2px;
+}
+.song-album[data-v-7172e2b6] {
+  font-size: var(--text-sm);
+  color: var(--color-text-placeholder);
+}
+.progress-section[data-v-7172e2b6] {
+  margin-bottom: var(--spacing-lg);
+}
+.progress-bar[data-v-7172e2b6] {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.progress-bg[data-v-7172e2b6] {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+}
+.progress-fill[data-v-7172e2b6] {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  transition: width .1s linear;
+}
+.progress-thumb[data-v-7172e2b6] {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  transform: translate(-50%);
+  box-shadow: 0 2px 6px #0003;
+}
+.time-display[data-v-7172e2b6] {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  color: var(--color-text-placeholder);
+  margin-top: var(--spacing-xs);
+}
+.control-section[data-v-7172e2b6] {
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--spacing-md);
+}
+.main-play-btn[data-v-7172e2b6] {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.main-play-btn[data-v-7172e2b6]:hover:not(:disabled) {
+  transform: scale(1.05);
+}
+.main-play-btn[data-v-7172e2b6]:active:not(:disabled) {
+  transform: scale(.95);
+}
+.main-play-btn[data-v-7172e2b6]:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+.main-play-btn svg[data-v-7172e2b6] {
+  width: 28px;
+  height: 28px;
+}
+.main-play-btn.loading .loading-spinner[data-v-7172e2b6] {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(255, 255, 255, .3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin-7172e2b6 .8s linear infinite;
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes spin-7172e2b6 
+  to {
+    transform: rotate(360deg);
+  }
+}
+.disc-pop-enter-active[data-v-7172e2b6],
+.disc-pop-leave-active[data-v-7172e2b6] {
+  transition: all .3s ease;
+}
+.disc-pop-enter-from[data-v-7172e2b6],
+.disc-pop-leave-to[data-v-7172e2b6] {
+  opacity: 0;
+  transform: scale(.5);
+}
+.modal-fade-enter-active[data-v-7172e2b6],
+.modal-fade-leave-active[data-v-7172e2b6] {
+  transition: opacity .2s ease;
+}
+.modal-fade-enter-from[data-v-7172e2b6],
+.modal-fade-leave-to[data-v-7172e2b6] {
+  opacity: 0;
+}
+.modal-slide-enter-active[data-v-7172e2b6],
+.modal-slide-leave-active[data-v-7172e2b6] {
+  transition: all .3s ease;
+}
+.modal-slide-enter-from[data-v-7172e2b6],
+.modal-slide-leave-to[data-v-7172e2b6] {
+  opacity: 0;
+  transform: translateY(100%);
+}
+/* ── 媒体查询 @media ── */
+@media (min-width: 768px) 
+  .floating-disc[data-v-7172e2b6] {
+    bottom: 100px;
+    right: var(--spacing-xl);
+  }
+  .disc-wrapper[data-v-7172e2b6] {
+    width: 64px;
+    height: 64px;
+  }
+  .disc-center[data-v-7172e2b6] {
+    width: 18px;
+    height: 18px;
+  }
+  .disc-control[data-v-7172e2b6] {
+    width: 28px;
+    height: 28px;
+  }
+  .disc-control svg[data-v-7172e2b6] {
+    width: 12px;
+    height: 12px;
+  }
+  .player-modal-overlay[data-v-7172e2b6] {
+    align-items: center;
+    padding: var(--spacing-xl);
+  }
+  .player-modal[data-v-7172e2b6] {
+    border-radius: var(--radius-xl);
+    max-width: 400px;
+    padding-bottom: var(--spacing-xl);
+  }
+  .modal-handle[data-v-7172e2b6] {
+    display: none;
+  }
+  .album-disc[data-v-7172e2b6] {
+    width: 240px;
+    height: 240px;
+  }
+  .album-center[data-v-7172e2b6] {
+    width: 48px;
+    height: 48px;
+  }
+  .modal-slide-enter-from[data-v-7172e2b6],
+  .modal-slide-leave-to[data-v-7172e2b6] {
+    transform: scale(.95);
+  }
+}

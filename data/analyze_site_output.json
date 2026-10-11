@@ -1,0 +1,2339 @@
+{
+  "totalJs": 94,
+  "domains": {
+    "票务/抢票": 9,
+    "其它": 15,
+    "活动/投票": 17,
+    "评分社区": 19,
+    "宿舍/铃声": 3,
+    "博物馆": 7,
+    "个人/资料": 6,
+    "布局/通用": 10,
+    "声音/问答": 8
+  },
+  "modules": {
+    "AdminActivityDetailPage-BCWS0ItI.js": {
+      "file": "AdminActivityDetailPage-BCWS0ItI.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/tickets",
+        "/admin/tickets/"
+      ],
+      "role": ""
+    },
+    "AdminTicketReviewPage-BtJ0fmnA.js": {
+      "file": "AdminTicketReviewPage-BtJ0fmnA.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/tickets"
+      ],
+      "role": ""
+    },
+    "AdminVerifyPage-BoopLU4m.js": {
+      "file": "AdminVerifyPage-BoopLU4m.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/tickets"
+      ],
+      "role": ""
+    },
+    "BannerManagePage-ClGRy9K2.js": {
+      "file": "BannerManagePage-ClGRy9K2.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "CampaignManagePage-CIstESeP.js": {
+      "file": "CampaignManagePage-CIstESeP.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "CampaignResultsPage-BC-uSo4Y.js": {
+      "file": "CampaignResultsPage-BC-uSo4Y.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/campaigns"
+      ],
+      "role": ""
+    },
+    "CampaignReviewPage-DIC-1GaW.js": {
+      "file": "CampaignReviewPage-DIC-1GaW.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/campaigns"
+      ],
+      "role": ""
+    },
+    "CampaignSubmissionPage-H7M00izd.js": {
+      "file": "CampaignSubmissionPage-H7M00izd.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/ringtone"
+      ],
+      "role": ""
+    },
+    "CampaignVotingPage-BZC-K1eF.js": {
+      "file": "CampaignVotingPage-BZC-K1eF.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/ringtone"
+      ],
+      "role": ""
+    },
+    "CampusManagePage-CCFD6xvZ.js": {
+      "file": "CampusManagePage-CCFD6xvZ.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/users/search/by-campus-account",
+        "/admin/users/search/by-campus-name",
+        "/admin/users/search/by-user"
+      ],
+      "role": ""
+    },
+    "CategoryPage-BU35xpIp.js": {
+      "file": "CategoryPage-BU35xpIp.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/community"
+      ],
+      "role": ""
+    },
+    "CollectionDetailPage-B1MhHCDA.js": {
+      "file": "CollectionDetailPage-B1MhHCDA.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "CommunityPage-AcOc2hqy.js": {
+      "file": "CommunityPage-AcOc2hqy.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/community/contributions",
+        "/community/search"
+      ],
+      "role": ""
+    },
+    "CommunitySearchPage-Bt5X32By.js": {
+      "file": "CommunitySearchPage-Bt5X32By.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/community"
+      ],
+      "role": ""
+    },
+    "DebateAdminPage-BvQxa_lk.js": {
+      "file": "DebateAdminPage-BvQxa_lk.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "DesignSystemPage-CaPC67ZG.js": {
+      "file": "DesignSystemPage-CaPC67ZG.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "DormManagePage-C3ncVEQm.js": {
+      "file": "DormManagePage-C3ncVEQm.js",
+      "domain": "宿舍/铃声",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "FeedbackDrawer-BX330nGh.js": {
+      "file": "FeedbackDrawer-BX330nGh.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "zb0"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "GradeExamDetailPage-DHgL2_mY.js": {
+      "file": "GradeExamDetailPage-DHgL2_mY.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/grade"
+      ],
+      "role": ""
+    },
+    "GradePage-BbPP7xQB.js": {
+      "file": "GradePage-BbPP7xQB.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "MessageManagePage-CzHBToWV.js": {
+      "file": "MessageManagePage-CzHBToWV.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/messages",
+        "/admin/messages/batch",
+        "/admin/messages/broadcast",
+        "/admin/messages/send",
+        "/admin/messages/stats",
+        "/admin/messages/templates"
+      ],
+      "role": ""
+    },
+    "MessagesPage-BIpOxa43.js": {
+      "file": "MessagesPage-BIpOxa43.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/community",
+        "/community/contributions",
+        "/messages",
+        "/messages/read-all",
+        "/messages/unread-count",
+        "/profile",
+        "/ticket/my"
+      ],
+      "role": ""
+    },
+    "MinorSectionPage-CaGZwHME.js": {
+      "file": "MinorSectionPage-CaGZwHME.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "MomentManagePage-ijWH0SJq.js": {
+      "file": "MomentManagePage-ijWH0SJq.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/museum"
+      ],
+      "role": ""
+    },
+    "MuseumEventContentPage-zrdd4BKv.js": {
+      "file": "MuseumEventContentPage-zrdd4BKv.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/museum/events"
+      ],
+      "role": ""
+    },
+    "MuseumEventEditPage-CFVVmsbA.js": {
+      "file": "MuseumEventEditPage-CFVVmsbA.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/museum/events"
+      ],
+      "role": ""
+    },
+    "MuseumEventsPage-Czhbu_BO.js": {
+      "file": "MuseumEventsPage-Czhbu_BO.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/museum",
+        "/admin/museum/events/create"
+      ],
+      "role": ""
+    },
+    "MuseumIndexPage-WGdLk3Gq.js": {
+      "file": "MuseumIndexPage-WGdLk3Gq.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/museum/events",
+        "/admin/museum/moments",
+        "/admin/museum/tags"
+      ],
+      "role": ""
+    },
+    "MuseumTagsPage-aLAnppzC.js": {
+      "file": "MuseumTagsPage-aLAnppzC.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/museum"
+      ],
+      "role": ""
+    },
+    "MusicDownloadPage-BtuHNt6X.js": {
+      "file": "MusicDownloadPage-BtuHNt6X.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/qqmusic/qualities"
+      ],
+      "role": ""
+    },
+    "MusicPlayer-D-g6rRZK.js": {
+      "file": "MusicPlayer-D-g6rRZK.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "zb1"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "MyContributionsPage-DzgGggsY.js": {
+      "file": "MyContributionsPage-DzgGggsY.js",
+      "domain": "个人/资料",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/community"
+      ],
+      "role": ""
+    },
+    "MyTicketsPage-DRUwk3BB.js": {
+      "file": "MyTicketsPage-DRUwk3BB.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/ticket"
+      ],
+      "role": ""
+    },
+    "NotFoundPage-CmMFNuM7.js": {
+      "file": "NotFoundPage-CmMFNuM7.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "PageBreadcrumb-BfFUydNi.js": {
+      "file": "PageBreadcrumb-BfFUydNi.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "PageFooter-BK6at51a.js": {
+      "file": "PageFooter-BK6at51a.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "PageHeader-BWL8GUHB.js": {
+      "file": "PageHeader-BWL8GUHB.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [],
+      "apiEndpoints": [
+        "/community",
+        "/profile",
+        "/ringtone",
+        "/ticket"
+      ],
+      "role": ""
+    },
+    "ProfilePage-zNPfiNzc.js": {
+      "file": "ProfilePage-zNPfiNzc.js",
+      "domain": "个人/资料",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "QQBindCallbackPage-B5Vqxyxu.js": {
+      "file": "QQBindCallbackPage-B5Vqxyxu.js",
+      "domain": "个人/资料",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/profile"
+      ],
+      "role": ""
+    },
+    "QQBindPage-CsLJxUxf.js": {
+      "file": "QQBindPage-CsLJxUxf.js",
+      "domain": "个人/资料",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "QQCallbackPage-DWqt-H_w.js": {
+      "file": "QQCallbackPage-DWqt-H_w.js",
+      "domain": "个人/资料",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/auth/qq/bindOrRegister"
+      ],
+      "role": ""
+    },
+    "QQMusicManagePage-BvEVvNXb.js": {
+      "file": "QQMusicManagePage-BvEVvNXb.js",
+      "domain": "个人/资料",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/qqmusic/auth/qrcode",
+        "/qqmusic/auth/qrcode/status",
+        "/qqmusic/auth/status"
+      ],
+      "role": ""
+    },
+    "RatingCategoriesPage-DiurIUh_.js": {
+      "file": "RatingCategoriesPage-DiurIUh_.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingCollectionDetailPage-Cp3atiBr.js": {
+      "file": "RatingCollectionDetailPage-Cp3atiBr.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating/collections"
+      ],
+      "role": ""
+    },
+    "RatingCollectionsPage-DyQup4BG.js": {
+      "file": "RatingCollectionsPage-DyQup4BG.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingContributionsPage-B2jOecRJ.js": {
+      "file": "RatingContributionsPage-B2jOecRJ.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingDetailPage-zkU8rz6t.js": {
+      "file": "RatingDetailPage-zkU8rz6t.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/community"
+      ],
+      "role": ""
+    },
+    "RatingItemDetailPage-DgA5eFAm.js": {
+      "file": "RatingItemDetailPage-DgA5eFAm.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingItemsListPage-C7Nh9hRX.js": {
+      "file": "RatingItemsListPage-C7Nh9hRX.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingItemsPage-wQzbgvsI.js": {
+      "file": "RatingItemsPage-wQzbgvsI.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "RatingMajorSectionsPage-DDqz7HId.js": {
+      "file": "RatingMajorSectionsPage-DDqz7HId.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingMinorSectionsPage-DoADp270.js": {
+      "file": "RatingMinorSectionsPage-DoADp270.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RatingSchoolsPage-F_7no0Qr.js": {
+      "file": "RatingSchoolsPage-F_7no0Qr.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating/collections",
+        "/admin/rating/contributions",
+        "/admin/rating/statistics"
+      ],
+      "role": ""
+    },
+    "RatingStatisticsPage-CwAlkmsJ.js": {
+      "file": "RatingStatisticsPage-CwAlkmsJ.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/rating"
+      ],
+      "role": ""
+    },
+    "RingtonePage-DMJmC_vj.js": {
+      "file": "RingtonePage-DMJmC_vj.js",
+      "domain": "宿舍/铃声",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "ScreenPage-D-8ErF3w.js": {
+      "file": "ScreenPage-D-8ErF3w.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "TallyActivitiesPage-Ck1JhJya.js": {
+      "file": "TallyActivitiesPage-Ck1JhJya.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "TallyActivityEditPage-DFD129SB.js": {
+      "file": "TallyActivityEditPage-DFD129SB.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/tally"
+      ],
+      "role": ""
+    },
+    "TallyControlPage-CBBTMqC8.js": {
+      "file": "TallyControlPage-CBBTMqC8.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/tally"
+      ],
+      "role": ""
+    },
+    "TicketDetailPage-CT_rzMiP.js": {
+      "file": "TicketDetailPage-CT_rzMiP.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/profile",
+        "/ticket",
+        "/ticket/my"
+      ],
+      "role": ""
+    },
+    "TicketManagePage-BzkRIMii.js": {
+      "file": "TicketManagePage-BzkRIMii.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/admin/tickets/new",
+        "/admin/tickets/verify"
+      ],
+      "role": ""
+    },
+    "TicketPage-Cyk7I6Py.js": {
+      "file": "TicketPage-Cyk7I6Py.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/ticket/my"
+      ],
+      "role": ""
+    },
+    "VoicesAnswerPage-Ddl_yrdt.js": {
+      "file": "VoicesAnswerPage-Ddl_yrdt.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/voices"
+      ],
+      "role": ""
+    },
+    "VoicesAskPage-B00XFXVK.js": {
+      "file": "VoicesAskPage-B00XFXVK.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/voices",
+        "/voices/answer"
+      ],
+      "role": ""
+    },
+    "VoicesHomePage-DHCOephc.js": {
+      "file": "VoicesHomePage-DHCOephc.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/voices/answer",
+        "/voices/ask",
+        "/voices/mine"
+      ],
+      "role": ""
+    },
+    "VoicesManagePage-BtE1k-VN.js": {
+      "file": "VoicesManagePage-BtE1k-VN.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/voices"
+      ],
+      "role": ""
+    },
+    "VoicesMinePage-_C7Ryi_D.js": {
+      "file": "VoicesMinePage-_C7Ryi_D.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/voices"
+      ],
+      "role": ""
+    },
+    "VoicesQuestionDetailPage-Dl5Lc0xe.js": {
+      "file": "VoicesQuestionDetailPage-Dl5Lc0xe.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/voices/answer"
+      ],
+      "role": ""
+    },
+    "VoteDisplayPage-CKs9gANE.js": {
+      "file": "VoteDisplayPage-CKs9gANE.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "VotePage-CPzz36Ky.js": {
+      "file": "VotePage-CPzz36Ky.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [
+        "/vote"
+      ],
+      "role": ""
+    },
+    "VoteScreenPage-B-LWpR1x.js": {
+      "file": "VoteScreenPage-B-LWpR1x.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "VxFooter-DKxE7um7.js": {
+      "file": "VxFooter-DKxE7um7.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "zb2"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "VxLoading-5_b9iJ9q.js": {
+      "file": "VxLoading-5_b9iJ9q.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "zb3"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "VxTabs.vue_vue_type_script_setup_true_lang-fKsEzOL3.js": {
+      "file": "VxTabs.vue_vue_type_script_setup_true_lang-fKsEzOL3.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "zb4"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "WallPage-CKvPPzSX.js": {
+      "file": "WallPage-CKvPPzSX.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "default"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "browser-COI8Ulb7.js": {
+      "file": "browser-COI8Ulb7.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "zb5"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "campaign-BV1jJ5bx.js": {
+      "file": "campaign-BV1jJ5bx.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "zb6",
+        "zb7",
+        "zb8",
+        "zb9",
+        "zba",
+        "zbb",
+        "zbc",
+        "zbd",
+        "zbe",
+        "zbf",
+        "zbg",
+        "zbh",
+        "zbi",
+        "zbj",
+        "zbk",
+        "zbl",
+        "zbm",
+        "zbn",
+        "zbo"
+      ],
+      "apiEndpoints": [
+        "/admin/campaigns",
+        "/admin/review/submissions",
+        "/campaigns",
+        "/music/detail",
+        "/music/search",
+        "/music/url",
+        "/submissions",
+        "/voting/vote"
+      ],
+      "role": ""
+    },
+    "debate-B8dkqKam.js": {
+      "file": "debate-B8dkqKam.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "zbp",
+        "zbq",
+        "zbr",
+        "zbs",
+        "zbt",
+        "zbu",
+        "zbv",
+        "zbw",
+        "zbx",
+        "zby",
+        "zbz",
+        "zb10",
+        "zb11",
+        "zb12",
+        "zb13",
+        "zb14",
+        "zb15",
+        "zb16",
+        "zb17",
+        "zb18",
+        "zb19"
+      ],
+      "apiEndpoints": [
+        "/admin/debate/rounds",
+        "/debate/active",
+        "/debate/me",
+        "/debate/operator/verify",
+        "/debate/vote",
+        "/vote"
+      ],
+      "role": ""
+    },
+    "dorm-BlpLVPfV.js": {
+      "file": "dorm-BlpLVPfV.js",
+      "domain": "宿舍/铃声",
+      "exportedSemantic": [
+        "zb1a",
+        "zb1b",
+        "zb1c",
+        "zb1d",
+        "zb1e",
+        "zb1f",
+        "zb1g",
+        "zb1h",
+        "zb1i",
+        "zb1j",
+        "zb1k",
+        "zb1l",
+        "zb1m",
+        "zb1n",
+        "zb1o",
+        "zb1p"
+      ],
+      "apiEndpoints": [
+        "/admin/buildings",
+        "/admin/buildings/time-periods",
+        "/admin/campuses",
+        "/admin/time-periods",
+        "/buildings",
+        "/campuses",
+        "/time-periods"
+      ],
+      "role": ""
+    },
+    "file-CSaAaIBf.js": {
+      "file": "file-CSaAaIBf.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "zb1q"
+      ],
+      "apiEndpoints": [
+        "/files/upload"
+      ],
+      "role": ""
+    },
+    "grade-BOUREyqU.js": {
+      "file": "grade-BOUREyqU.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "zb1r",
+        "zb1s",
+        "zb1t",
+        "zb1u",
+        "zb1v",
+        "zb1w"
+      ],
+      "apiEndpoints": [
+        "/grade/bind",
+        "/grade/exams",
+        "/grade/status",
+        "/grade/unbind"
+      ],
+      "role": ""
+    },
+    "index-DJrtCu9i.js": {
+      "file": "index-DJrtCu9i.js",
+      "domain": "布局/通用",
+      "exportedSemantic": [
+        "shared_$",
+        "shared_A",
+        "shared_B",
+        "shared_C",
+        "shared_D",
+        "shared_E",
+        "nextTick",
+        "shared_H",
+        "shared_I",
+        "shared_J",
+        "shared_K",
+        "shared_L",
+        "shared_M",
+        "shared_N",
+        "shared_O",
+        "shared_P",
+        "shared_Q",
+        "shared_R",
+        "shared_S",
+        "shared_T",
+        "shared_U",
+        "shared_V",
+        "shared_W",
+        "shared_X",
+        "shared_Y",
+        "shared_Z",
+        "withScopeId",
+        "createVNode",
+        "shared_a0",
+        "shared_a1",
+        "shared_a2",
+        "shared_a3",
+        "shared_a4",
+        "shared_a5",
+        "shared_a6",
+        "shared_a7",
+        "createElementVNode",
+        "createElementBlock",
+        "shared_d",
+        "shared_e",
+        "renderList",
+        "createTextVNode",
+        "shared_h",
+        "useToast",
+        "useRouter",
+        "createCommentVNode",
+        "openBlock",
+        "shared_m",
+        "normalizeClass",
+        "onMounted",
+        "shared_p",
+        "shared_q",
+        "ref",
+        "shared_s",
+        "toDisplayString",
+        "useUserStore",
+        "shared_v",
+        "shared_w",
+        "shared_x",
+        "withDirectives",
+        "vModelText"
+      ],
+      "apiEndpoints": [
+        "/admin/banners",
+        "/admin/campaigns",
+        "/admin/campus",
+        "/admin/debate",
+        "/admin/dorm",
+        "/admin/messages",
+        "/admin/museum",
+        "/admin/museum/events",
+        "/admin/museum/events/create",
+        "/admin/museum/moments",
+        "/admin/museum/tags",
+        "/admin/music-download",
+        "/admin/qqmusic",
+        "/admin/rating",
+        "/admin/rating/categories",
+        "/admin/rating/collections",
+        "/admin/rating/contributions",
+        "/admin/rating/statistics",
+        "/admin/tally",
+        "/admin/tickets",
+        "/admin/tickets/new",
+        "/admin/tickets/verify",
+        "/admin/voices",
+        "/auth/login",
+        "/auth/qq-bind",
+        "/auth/qq-login",
+        "/auth/qq-register",
+        "/auth/qq/authorize-url",
+        "/auth/qq/bindOrRegister",
+        "/auth/qq/callback",
+        "/auth/register",
+        "/banners",
+        "/campus/captcha",
+        "/community",
+        "/community/contributions",
+        "/community/search",
+        "/design-system",
+        "/grade",
+        "/messages",
+        "/permissions/my",
+        "/profile",
+        "/ringtone",
+        "/sms/bind",
+        "/sms/binding",
+        "/sms/login",
+        "/sms/send",
+        "/sms/unbind",
+        "/ticket",
+        "/ticket/my",
+        "/user/avatar",
+        "/user/bind-campus",
+        "/user/bind-qq",
+        "/user/bindqq/callback",
+        "/user/campus-binding",
+        "/user/has-password",
+        "/user/password",
+        "/user/privacy-settings",
+        "/user/profile",
+        "/user/qq-binding",
+        "/user/qq/authorize-url",
+        "/user/rebind-campus",
+        "/user/unbind-campus",
+        "/user/unbind-qq",
+        "/voices",
+        "/voices/answer",
+        "/voices/ask",
+        "/voices/mine",
+        "/vote",
+        "/vote/display",
+        "/vote/screen",
+        "/wall"
+      ],
+      "role": ""
+    },
+    "museum-BDeGDA-n.js": {
+      "file": "museum-BDeGDA-n.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "zb1x",
+        "zb1y",
+        "zb1z",
+        "zb20",
+        "zb21",
+        "zb22",
+        "zb23",
+        "zb24",
+        "zb25",
+        "zb26",
+        "zb27",
+        "zb28",
+        "zb29",
+        "zb2a",
+        "zb2b",
+        "zb2c",
+        "zb2d",
+        "zb2e",
+        "zb2f",
+        "zb2g",
+        "zb2h",
+        "zb2i",
+        "zb2j",
+        "zb2k",
+        "zb2l",
+        "zb2m"
+      ],
+      "apiEndpoints": [
+        "/admin/museum/events",
+        "/admin/museum/events/batch",
+        "/admin/museum/moments",
+        "/admin/museum/moments/batch",
+        "/admin/museum/tags"
+      ],
+      "role": ""
+    },
+    "museum-BRoy68F1.js": {
+      "file": "museum-BRoy68F1.js",
+      "domain": "博物馆",
+      "exportedSemantic": [
+        "zb2n",
+        "zb2o",
+        "zb2p"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "rating-CCUJ0_Xu.js": {
+      "file": "rating-CCUJ0_Xu.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "zb2q",
+        "zb2r",
+        "zb2s",
+        "zb2t",
+        "zb2u",
+        "zb2v",
+        "zb2w",
+        "zb2x",
+        "zb2y",
+        "zb2z",
+        "zb30",
+        "zb31",
+        "zb32",
+        "zb33",
+        "zb34",
+        "zb35",
+        "rating",
+        "zb36",
+        "zb37",
+        "zb38",
+        "zb39",
+        "zb3a",
+        "zb3b",
+        "zb3c",
+        "zb3d",
+        "zb3e",
+        "zb3f",
+        "zb3g",
+        "zb3h",
+        "zb3i",
+        "zb3j",
+        "zb3k",
+        "zb3l",
+        "zb3m",
+        "zb3n",
+        "zb3o",
+        "zb3p",
+        "zb3q",
+        "zb3r",
+        "zb3s",
+        "zb3t",
+        "zb3u",
+        "zb3v",
+        "zb3w",
+        "zb3x",
+        "zb3y",
+        "zb3z",
+        "zb40",
+        "zb41",
+        "zb42",
+        "zb43",
+        "zb44",
+        "zb45",
+        "zb46"
+      ],
+      "apiEndpoints": [
+        "/admin/rating-community",
+        "/files/upload",
+        "/rating-community/collections",
+        "/rating-community/comments",
+        "/rating-community/contributions",
+        "/rating-community/contributions/batch-rating-items",
+        "/rating-community/contributions/history",
+        "/rating-community/contributions/my",
+        "/rating-community/contributions/upload-image",
+        "/rating-community/hot-items",
+        "/rating-community/likes",
+        "/rating-community/random-items",
+        "/rating-community/ratings",
+        "/rating-community/search"
+      ],
+      "role": ""
+    },
+    "rating-DOU6YvDA.js": {
+      "file": "rating-DOU6YvDA.js",
+      "domain": "评分社区",
+      "exportedSemantic": [
+        "zb47",
+        "zb48",
+        "zb49",
+        "zb4a",
+        "zb4b",
+        "zb4c",
+        "zb4d",
+        "zb4e"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "tally-DC36h0vE.js": {
+      "file": "tally-DC36h0vE.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "zb4f",
+        "zb4g",
+        "zb4h",
+        "zb4i",
+        "zb4j",
+        "zb4k",
+        "zb4l",
+        "zb4m",
+        "zb4n",
+        "zb4o",
+        "zb4p",
+        "zb4q"
+      ],
+      "apiEndpoints": [
+        "/admin/tally/activities"
+      ],
+      "role": ""
+    },
+    "ticket-SMxxVFG1.js": {
+      "file": "ticket-SMxxVFG1.js",
+      "domain": "票务/抢票",
+      "exportedSemantic": [
+        "getMyTickets",
+        "getTicketActivity",
+        "getMyActivityTickets",
+        "grabTicket",
+        "getAdminTicketActivities",
+        "deleteAdminTicketActivity",
+        "getTicketActivities",
+        "getAdminTicketActivity",
+        "getAdminTicketActivityStats",
+        "createAdminTicketActivity",
+        "setAdminTicketActivityStatus",
+        "updateAdminTicketSession",
+        "createAdminTicketSession",
+        "deleteAdminTicketSession",
+        "exportAdminTicketActivity",
+        "useTicket",
+        "getAdminTicketActivityReviews",
+        "reviewTicket",
+        "batchReviewTicket",
+        "updateAdminTicketActivity",
+        "verifyTicket"
+      ],
+      "apiEndpoints": [
+        "/admin/ticket/activities",
+        "/admin/ticket/tickets/batch-review",
+        "/admin/ticket/verify",
+        "/admin/ticket/verify/use",
+        "/ticket-activities",
+        "/tickets/grab",
+        "/tickets/my"
+      ],
+      "role": ""
+    },
+    "useDebateSocket-8JmRCem2.js": {
+      "file": "useDebateSocket-8JmRCem2.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "zb4r"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "usePageScrollLock-C1lt3cX0.js": {
+      "file": "usePageScrollLock-C1lt3cX0.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "zb4s"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "useTallySocket-Bnuwbx53.js": {
+      "file": "useTallySocket-Bnuwbx53.js",
+      "domain": "活动/投票",
+      "exportedSemantic": [
+        "zb4t"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "useVoiceIdentity-CU57DzMk.js": {
+      "file": "useVoiceIdentity-CU57DzMk.js",
+      "domain": "其它",
+      "exportedSemantic": [
+        "zb4u",
+        "zb4v",
+        "zb4w",
+        "zb4x",
+        "zb4y"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    },
+    "voices-DF_9WYD3.js": {
+      "file": "voices-DF_9WYD3.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "zb4z",
+        "zb50",
+        "zb51",
+        "zb52",
+        "zb53",
+        "zb54",
+        "zb55",
+        "zb56",
+        "zb57",
+        "zb58",
+        "zb59",
+        "zb5a",
+        "zb5b",
+        "zb5c",
+        "zb5d",
+        "zb5e",
+        "zb5f",
+        "zb5g",
+        "zb5h",
+        "zb5i",
+        "zb5j",
+        "zb5k",
+        "zb5l",
+        "zb5m",
+        "zb5n"
+      ],
+      "apiEndpoints": [
+        "/admin/voices/answers",
+        "/admin/voices/questions",
+        "/admin/voices/reports",
+        "/admin/voices/stats",
+        "/voices/identity",
+        "/voices/mine/answers",
+        "/voices/mine/favorites",
+        "/voices/mine/questions",
+        "/voices/questions",
+        "/voices/report",
+        "/voices/status"
+      ],
+      "role": ""
+    },
+    "voices-theme-B9KdZorS.js": {
+      "file": "voices-theme-B9KdZorS.js",
+      "domain": "声音/问答",
+      "exportedSemantic": [
+        "zb5o",
+        "zb5p",
+        "zb5q",
+        "zb5r"
+      ],
+      "apiEndpoints": [],
+      "role": ""
+    }
+  },
+  "endpoints": [
+    {
+      "path": "/admin/banners",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/buildings",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/admin/buildings/time-periods",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/admin/campaigns",
+      "files": [
+        "CampaignResultsPage-BC-uSo4Y.js",
+        "CampaignReviewPage-DIC-1GaW.js",
+        "campaign-BV1jJ5bx.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/campus",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/campuses",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/admin/debate",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/debate/rounds",
+      "files": [
+        "debate-B8dkqKam.js"
+      ]
+    },
+    {
+      "path": "/admin/dorm",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/messages",
+      "files": [
+        "MessageManagePage-CzHBToWV.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/messages/batch",
+      "files": [
+        "MessageManagePage-CzHBToWV.js"
+      ]
+    },
+    {
+      "path": "/admin/messages/broadcast",
+      "files": [
+        "MessageManagePage-CzHBToWV.js"
+      ]
+    },
+    {
+      "path": "/admin/messages/send",
+      "files": [
+        "MessageManagePage-CzHBToWV.js"
+      ]
+    },
+    {
+      "path": "/admin/messages/stats",
+      "files": [
+        "MessageManagePage-CzHBToWV.js"
+      ]
+    },
+    {
+      "path": "/admin/messages/templates",
+      "files": [
+        "MessageManagePage-CzHBToWV.js"
+      ]
+    },
+    {
+      "path": "/admin/museum",
+      "files": [
+        "MomentManagePage-ijWH0SJq.js",
+        "MuseumEventsPage-Czhbu_BO.js",
+        "MuseumTagsPage-aLAnppzC.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/museum/events",
+      "files": [
+        "MuseumEventContentPage-zrdd4BKv.js",
+        "MuseumEventEditPage-CFVVmsbA.js",
+        "MuseumIndexPage-WGdLk3Gq.js",
+        "index-DJrtCu9i.js",
+        "museum-BDeGDA-n.js"
+      ]
+    },
+    {
+      "path": "/admin/museum/events/batch",
+      "files": [
+        "museum-BDeGDA-n.js"
+      ]
+    },
+    {
+      "path": "/admin/museum/events/create",
+      "files": [
+        "MuseumEventsPage-Czhbu_BO.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/museum/moments",
+      "files": [
+        "MuseumIndexPage-WGdLk3Gq.js",
+        "index-DJrtCu9i.js",
+        "museum-BDeGDA-n.js"
+      ]
+    },
+    {
+      "path": "/admin/museum/moments/batch",
+      "files": [
+        "museum-BDeGDA-n.js"
+      ]
+    },
+    {
+      "path": "/admin/museum/tags",
+      "files": [
+        "MuseumIndexPage-WGdLk3Gq.js",
+        "index-DJrtCu9i.js",
+        "museum-BDeGDA-n.js"
+      ]
+    },
+    {
+      "path": "/admin/music-download",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/qqmusic",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/rating",
+      "files": [
+        "RatingCategoriesPage-DiurIUh_.js",
+        "RatingCollectionsPage-DyQup4BG.js",
+        "RatingContributionsPage-B2jOecRJ.js",
+        "RatingItemDetailPage-DgA5eFAm.js",
+        "RatingItemsListPage-C7Nh9hRX.js",
+        "RatingMajorSectionsPage-DDqz7HId.js",
+        "RatingMinorSectionsPage-DoADp270.js",
+        "RatingStatisticsPage-CwAlkmsJ.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/rating-community",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/admin/rating/categories",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/rating/collections",
+      "files": [
+        "RatingCollectionDetailPage-Cp3atiBr.js",
+        "RatingSchoolsPage-F_7no0Qr.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/rating/contributions",
+      "files": [
+        "RatingSchoolsPage-F_7no0Qr.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/rating/statistics",
+      "files": [
+        "RatingSchoolsPage-F_7no0Qr.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/review/submissions",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/admin/tally",
+      "files": [
+        "TallyActivityEditPage-DFD129SB.js",
+        "TallyControlPage-CBBTMqC8.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/tally/activities",
+      "files": [
+        "tally-DC36h0vE.js"
+      ]
+    },
+    {
+      "path": "/admin/ticket/activities",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/admin/ticket/tickets/batch-review",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/admin/ticket/verify",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/admin/ticket/verify/use",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/admin/tickets",
+      "files": [
+        "AdminActivityDetailPage-BCWS0ItI.js",
+        "AdminTicketReviewPage-BtJ0fmnA.js",
+        "AdminVerifyPage-BoopLU4m.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/tickets/",
+      "files": [
+        "AdminActivityDetailPage-BCWS0ItI.js"
+      ]
+    },
+    {
+      "path": "/admin/tickets/new",
+      "files": [
+        "TicketManagePage-BzkRIMii.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/tickets/verify",
+      "files": [
+        "TicketManagePage-BzkRIMii.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/time-periods",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/admin/users/search/by-campus-account",
+      "files": [
+        "CampusManagePage-CCFD6xvZ.js"
+      ]
+    },
+    {
+      "path": "/admin/users/search/by-campus-name",
+      "files": [
+        "CampusManagePage-CCFD6xvZ.js"
+      ]
+    },
+    {
+      "path": "/admin/users/search/by-user",
+      "files": [
+        "CampusManagePage-CCFD6xvZ.js"
+      ]
+    },
+    {
+      "path": "/admin/voices",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/admin/voices/answers",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/admin/voices/questions",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/admin/voices/reports",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/admin/voices/stats",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/auth/login",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/qq-bind",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/qq-login",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/qq-register",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/qq/authorize-url",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/qq/bindOrRegister",
+      "files": [
+        "QQCallbackPage-DWqt-H_w.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/qq/callback",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/auth/register",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/banners",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/buildings",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/campaigns",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/campus/captcha",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/campuses",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/community",
+      "files": [
+        "CategoryPage-BU35xpIp.js",
+        "CommunitySearchPage-Bt5X32By.js",
+        "MessagesPage-BIpOxa43.js",
+        "MyContributionsPage-DzgGggsY.js",
+        "PageHeader-BWL8GUHB.js",
+        "RatingDetailPage-zkU8rz6t.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/community/contributions",
+      "files": [
+        "CommunityPage-AcOc2hqy.js",
+        "MessagesPage-BIpOxa43.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/community/search",
+      "files": [
+        "CommunityPage-AcOc2hqy.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/debate/active",
+      "files": [
+        "debate-B8dkqKam.js"
+      ]
+    },
+    {
+      "path": "/debate/me",
+      "files": [
+        "debate-B8dkqKam.js"
+      ]
+    },
+    {
+      "path": "/debate/operator/verify",
+      "files": [
+        "debate-B8dkqKam.js"
+      ]
+    },
+    {
+      "path": "/debate/vote",
+      "files": [
+        "debate-B8dkqKam.js"
+      ]
+    },
+    {
+      "path": "/design-system",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/files/upload",
+      "files": [
+        "file-CSaAaIBf.js",
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/grade",
+      "files": [
+        "GradeExamDetailPage-DHgL2_mY.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/grade/bind",
+      "files": [
+        "grade-BOUREyqU.js"
+      ]
+    },
+    {
+      "path": "/grade/exams",
+      "files": [
+        "grade-BOUREyqU.js"
+      ]
+    },
+    {
+      "path": "/grade/status",
+      "files": [
+        "grade-BOUREyqU.js"
+      ]
+    },
+    {
+      "path": "/grade/unbind",
+      "files": [
+        "grade-BOUREyqU.js"
+      ]
+    },
+    {
+      "path": "/messages",
+      "files": [
+        "MessagesPage-BIpOxa43.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/messages/read-all",
+      "files": [
+        "MessagesPage-BIpOxa43.js"
+      ]
+    },
+    {
+      "path": "/messages/unread-count",
+      "files": [
+        "MessagesPage-BIpOxa43.js"
+      ]
+    },
+    {
+      "path": "/music/detail",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/music/search",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/music/url",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/permissions/my",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/profile",
+      "files": [
+        "MessagesPage-BIpOxa43.js",
+        "PageHeader-BWL8GUHB.js",
+        "QQBindCallbackPage-B5Vqxyxu.js",
+        "TicketDetailPage-CT_rzMiP.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/qqmusic/auth/qrcode",
+      "files": [
+        "QQMusicManagePage-BvEVvNXb.js"
+      ]
+    },
+    {
+      "path": "/qqmusic/auth/qrcode/status",
+      "files": [
+        "QQMusicManagePage-BvEVvNXb.js"
+      ]
+    },
+    {
+      "path": "/qqmusic/auth/status",
+      "files": [
+        "QQMusicManagePage-BvEVvNXb.js"
+      ]
+    },
+    {
+      "path": "/qqmusic/qualities",
+      "files": [
+        "MusicDownloadPage-BtuHNt6X.js"
+      ]
+    },
+    {
+      "path": "/rating-community/collections",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/comments",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/contributions",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/contributions/batch-rating-items",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/contributions/history",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/contributions/my",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/contributions/upload-image",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/hot-items",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/likes",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/random-items",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/ratings",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/rating-community/search",
+      "files": [
+        "rating-CCUJ0_Xu.js"
+      ]
+    },
+    {
+      "path": "/ringtone",
+      "files": [
+        "CampaignSubmissionPage-H7M00izd.js",
+        "CampaignVotingPage-BZC-K1eF.js",
+        "PageHeader-BWL8GUHB.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/sms/bind",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/sms/binding",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/sms/login",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/sms/send",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/sms/unbind",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/submissions",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/ticket",
+      "files": [
+        "MyTicketsPage-DRUwk3BB.js",
+        "PageHeader-BWL8GUHB.js",
+        "TicketDetailPage-CT_rzMiP.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/ticket-activities",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/ticket/my",
+      "files": [
+        "MessagesPage-BIpOxa43.js",
+        "TicketDetailPage-CT_rzMiP.js",
+        "TicketPage-Cyk7I6Py.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/tickets/grab",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/tickets/my",
+      "files": [
+        "ticket-SMxxVFG1.js"
+      ]
+    },
+    {
+      "path": "/time-periods",
+      "files": [
+        "dorm-BlpLVPfV.js"
+      ]
+    },
+    {
+      "path": "/user/avatar",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/bind-campus",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/bind-qq",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/bindqq/callback",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/campus-binding",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/has-password",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/password",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/privacy-settings",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/profile",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/qq-binding",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/qq/authorize-url",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/rebind-campus",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/unbind-campus",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/user/unbind-qq",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/voices",
+      "files": [
+        "VoicesAnswerPage-Ddl_yrdt.js",
+        "VoicesAskPage-B00XFXVK.js",
+        "VoicesManagePage-BtE1k-VN.js",
+        "VoicesMinePage-_C7Ryi_D.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/voices/answer",
+      "files": [
+        "VoicesAskPage-B00XFXVK.js",
+        "VoicesHomePage-DHCOephc.js",
+        "VoicesQuestionDetailPage-Dl5Lc0xe.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/voices/ask",
+      "files": [
+        "VoicesHomePage-DHCOephc.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/voices/identity",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/voices/mine",
+      "files": [
+        "VoicesHomePage-DHCOephc.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/voices/mine/answers",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/voices/mine/favorites",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/voices/mine/questions",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/voices/questions",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/voices/report",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/voices/status",
+      "files": [
+        "voices-DF_9WYD3.js"
+      ]
+    },
+    {
+      "path": "/vote",
+      "files": [
+        "VotePage-CPzz36Ky.js",
+        "debate-B8dkqKam.js",
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/vote/display",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/vote/screen",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    },
+    {
+      "path": "/voting/vote",
+      "files": [
+        "campaign-BV1jJ5bx.js"
+      ]
+    },
+    {
+      "path": "/wall",
+      "files": [
+        "index-DJrtCu9i.js"
+      ]
+    }
+  ],
+  "endpointCount": 144
+}

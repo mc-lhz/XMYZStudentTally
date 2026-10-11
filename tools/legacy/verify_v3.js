@@ -1,0 +1,33 @@
+const fs = require("fs");
+const babel = require("@babel/core");
+const files = fs.readdirSync("final").filter((x) => x.endsWith(".js")).sort();
+const vRe = /^[A-Za-z]+[0-9]{3,}$/;
+const sRe = /^.$/;
+let vRemain = 0, singleRemain = 0, parseFail = 0;
+const singleSamples = [];
+for (const f of files) {
+  const code = fs.readFileSync("final/" + f, "utf8");
+  let ast;
+  try { ast = babel.parseSync(code, { sourceType: "module" }); }
+  catch (e) { parseFail++; console.error("PARSEFAIL", f, e.message); continue; }
+  babel.traverse(ast, {
+    enter(p) {
+      if (!p.scope) return;
+      for (const nm of Object.keys(p.scope.bindings)) {
+        if (sRe.test(nm)) { singleRemain++; if (singleSamples.length < 25) singleSamples.push(f + " :: " + nm); }
+      }
+    },
+    Identifier(p) {
+      const n = p.node.name;
+      if (!vRe.test(n)) return;
+      const par = p.parent;
+      if (par.type === "MemberExpression" && par.property === n && !par.computed) return;
+      if ((par.type === "ObjectProperty" || par.type === "ObjectMethod") && par.key === n && !par.computed) return;
+      vRemain++;
+    },
+  });
+}
+console.log("文件:", files.length, " 解析失败:", parseFail);
+console.log("剩余 字母+3位数字 名:", vRemain);
+console.log("剩余 单字母 绑定:", singleRemain);
+if (singleSamples.length) { console.log("单字母样本:"); singleSamples.forEach((s) => console.log("  ", s)); }

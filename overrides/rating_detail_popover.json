@@ -1,0 +1,18 @@
+{
+  "refVal": "loading",
+  "refVal2": "userProfile",
+  "refVal3": "loadError",
+  "refVal4": "popoverEl",
+  "refVal5": "placementTop",
+  "refVal6": "arrowOffset",
+  "refVal7": "popoverStyle",
+  "fn1": "genderLabel",
+  "fn2": "loadUserProfile",
+  "fn3": "positionPopover",
+  "fn4": "onOutsideClick",
+  "val8": "popoverWidth",
+  "val9": "popoverHeight",
+  "val10": "popoverTop",
+  "val11": "popoverLeft",
+  "val12": "anchorCenterX"
+}

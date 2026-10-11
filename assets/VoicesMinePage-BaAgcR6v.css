@@ -1,0 +1,55 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/VoicesMinePage-BaAgcR6v.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.mine-container[data-v-7bb94021] {
+  max-width: 680px;
+}
+.mine-head[data-v-7bb94021] {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0 20px;
+}
+.mine-head[data-v-7bb94021] .vx-tab {
+  padding: 5px 9px;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+.mine-item[data-v-7bb94021] {
+  margin-bottom: 12px;
+}
+.mine-item-q[data-v-7bb94021] {
+  font-size: 13px;
+  color: var(--vx-ink-faint);
+  margin-bottom: 6px;
+}
+.mine-item-content[data-v-7bb94021] {
+  font-size: 18px;
+  word-break: break-word;
+}
+.mine-takedown[data-v-7bb94021] {
+  color: var(--vx-red);
+}
+/* ── 媒体查询 @media ── */
+@media (max-width: 560px) 
+  .mine-head[data-v-7bb94021] {
+    margin-top: 2px;
+  }
+}
+/* ── 媒体查询 @media ── */
+@media (min-width: 920px) 
+  .mine-container[data-v-7bb94021] {
+    max-width: 760px;
+  }
+  .mine-head.vx-desk-head[data-v-7bb94021] {
+    justify-content: space-between;
+  }
+  .mine-head[data-v-7bb94021] .vx-tab {
+    font-size: 13px;
+    padding: 6px 12px;
+    letter-spacing: .5px;
+  }
+}

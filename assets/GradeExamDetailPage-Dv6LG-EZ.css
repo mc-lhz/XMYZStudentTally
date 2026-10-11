@@ -1,0 +1,290 @@
+/*!
+ * Smart-restored (UTF-8 decoded) CSS — annotated
+ * Source : assets/GradeExamDetailPage-Dv6LG-EZ.css
+ * Origin : https://xmyzstudent.com/
+ * Date   : 2026-07-21
+ * Note   : Beautified by esbuild; \uXXXX decoded to UTF-8; section comments added.
+ */
+.page-container[data-v-f1259e7e] {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+}
+.page-content[data-v-f1259e7e] {
+  flex: 1;
+  padding: var(--spacing-sm);
+}
+.content-container[data-v-f1259e7e] {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.breadcrumb-wrapper[data-v-f1259e7e] {
+  display: none;
+  margin-bottom: var(--spacing-lg);
+}
+.loading-container[data-v-f1259e7e] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-text-secondary);
+}
+.loading-spinner[data-v-f1259e7e] {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin-f1259e7e .8s linear infinite;
+  margin-bottom: var(--spacing-md);
+}
+/* ── 动画关键帧 @keyframes ── */
+@keyframes spin-f1259e7e 
+  to {
+    transform: rotate(360deg);
+  }
+}
+.section-title[data-v-f1259e7e] {
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: var(--spacing-md);
+  padding: 0 var(--spacing-xs);
+}
+.exam-header-section[data-v-f1259e7e] {
+  margin-bottom: var(--spacing-lg);
+}
+.exam-header-card[data-v-f1259e7e] {
+  background:
+    linear-gradient(
+      135deg,
+      var(--color-primary) 0%,
+      var(--color-primary-dark) 100%);
+  color: #fff;
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-lg);
+}
+.exam-title-row[data-v-f1259e7e] {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+.exam-title[data-v-f1259e7e] {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  flex: 1;
+}
+.exam-type[data-v-f1259e7e] {
+  font-size: var(--text-xs);
+  font-weight: var(--font-medium);
+  background: #fff3;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  flex-shrink: 0;
+}
+.exam-time[data-v-f1259e7e] {
+  font-size: var(--text-sm);
+  opacity: .9;
+  margin-bottom: var(--spacing-lg);
+}
+.total-score[data-v-f1259e7e] {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+.score-main[data-v-f1259e7e] {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.score-value[data-v-f1259e7e] {
+  font-size: var(--text-4xl);
+  font-weight: var(--font-bold);
+}
+.score-divider[data-v-f1259e7e],
+.score-full[data-v-f1259e7e] {
+  font-size: var(--text-xl);
+  opacity: .7;
+}
+.score-rate[data-v-f1259e7e] {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  background: #fff3;
+  padding: 4px 12px;
+  border-radius: var(--radius-md);
+}
+.score-progress[data-v-f1259e7e] {
+  height: 8px;
+  background: #fff3;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+.score-progress .progress-bar[data-v-f1259e7e] {
+  height: 100%;
+  background: #fff;
+  border-radius: var(--radius-full);
+  transition: width var(--transition-normal);
+}
+.rank-section[data-v-f1259e7e] {
+  margin-bottom: var(--spacing-lg);
+}
+.rank-cards[data-v-f1259e7e] {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-sm);
+}
+.rank-card[data-v-f1259e7e] {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+  text-align: center;
+}
+.rank-header[data-v-f1259e7e] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+.rank-label[data-v-f1259e7e] {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+}
+.rank-total[data-v-f1259e7e] {
+  font-size: var(--text-xs);
+  color: var(--color-text-placeholder);
+}
+.rank-value[data-v-f1259e7e] {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+.rank-defeat[data-v-f1259e7e] {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+}
+.defeat-value[data-v-f1259e7e] {
+  font-weight: var(--font-semibold);
+  color: var(--color-success);
+}
+.compare-section[data-v-f1259e7e] {
+  margin-bottom: var(--spacing-lg);
+}
+.compare-card[data-v-f1259e7e] {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+}
+.compare-row[data-v-f1259e7e] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-xs) 0;
+}
+.compare-label[data-v-f1259e7e] {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+.compare-value[data-v-f1259e7e] {
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+}
+.compare-divider[data-v-f1259e7e] {
+  height: 1px;
+  background: var(--color-border);
+  margin: var(--spacing-sm) 0;
+}
+.subjects-section[data-v-f1259e7e] {
+  margin-bottom: var(--spacing-lg);
+}
+.subjects-list[data-v-f1259e7e] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+.subject-card[data-v-f1259e7e] {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+}
+.subject-info[data-v-f1259e7e] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+.subject-name[data-v-f1259e7e] {
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+}
+.subject-score[data-v-f1259e7e] {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.subject-score-value[data-v-f1259e7e] {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+}
+.subject-score-full[data-v-f1259e7e] {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+.subject-progress[data-v-f1259e7e] {
+  height: 6px;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-bottom: var(--spacing-xs);
+}
+.subject-progress .progress-bar[data-v-f1259e7e] {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width var(--transition-normal);
+}
+.subject-rate[data-v-f1259e7e] {
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  text-align: right;
+}
+/* ── 媒体查询 @media ── */
+@media (min-width: 1024px) 
+  .breadcrumb-wrapper[data-v-f1259e7e] {
+    display: block;
+  }
+  .page-content[data-v-f1259e7e] {
+    padding: var(--spacing-xl);
+  }
+  .content-container[data-v-f1259e7e] {
+    max-width: 900px;
+  }
+  .exam-header-card[data-v-f1259e7e] {
+    padding: var(--spacing-xl);
+  }
+  .exam-title[data-v-f1259e7e] {
+    font-size: var(--text-xl);
+  }
+  .score-value[data-v-f1259e7e] {
+    font-size: var(--text-5xl);
+  }
+  .rank-cards[data-v-f1259e7e] {
+    gap: var(--spacing-md);
+  }
+  .rank-card[data-v-f1259e7e] {
+    padding: var(--spacing-lg);
+  }
+  .subjects-list[data-v-f1259e7e] {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+}

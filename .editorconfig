@@ -1,0 +1,24 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+
+# 反编译产物：编辑器不得擅自格式化或改动尾部空白，
+# 否则会在 diff 中混入与反混淆无关的噪音。
+[assets/**]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.py]
+indent_size = 4
+
+[*.{bat,cmd}]
+end_of_line = crlf
